@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Demo</title>
+</head>
+<body>
+    <script>
+        class StudentDetails{
+            constructor(sname, age, marks){
+                this.name = sname;
+                this.age = age;
+                this.marks = marks;
+            }
+            displayDeatils(){
+                this.getTotalandAvg();
+                console.log("STUDENT DETAILS");
+                console.log("Name is " + this.name);
+                console.log("Age is " + this.age);
+                console.log("Total Marks is " + this.total);
+                console.log("Average Marks is " + this.avg);
+            }
+            getTotalandAvg(){
+                this.total = 0;
+                for (var i = 0; i < this.marks.length; i++){
+                    this.total += this.marks[i];
+                }
+                this.avg = this.total / this.marks.length;
+            }
+        }
+        var std = new StudentDetails("Asmit", 23, [95, 90, 92]);
+        std.displayDeatils();
+
+        var std1 = new StudentDetails("Aatish", 30, [50, 90, 72]);
+        std1.displayDeatils();
+    </script>
+</body>
+</html>

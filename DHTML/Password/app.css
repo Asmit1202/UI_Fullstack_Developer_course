@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+ul{
+    border: 2px solid;
+    width: 500px;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #CCC;
+}
+li{
+    list-style: none;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: orangered;
+}
+.msg{
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    display: none;
+}
+.astric{
+    color: red;
+    position: relative;
+    top: -2px;
+    left: 1px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin: 5px;
+    display: none;
+}

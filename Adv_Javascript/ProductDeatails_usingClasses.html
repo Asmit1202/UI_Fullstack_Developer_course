@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details using Class</title>
+</head>
+<body>
+   <script>
+    class ProductDetails {
+        constructor(obj) {
+            this.name = obj.name;
+            this.price = obj.price;
+            this.discountPercent = obj.discountPercent;
+            this.manu = obj.manu;
+            this.sellerName = "Flipkart";
+        }
+        getDiscountPrice(){
+            this.discountPrice = this.price - (this.price * this.discountPercent) / 100;
+        }
+        displayProductDeatils(){
+            this.getDiscountPrice();
+            console.log("Product Details");
+            console.log("Product Name: " + this.name);
+            console.log("Actual Price: " + this.price);
+            console.log("Discounted Price: " + this.discountPrice);
+            console.log("Manufacturer: " + this.manu);
+            console.log("Seller: " + this.sellerName);
+            console.log("--------------------------------------------------------");
+        }
+    }
+
+    var product1 = {
+        name : "Iphone 15",
+        price : 2000000,
+        discountPercent : 10,
+        manu : "Apple"
+    }
+    var p1 = new ProductDetails(product1); 
+    p1.displayProductDeatils();
+
+    // var p2 = new ProductDetails("Iphone 14", 150000, 8, "Apple"); 
+    // p2.displayProductDeatils();
+
+    // var p3 = new ProductDetails("Iphone 13", 50000, 5, "Apple"); 
+    // p3.displayProductDeatils();
+   </script> 
+</body>
+</html>

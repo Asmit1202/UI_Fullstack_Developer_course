@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Using Inheritance and classses</title>
+    <script src="../../Library/jquery.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Student Details Using Inheritance and classses</h1>
+    <ul>
+        <li>
+            <input type="text" id="sname"  placeholder="Student Full Name">
+            <!-- <div class="nameErr error">Name is Mandatory To Field </div>  -->
+        </li>
+        <li>
+            <input type="text" id="sage" placeholder="Student Age" maxlength="2">
+            <!-- <div class="ageErr error">Age is Mandatory To Field </div> -->
+        </li>
+        <li class="marks">
+            Student Marks:
+            <input type="text" id="m1" placeholder="Math" maxlength="3">
+            <input type="text" id="m2" placeholder="Science" maxlength="3">
+            <input type="text" id="m3" placeholder="History" maxlength="3">
+            <input type="text" id="m4" placeholder="Geography" maxlength="3">
+            <input type="text" id="m5" placeholder="English" maxlength="3">
+            <!-- <div class="marksErr error">Marks is Mandatory To Field </div> -->
+        </li>
+        <li>
+            <input type="submit" value="Generate" onclick = "readData();">
+        </li>
+    </ul>
+    <ul id="displayBlock">
+        <li class="schoolName">
+            <div id="dschoolname">
+            </span>
+        </li>
+        <li class="schoolLocation">
+            <div id="dschoolloc"></span>
+        </li>
+        <li class="title">
+            Progress card
+        </li>
+        <li>
+            Student Name:
+            <span id="dname"></span>
+        </li>
+        <li>
+            Student Age: <Span id="dage"></Span> 
+        </li>
+        <li >
+            Student Total Marks: <Span id="dtotal"></Span>
+        </li>
+        <li >
+            Student Average: <Span id="davg"></Span>
+        </li>
+        <li>
+            Student is <Span id="dgrade"></Span>
+        </li>
+        <li>
+            <input type="button" value="Print" onclick="window.print(); return false;">
+        </li>
+    </ul>  
+</body>
+</html> 

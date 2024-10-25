@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data security Using Closures</title>
+</head>
+<body>
+    <script>
+        function sample(){
+            var a = 90;
+            var b = 99;
+            console.log('sample got called');
+        }
+        sample();
+
+        (() => {
+            var a1 = 90;
+            var b1 = 99;
+            console.log('from closures sample got called');
+            console.log(a1);
+
+            var data = {
+
+            }
+            function test(){
+
+            }
+        })();
+        // console.log(a1);
+    </script>
+</body>
+</html>

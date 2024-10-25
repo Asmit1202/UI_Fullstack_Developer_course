@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+        Handled User Defined Exception
+    </title>
+    <link rel="stylesheet" href="app.css">
+    <script src="jquery.js"></script>
+    <script src="Register.js"></script>
+</head>
+<body>
+    <div class="title"> Student Deatils </div>
+    <ul>
+        <li>
+            Student name:
+            <input type="text" id="sname">
+            <div class="error nameErr"> Name is Mandatory to field</div>
+        </li>
+        <li>
+            Age:
+            <input type="text" id="sage" maxlength="2">
+            <div class="error ageErr"> Age is not matching requirement</div>
+        </li>
+        <li>
+            Gender:
+            <input type="radio" name="gender" checked>Male
+            <input type="radio" name="gender">Female
+        </li>
+        <li>
+            <input type="button" value="Register" onclick="registerUser();">
+        </li>
+        <li id="msgBlock">
+            
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures - With External Library</title>
+    <script src="../../Library/jquery.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+    <script src="Lib/mathUtil.js"></script>
+</head>
+<body>
+    <ul>
+        <li>
+            <input type="text" placeholder="Enter First Value " id="fval">
+        </li>
+        <li>
+            <input type="text" placeholder="Enter Second Value " id="sval">
+        </li>
+        <li>
+            <input type="button" value="Addition" onclick="doOperation('Addition')">
+            <input type="button" value="Substraction" onclick="doOperation('Substraction')">
+            <input type="button" value="Multiplication" onclick="doOperation('Multiplication')">
+            <input type="button" value="Division" onclick="doOperation('Division')">
+        </li>
+        <li id="resultBlock"></li>
+        <li >No. of time users clicked button: <span id="sCount"></span></li>
+    </ul>
+</body>
+</html>

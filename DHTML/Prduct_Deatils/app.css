@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.productDetailsContainer > li{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    list-style: none;
+    float: left;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+.singleProduct{
+    margin: 5px;
+    padding: 5px;
+}
+.singleProduct li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+}
+.actualPrice{
+    font-weight: 500;
+    text-decoration: line-through;
+    color: rgb(146, 146, 146);
+    font-size: 14px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.discountPrice{
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+    margin-left: 8px;
+    vertical-align: middle;
+}

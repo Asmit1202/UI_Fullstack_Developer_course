@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj1 = {
+            loc: "Mumbai"
+        }
+        var obj2 = {
+            name: "Asmit",
+            age: 20,
+            displayDeatils(){
+                console.log("Name is " + this.name);
+                console.log("Age is " + this.age);
+                console.log("Location is " + this.loc); 
+            }
+        }
+        obj2.__proto__ = obj1;
+        obj2.displayDeatils();
+    </script>
+</body>
+</html>

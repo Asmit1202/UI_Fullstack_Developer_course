@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Sample{
+            constructor(){
+                this.name = "Asmit";
+            }
+            displayDetails() {
+                console.log("Name is " + this.name);
+                setTimeout(() => {
+                    console.log("Name is " + this.name);
+                }, 2000);
+                setTimeout(function () {
+                    console.log("Name is " + this.name);
+                }, 7000);
+            }
+        }
+        var s1 = new Sample();
+        s1.displayDetails();
+    </script>
+</body>
+</html>

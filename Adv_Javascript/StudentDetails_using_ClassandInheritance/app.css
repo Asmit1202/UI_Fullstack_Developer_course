@@ -1,0 +1,48 @@
+h1{
+    border: 1px solid black;
+    color: orangered;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+input[type = text]{
+    width: 350px;
+}
+.marks input{
+    width: 60px !important;
+    margin-left: 10px;
+}
+ul{
+    border: 1px solid #000;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+    width: 600px;
+}
+li{
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+#displayBlock{
+    display: none;
+    list-style: none;
+}
+.schoolLocation{
+    color: rgb(72, 72, 72) !important;
+    font-size: 15px !important;
+}
+.schoolName{
+    color: indianred !important;
+    font-size: 20px !important;
+}
+.title{
+    color: indianred;
+    font-size: 20px;
+}
+span{
+    color: maroon;
+    font-size: 17px;
+}
