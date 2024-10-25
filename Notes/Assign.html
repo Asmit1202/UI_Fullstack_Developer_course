@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star pattern</title>
+    <style>
+        #leftsidepattern,
+        #rightsidepattern,
+        #Allinpattern{
+            color: red;
+            font-size: 15px;
+            border: 1px solid;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            padding: 10px;
+        }
+        #leftsidepattern{
+            margin: 30px;
+        }
+        #rightsidepattern{
+            position: absolute;
+            top: 30px;
+            left: 370px;
+        }
+        #Allinpattern{
+            position: absolute;
+            top: 30px;
+            left: 700px;
+        }
+        #Btn{
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+            color: green;
+            border-color: green;
+            position: absolute;
+            top: 400px;
+            left: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div id="leftsidepattern"> <p></p></div>
+    <div id="rightsidepattern"> Right Side Star Pattern</div>
+    <div id="Allinpattern"> Middle Star Pattern</div>
+    <input type="button" value="Display" id ="Btn" onclick="generateLeftSideStarPattern()">
+    <script>
+        var starPattern = {};
+        var rows = prompt("Enter Row value "); 
+        var generateLeftSideStarPattern = () => {
+            for (let i = 1; i <= rows; i++) {
+                starPattern.pattern = '';
+
+                for (let j = 1; j <= i; j++) {
+                    starPattern.Pattern;
+                    starPattern.pattern += '*';
+                }
+
+                console.log(starPattern.pattern);
+            }
+            return starPattern.pattern;
+
+        }
+
+        var generateRightSideStarPattern = () => {
+            for (let i = 1; i <= rows; i++) {
+                starPattern.pattern1 = '';
+
+                for (let j = 1; j <= rows - i; j++) {
+                    starPattern.Pattern1;
+                    starPattern.pattern1 += ' ';
+                }
+
+                for (let k = 1; k <= i; k++) {
+                    starPattern.Pattern1;
+                    starPattern.pattern1 += '*';
+                }
+                console.log(starPattern.pattern1);
+            }
+            return starPattern.pattern1;
+        }
+
+        var generateMatrixStarPattern = () => {
+            for (let i = 1; i <= rows; i++) {
+                starPattern.pattern2 = '';
+
+                for (let j = 1; j <= rows; j++) {
+                    starPattern.Pattern2;
+                    starPattern.pattern2 += '*';
+                }
+
+                console.log(starPattern.pattern2);
+            }
+            return starPattern.pattern2;
+        }
+
+        var showStarPattern = () => {
+            generateLeftSideStarPattern(starPattern.pattern);  
+            generateRightSideStarPattern(starPattern.pattern1);
+            generateMatrixStarPattern(starPattern.pattern2);
+            document.querySelector("#leftsidepattern").innerText = starPattern.pattern;
+            document.querySelector("#rightsidepattern").innerText = starPattern.pattern1;
+            document.querySelector("#Allinpattern").innerText = starPattern.pattern2;
+        }
+        generateLeftSideStarPattern();  
+        generateRightSideStarPattern();
+        generateMatrixStarPattern();
+    </script>
+
+
+</body>
+</html>

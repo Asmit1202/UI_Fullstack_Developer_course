@@ -1,0 +1,828 @@
+ ECMA - Europen Computer Manufacturing Association
+---------------------------------------------------------------------
+ Assign- writing program to work with student details like name, age, gender, 5 subject marks and calculate total average of student details. -> Done
+-----------------------------------------------------------------
+write program to work with Empoly details like name, gender , age department, basic salary , calculate total salary empoly where  total salary pf + hra + basic salary
+where pf is 14 % of basic salary
+hra is 24 % of basic salary  
+-------------------------------------------------------------------
+Variable hosting:
+
+    variable declarton in c, c++ etc. -> starting of the program
+
+        c:
+            void main(){
+                int a;
+                float b;
+                char c;
+                .......
+                ......
+                .....
+                int total;
+            }
+    
+    js user code:
+        var a = 90;
+        var name = "asmit"
+        ..
+        ..
+        ..
+        var total = 90;
+        ...
+        ..
+        var avg = 120;
+        ....
+        ....
+    ------------------------------------
+    js done:
+        var a, name, total, avg; -> variable hosting
+        a = 90;
+        name = "asmit"
+        ..
+        ..
+        ..
+        total = 90;
+        ...
+        ..
+        avg = 120;
+        ....
+        ....
+------------------------------------------------------------------------
+
+Control Structures:
+     
+    1. Conditional CS
+        
+        if
+        if else
+        nested if
+        nested if else
+        else if
+ 
+    2. Looping CS
+
+        for 
+        while
+        do while 
+        for in 
+        for each
+        for of
+    
+    3. Case CS
+
+        switch case
+
+
+    Syntax if CS:
+
+        if (one or more condition) {
+            ...
+            ...
+            ...
+        } 
+
+    Syntax if-else CS:
+
+        if (one or more condition) {
+            ...
+            ...
+            ...
+        } 
+        else{
+            ...
+            ...
+            ...
+        }
+
+    Syntax nested if CS:
+
+        if (one or more condition) {
+            ...
+            if () {
+                ....
+            }
+            ...
+        }
+
+    Syntax nested if-else CS:
+
+        if (one or more condition) {
+            ...
+            if () {
+                ....
+            }
+            else{
+                ....
+            }
+            ...
+        }
+        else{
+            ...
+            ...
+        }
+
+    Syntax else-if CS:
+
+        if (one or more condition) {
+            ...
+            ...
+            ...
+        }
+        else if () {
+            ....
+            ....
+        }
+        else{
+            ...
+            ...
+            ...
+        }
+
+    comparsion operator: ==, ===, >=, <=, !=
+    bitwise operator: && -> and, || -> or
+
+    if (age >= 21) {
+        if(gender == "male"){
+            console.log("You can apply");
+        }
+    }
+
+    && operator:
+        if (age >= 21 && gender == 'male'){
+            console.log("You can apply");
+        }
+
+    || operator:
+        if (rank <=100 || isManagementSeat == true){
+            console.log("Go for registration");
+        }
+        else {
+            console.log("Don't register")
+        }
+
+    conditional operator: ? :
+    Syntax:
+        if (condition)? value1 for true : value2 for false; 
+
+
+Looping CS: 
+    for loop:
+        for(initialization, conditioncheck, inc/dec value);
+
+_____________________________________________________________
+
+Assign on Control Structure:
+ 
+    work with emp details cal total salary
+    cal the total tax amount to be paid
+    for a male employee
+        total salary>= 200000
+            tax percent is 15% of total salary  
+        
+        total salary>= 100000
+            tax percent is 10%
+            
+        total salary>= 50000
+            tax percent is 5%
+        else
+            0 tax
+
+    for a female employee
+        total salary>= 200000
+            tax percent is 10%
+        
+        total salary>= 100000
+            tax percent is 5%
+            
+        total salary>= 50000
+            tax percent is 0%
+
+________________________________________________________________
+while Loop:
+
+    var i =0:
+    while (i >= 5) {
+        console.log(i);
+        i++;
+    }
+
+    n = 359
+    rem = n % 10 -> 9
+    n = n/10 -> 35.9 -> 35
+
+    rem = n % 10 -> 5
+    n = n/10 -> 3.5 -> 3
+
+    rem = n % 10 -> 3
+    n = n/10 -> 0.3 -> 0
+
+    var n = 359;
+    while (n > 0) {
+        var rem = n % 10;
+        n = n /10;
+        n = parseInt(n);
+    }
+___________________________________________________________
+Do-While Loop:
+
+    do {
+        .....
+        .....
+        .....
+    }
+    while(condition);
+
+    student is paying a game:
+        1. come and play the game
+        2. check the score
+        3. if score is > 100 points 
+        4. give a chance for player to play the game again
+    
+    var totalPoint = 0;
+    do {
+        come and play 
+        the game
+        get totalPoint value
+    }
+    while (totalPoint > 100);
+__________________________________________________________________
+
+Switch Case:
+
+In switch case we can not apply conditions if condition required go with if, else.
+
+Syntax:
+
+switch(variable name){
+    case "option1":
+        .....
+        .....
+        break;
+    case "option2":
+        .....
+        .....
+        break;
+    case "option3":
+        .....
+        .....
+        break;
+    default :
+        .....   
+}
+__________________________________________________________________
+
+JS Function:
+
+- Reuseability
+- modularity
+
+    Function Definiction:
+    function myTask() {
+        console.log("Hello");
+    }
+
+    Function Calling:
+    myTask();
+___________________________________________________________________
+
+Scope of Variable:
+
+Scope -> specifies the accessablity levels of variable.
+
+1. Global Scope
+2. Module Scope
+3. Block Scope 
+
+    Global Scope:
+
+    var a = 90; -> //Global Scope 
+
+    function one() {
+        a++
+    }
+    function two() {
+        a++
+    }
+
+    Local/ Module Scope:
+
+    function one(){
+        var b = 10; -> //Local / Module scope
+        b++
+    }
+
+__________________________________________________________________
+
+Break and Continue:
+
+    Break:
+    while(condition){
+        .....
+        .....
+        break;
+    }
+
+    Continue:
+    while(condiction){
+        ......
+        ......
+        continue;
+        .....
+        .....
+    }
+__________________________________________________________________
+
+How to acess the private dat of one function to another Function:
+    1. Passing Parameters.
+    2. Returning values from a Function. 
+    3. Both returning and passing parameters from Function.
+
+
+    1. Passing Parameters:
+        1. When we want to share/transfer data (private/local) from called function to the calling function.
+        2. While passing we can pass any no. of parameters, with ',' separator.
+    
+    2.Returning values fromm a Function:
+        1. When we want to share/transfer data (private) from called function to the calling function, we go for returning values.
+        2. Through "return" keyword we return data from a function.
+        3. Using return we can only return one single value.
+        4. If we need to return mltiple values. we shold go for arrays or objects.
+
+    3. Both returning and passing parameters from Function:
+        Using Both
+         var myDeclare = () => {  //Calling Function
+            var a1, a2;
+            a1 = parseInt(prompt("Enter value 1 "));
+            a2 = parseInt(prompt("Enter value 2 "));
+            var sum = mySum(a1, a2); //passing parameters
+            console.log("This is sum : " + sum);
+
+        }
+
+        var mySum = (a1, a2) =>{  // called functuion
+            var result = a1 + a2;
+            return result; // returning values
+        }
+        
+        myDeclare(); 
+___________________________________________________________________
+
+Arrays:
+
+    Data structure which is capable of holding multiple values under single variable.
+
+    var m1 = 20;
+    var m2 = 30;
+    var m3 = 80;
+
+    var marks = 20, 30, 80;
+
+    var marks = [20, 33, 80];
+    var a = [20, "asmit", true, 3.5];
+      
+    two ways to array declaraction:
+        var variableName = new array();
+        or
+        var variableName = [];
+    
+    By default array allocate index value and start with 0.
+
+    predefined function in array:
+
+        n.push(100, 23);
+
+        n.unshift(105, 45);
+        
+        n.pop();
+
+        n.shift();
+
+        n.splice(3, 1);
+
+        n.splice (3, 0 , 12); // start index , how many delete, inserting 12 value; 
+
+        console.log(n.reverse());
+
+        console.log(n.indexOf(95));
+
+        console.log(n.includes(95));
+___________________________________________________________________
+
+Strings:
+string_method.html
+
+    var variableName = "string";
+
+    msg.length
+    msg[2]
+    msg.charAt(2);
+--------------------------------------------------------
+Date Method:
+date_method.html
+var crntDate = new Date();
+
+var myDOB = new Date(Aug 31 2024 08:30:25)
+------------------------------------------------------------
+ 
+Argument Keywords
+argumentsKeyword.html
+__________________________________________________________________________
+
+Json - JavaScript object Notation:
+     key and value pairs
+
+        key is always a string
+        value is the datatype what is supports
+
+        var data = []; // Arrays
+        var userInfo = {}; // Object/JSON
+
+        var userInfo = {
+            key1 : value1,
+            key2 : value2,
+            key3 : value3,
+            ..............
+            ..............
+            ..............
+        }
+
+        key always should be string.
+
+        var stdDetails = {
+            "name" : "raj",
+            "age" : 23,
+            "location" : "Mumbai",
+            "marks" : [20, 52, 64]
+        }
+        contactDetails.js, Json.html, json_function.html
+        Obj_with_prop_Methods.html
+
+setTimeout and setInterval:
+
+    setTimeout sytax:
+        setTimeout(method to be invoked, delaytme in second);
+        or
+        setTimeout(() => {
+            .... code to be executed
+        }, delaytme in second);
+
+        // setTimeout
+        // var showMsg = () =>{
+        //     console.log("Thanks for Visting Our Wbsite");
+        // }
+        
+        // console.log("Start");
+        // var userTimeout = setTimeout(showMsg, 5000);
+        // setTimeout(() =>{
+        //     console.log("Hello Everone!");
+        // }, 3000);
+        // var userAction = prompt("Stop y/n ");
+        // if (userAction == "y"){
+        //     clearTimeout(userTimeout);
+        // }    
+        // console.log("End");
+
+        // setInterval
+        // var showMsg = () =>{
+        //     console.log("Thanks for Visting Our Wbsite");
+        // }
+        
+        console.log("Start");
+        var count = 0;
+        //setTimeout(showMsg, 4000);
+        // setTimeout(() =>{
+        //     count++;
+        //     console.log("Hello Everone!" + count);
+        // }, 3000);
+        var myInterval = setInterval(() =>{
+            count++;
+            console.log("Hello Everone!" + count);
+            if (count == 10){
+            clearInterval(myInterval);
+        }
+        }, 1000);
+        console.log("End");
+__________________________________________________________________
+
+Advance JavaScript:
+    class
+    OOPs
+    Closures
+    Exception Handling
+
+DHTML:
+
+ECMA Latest/ 6:
+___________________________________________________________________
+
+DHTML:
+
+    how well you make the webpage is in DHTML
+
+
+    document.getElementById()
+            .getElementByTagname()
+            .getElementByClassname()
+    
+    document.querySelector();
+    document.querySelector("#id");
+    document.querySelector(".class");
+    document.querySelector("div");
+    document.querySelector("#container").getAttribute("class");
+    document.querySelector("#container").setAttribute("test", "sample2");
+    document.querySelector("#container").removeAttribute("test");
+    document.createElement("span/div/p/h1/a/...");
+    var myTag = document.createElement("div");
+    myTag.style.color = "red";
+    myTag.innerText = "This is Text";
+    document.querySelector("#container").append(myTag);
+
+    Event Handling:
+
+        Event: any type of action on the web page is called as event.
+
+        Event Handling: we could invoke a corresponding job for a particular action 
+        
+        1. Static Event Handling
+            eg: onclick, onMouse, onFocus, ...............
+        
+        2. Dynamic Event Handling
+
+             through "addEventListener()" method
+______________________________________________________________________________________________
+
+Math 
+    Math.random(); -> returnd random values between 0 to 1
+    Math.floor(); -> convert decimal to number
+    Math.round(); -> will round off the decimal to whole number
+
+    max value between 0 to given range -> Math.random() * maxValue;
+    max value between min to given max range -> math.random() * (maxValue - minValue) + minValue;
+
+Random Alphabet Generator
+
+
+
+Dynamic Event Handling
+    element.addEventListener("type of event", function);
+
+
+______________________________________________________________________________________________________
+
+Jquery Js Lib :
+
+    provides predefined methods and objects through which dom operations can be performed in more simpler ways
+
+    $.
+    jquery.
+
+    var $ = jquery = {
+        addclass(){
+
+        }
+        removeAttr(){
+
+        }
+    }
+    $.addclass
+    jquery.addclass
+
+________________________________________________________________________________________________________________
+
+AJAX
+
+Axios
+
+Syntax 
+    axios.get('/user?ID=12345')
+        .then(function (response) {
+            // handle success
+            console.log(response);
+        })
+        .catch(function (error) {
+            // handle error
+            console.log(error);
+        })
+        .finally(function () {
+            // always executed
+        });
+
+CORS policy :
+
+Cross Origin Resource Sharing
+
+__________________________________________________________________________________________________________________
+External templating Lib
+
+    handlebars
+    jqueryloadtemplate
+    mustache js 
+    jade/pug
+____________________________________________________________________________________________________________________
+
+Adavnce JavaScript
+
+Exceptional Handling
+    userdefined and system defineef Exception
+    Closures
+
+Exception/ Errror
+    compilation -> both converting to system understanding language + error checking.
+    Execution
+
+Runtime Exception / Exception Handling:
+
+    try 
+    catch
+    finally
+    throw
+    throws
+
+    syntax:
+        try{
+            ...
+            ...
+            ... set of instruction in which there is a chance of getting errors 
+        }
+        catch(error){
+            ...
+            ... set of instruction to handle exception been raised under try block  
+        }
+        finally{
+            ...
+            ...
+            optional block which for sure executes, irrelevantof whether the exception been raised or not
+        }
+
+__________________________________________________________________________________________________________________
+
+Closures:
+
+Self Invoked functions 
+
+    function Addavalues(){
+        ...
+        ...
+    }
+    Addavalues();
+
+    (() => {
+        ....
+        ....
+    })();
+
+    steps to access closure content outside of closure
+        1. Give/Assign a name to closure 
+        2. Return an object from the closure
+        3. What the methods and variable we would like to access from outsde, has to be returned from the closure as an object.
+__________________________________________________________________________________________________________________
+
+OOPs Concept:
+    - class
+    - object
+    - Inheritance
+    - Polymorphism -> not supported in js
+    - Data Abstraction
+    - Data Encapsulation
+
+    JavaScript is partially OOPs language
+
+
+classes and objects: 
+
+    class ClassName {
+        constructor(){
+            .....
+            ...
+        }
+        displa(){
+            .....
+            .....
+        }
+    }
+
+    var obj = new ClassName;
+    obj.display();
+
+Inheritance:
+
+    class A {
+        .....
+        .....
+        .....
+    }
+    class B extends A {
+        super();
+        ......
+        ......
+        ......
+        ......
+    }
+
+MultiLevel Inheritance:
+
+    class A {
+        .....
+        .....
+        .....
+    }
+    class B extends A {
+        super();
+        ......
+        ......
+        ......
+        ......
+    }
+    class C extends B { // In this A inforation also there.
+        super();
+        ......
+        ......
+        ......
+        ......
+    }
+
+    webServer/public/images/JavaScript Inheritance.png
+
+Data Abstraction:
+    The concept of hiding complex implementation details and showing only the essential features or functionalities of an object or module to the user.
+
+    eg.
+     class A {
+        constructor(){
+            ......
+            ......
+            var test = 100;
+        }
+     } 
+     class B extends A { // using var test we make it to abstract test value cannot be used in the class B.
+        constructor(){
+            super();
+            .....
+            .....
+            .....
+        }
+     }
+
+Data Encapsulation:
+    Process of raping the data in single unit Data Encapsulation.
+    
+    eg.
+     class A {
+        .....
+        .....
+        .....
+    }
+
+____________________________________________________________________________________________________________________
+
+proto Features:
+
+var obj1 = {
+    loc: "Mumbai"
+}
+var obj2 = {
+    name: "Asmit",
+    age: 20,
+    displayDeatils(){
+        console.log("Name is " + this.name);
+        console.log("Age is " + this.age);
+        console.log("Location is " + this.loc); 
+    }
+}
+obj2.__proto__ = obj1;
+obj2.displayDeatils();
+____________________________________________________________________________________________________________________
+
+ECMA:
+
+ECMA6 | ES 6 | ECMA 13
+
+European Computer Manufacturers Association (ECMA) ->
+
+    Arrow functions
+    promises
+    Rest parameters
+    function parms with default values
+    rest operator
+    shortcuts
+    string interpolisation
+    ** operator
+    etc...
+
+
+    for-each:
+    array.forEach(element => {
+            
+    });
+
+    ... operator:
+    rest -> ... operator -> variables
+    spread -> ... operator -> array
+
+    ECMA - New set of methods to be applied on array:
+        map
+        filter
+        find 
+        findindex
+        sort
+        
