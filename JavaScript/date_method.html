@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date method</title>
+</head>
+<body>
+    <script>
+        var monthName = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+        var monthName1 = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        var dayName = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+        var crntDate = new Date();
+        console.log(crntDate);
+
+        console.log(crntDate.getFullYear());
+        console.log(crntDate.getDate());
+        console.log(crntDate.getDay());
+        console.log(crntDate.getHours());
+        console.log(crntDate.getMinutes());
+        console.log(crntDate.getTime());
+
+        //dd-mm-yy
+        var myFormat = crntDate.getDate() + "/" + crntDate.getMonth() + "/" + crntDate.getFullYear();
+        console.log(myFormat);
+
+        var monthIndex = crntDate.getMonth();
+        var monthName = monthName[monthIndex];
+        console.log(monthName);
+
+        var monthIndex1 = crntDate.getMonth();
+        var monthName1 = monthName1[monthIndex1];
+        console.log(monthName1);
+
+        var dayIndex = crntDate.getDay();
+        var dayName = dayName[dayIndex];
+        console.log(dayName);
+
+        //Oct 10th 2024
+        var myFormat1 = monthName + " " + crntDate.getDate() + "th " + crntDate.getFullYear();
+        console.log(myFormat1);
+
+        //Thursday, Oct 10th 2024
+        var myFormat2 = dayName + ", " + monthName + " " + crntDate.getDate() + "th " + crntDate.getFullYear();
+        console.log(myFormat2);
+
+        //Occtber, 10th Thurseday, 2024
+        var myFormat3 = monthName1 + ", " + crntDate.getDate() + "th " + dayName + ", " + crntDate.getFullYear();
+        console.log(myFormat3);
+
+        //Oct/10/2024
+        var myFormat4 = monthName + "/" + crntDate.getDate() + "/" + crntDate.getFullYear();
+        console.log(myFormat4);
+
+        //Thurseday Octber 2024, 3:01:20 pm 
+        var crntTime = crntDate.getHours() + ":" + crntDate.getMinutes() + ":" + crntDate.getSeconds() + " pm";
+        console.log(crntTime);
+
+        var myFormat5 = dayName + " " + monthName1 + "" + crntDate.getFullYear() + ", " + crntTime;
+        console.log(myFormat4);
+
+        var myDob = new Date("Aug 31 2001 08:30:25");
+        console.log(myDob);
+
+        //var myAge =  crntDate - myDob;
+
+
+    </script>
+</body>
+</html>

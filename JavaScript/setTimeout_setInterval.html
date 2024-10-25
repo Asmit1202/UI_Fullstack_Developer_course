@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeOut and setInterval</title>
+</head>
+<body>
+    <script>
+        // setTimeout
+        // var showMsg = () =>{
+        //     console.log("Thanks for Visting Our Wbsite");
+        // }
+        
+        // console.log("Start");
+        // var userTimeout = setTimeout(showMsg, 5000);
+        // setTimeout(() =>{
+        //     console.log("Hello Everone!");
+        // }, 3000);
+        // var userAction = prompt("Stop y/n ");
+        // if (userAction == "y"){
+        //     clearTimeout(userTimeout);
+        // }    
+        // console.log("End");
+
+        // setInterval
+        // var showMsg = () =>{
+        //     console.log("Thanks for Visting Our Wbsite");
+        // }
+        
+        console.log("Start");
+        var count = 0;
+        //setTimeout(showMsg, 4000);
+        // setTimeout(() =>{
+        //     count++;
+        //     console.log("Hello Everone!" + count);
+        // }, 3000);
+        var myInterval = setInterval(() =>{
+            count++;
+            console.log("Hello Everone!" + count);
+            if (count == 10){
+            clearInterval(myInterval);
+        }
+        }, 1000);
+        console.log("End");
+    </script>
+</body>
+</html>

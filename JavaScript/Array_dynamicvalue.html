@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        // var data = [];
+        // data[0] = parseInt(prompt("Enter Value 1"));
+        // data[1] = parseInt(prompt("Enter Value 2"));
+        // data[2] = parseInt(prompt("Enter Value 3"));
+        // console.log(data);
+
+        var data = [];
+        var sum = 0;
+        var n = parseInt(prompt("Enter Length "))
+        for (i = 0; i < n; i++){
+            data[i] = parseInt(prompt("Enter Value "));
+        }
+        for (i = 0; i < n; i++){
+            sum = sum + data[i];
+        }
+        console.log(data);
+        console.log(sum);
+    </script>
+</body>
+</html>

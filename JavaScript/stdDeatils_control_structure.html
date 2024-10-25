@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Using Control Structure</title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Student Details Using Control Structure </h1>
+    
+    <script>
+        var stdName, stdAge, stdGender, m1, m2, m3, m4, m5;
+        
+        stdName = "Asmit"; 
+        stdGender = "Male";
+        stdAge = 23;
+        m1 = 90;
+        m2 = 70;
+        m3 = 83;
+        m4 = 60;
+        m5 = 95;
+
+        var total = m1 + m2 + m3 + m4 + m5;
+        var avg = total / 5;
+        
+        console.log(" Student Details ");
+        console.log("Student Name " + stdName);
+        console.log("Student Gender " + stdGender);
+        console.log("Student Age " + stdAge);
+        console.log("Total Marks " + total);
+        console.log("Average Mark is " + avg);
+
+        
+        if (avg >= 40) {
+            console.log("You got Passed");
+        }
+        
+        else{
+            console.log("You got Failed");
+        }
+        
+    </script>
+</body>
+</html> 

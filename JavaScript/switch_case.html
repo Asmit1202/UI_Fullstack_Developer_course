@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Swich case</title>
+    </head>
+    <body>
+        <script>
+            var a1 = parseInt(prompt("Enter First Value "));
+            var a2 = parseInt(prompt("Enter Second Value "));
+
+            var userOption = prompt("Enter user Option sum/sub/mul/div ");
+
+            // if (userOption == "sum"){
+            //     var sum = a1 + a2;
+            //     console.log("the sum is : " + sum);
+            // }
+            // else if (userOption == "sub"){
+            //     var sub = a1 - a2;
+            //     console.log("the sub is : " + sub);
+            // }
+            // else if (userOption == "mul"){
+            //     var mul = a1 * a2;
+            //     console.log("the mul is : " + mul);
+            // }
+            // else if (userOption == "div"){
+            //     var div = a1 / a2;
+            //     console.log("the div is : " + div);
+            // }
+
+            switch (userOption){
+                case "sum":
+                    var sum = a1 + a2;
+                    console.log("the sum is : " + sum);
+                    break;
+                case "sub":
+                    var sub = a1 - a2;
+                    console.log("the sub is : " + sub);
+                    break;
+                case "mul":
+                    var mul = a1 * a2;
+                    console.log("the mul is : " + mul);
+                    break;
+                case "div":
+                    var div = a1 / a2;
+                    console.log("the div is : " + div);
+                    break;
+                default: 
+                    console.log("Wrong Option Enter ");
+            }
+        </script>
+    </body>
+</html>

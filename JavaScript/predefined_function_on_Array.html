@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Array</title>
+</head>
+<body>
+    <script>
+        var n = [20, 45, 46, 58, 75, 89, 21, 12, 63, 95, 45, 46, 75, 70];
+        console.log(n);
+        console.log(n.length);
+        
+        n.push(100, 23);
+        console.log(n);
+
+        n.unshift(105, 45);
+        console.log(n);
+        
+        n.pop();
+        console.log(n);
+
+        n.shift();
+        console.log(n);
+
+        n.splice(3, 1);
+        console.log(n);
+
+        n.splice (3, 0 , 12); // start index , how many delete, inserting 12 value; 
+        console.log(n);
+
+        n.reverse();
+        console.log(n);
+
+        console.log(n.indexOf(95));
+        console.log(n.includes(95));
+
+
+    </script>
+</body>
+</html>

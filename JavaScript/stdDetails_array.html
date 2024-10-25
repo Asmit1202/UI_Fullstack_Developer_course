@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Using JavaScript</title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Student Details Using JavaScript </h1>
+    
+    <script>
+        var stdName, stdAge, stdGender;
+        stdName = "Asmit"; 
+        stdGender = "Male";
+        stdAge = 23;
+        var marks = [55, 60, 56, 90];
+        
+
+        var total = 0;
+        for (i = 0; i < marks.length; i++){
+            total += marks[i];
+        }
+        var avg = total / marks.length;
+        
+        console.log(" Student Details ");
+        console.log("Student Name " + stdName);
+        console.log("Student Gender " + stdGender);
+        console.log("Student Age " + stdAge);
+        console.log("Total Marks " + total);
+        console.log("Average Mark is " + avg);
+
+    </script>
+</body>
+</html>

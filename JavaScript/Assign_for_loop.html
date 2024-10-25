@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var empName, empAge, empGender, empDeapartment, empSalary;
+        
+        empName = prompt("Empolyee Name : "); 
+        empGender = prompt("Empolyee Gender : ");
+        empAge = prompt("Empolyee Age : ");
+        empDeapartment = prompt("Empolyee Department : ");
+        empSalary = prompt("Empolyee Salary : ");
+        empAge = parseInt(empAge);
+        empSalary = parseInt(empSalary);
+
+        var pf = (empSalary * 14) / 100;
+        var hra = (empSalary * 24) / 100; 
+        var totalSalary = empSalary + pf + hra;
+
+        if (empGender == "male") {
+            if (totalSalary >= 200000){
+                var tax = (totalSalary * 15) / 100;
+            }
+            else if (totalSalary >= 100000) {
+                var tax = (totalSalary * 10) / 100;
+            }
+            else if (totalSalary >= 50000) {
+                var tax = (totalSalary * 5) / 100;
+            }
+            else {
+                var tax = (totalSalary * 0) / 100;
+            }
+        }
+
+        if (empGender == "female") {
+            if (totalSalary >= 200000){
+                var tax = (totalSalary * 10) / 100;
+            }
+            else if (totalSalary >= 100000) {
+                var tax = (totalSalary * 5) / 100;
+            }
+            else {
+                var tax = (totalSalary * 0) / 100;
+            }
+        }
+
+
+        console.log(" Empolyee Details ");
+        console.log("Empolyee Name : " + empName);
+        console.log("Empolyee Gender : " + empGender);
+        console.log("Empolyee Age : " + empAge);
+        console.log("Empolyee Departname : " + empDeapartment);
+        console.log("Employee Salary is : " + empSalary);
+        console.log("Total Salary is : " + totalSalary);
+        console.log("Tax paid is : " + tax)
+        
+    </script>
+</body>
+</html>

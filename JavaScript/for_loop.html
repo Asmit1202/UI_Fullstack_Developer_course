@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Looping</title>
+</head>
+<body>
+    <script>
+        // console.log("Start");
+
+        //     for (var counter = 0; counter <= 5; counter++) {    
+        //         console.log("I am Asmit Patil");
+        //         console.log("Thanks for joining");
+        //         console.log("Good bye");
+        //     }
+        // console.log("End"); 
+        
+        //Dispaly values between given range.
+        // var  start = prompt("Enter Start Point : ");
+        // start = parseInt(start);
+
+        // var  end = prompt("Enter End Point : ");
+        // end = parseInt(end);
+
+        // for (var i = start; i <= end; i++) {
+        //     console.log(i)
+        // }
+
+        //Display even number between 1 to 1000
+        // for(var i = 1; i <= 1000; i++){
+        //     if (i % 2 == 0){
+        //         console.log(i)
+        //     }
+        // }
+
+        //Display sum of even 1 to 100
+        //var sum = 0;
+        //for(var i = 1; i <= 1000; i++){
+        //     if (i % 2 == 0){
+        //         sum = sum + i;
+        //     }
+        // }
+        //console.log("sum")
+
+        //Display even number between 1 to 1000
+        // for(var i = 1; i <= 1000; i++){
+        //     if (i % 2 != 0){
+        //         console.log(i)
+        //     }
+        // }
+
+        //check prime number
+        var n = prompt("Check Prime or Not : ");
+        n = parseInt(n);
+        console.log(n);
+        var t = 0; 
+        for (var i = 1; i <= n; i++) {
+            var rem = n % i;
+            if (rem == 0){
+                t++;
+            }
+        }
+        if (t == 2){
+            console.log("Its a Prime Number");
+        }
+        else{
+            console.log("Its a not Prime Number");
+        }
+
+    </script>
+</body>
+</html>

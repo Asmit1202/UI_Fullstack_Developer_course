@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body>
+    <script>
+        //var stdDetails = {};
+
+        // var readStudentDetails = () =>  {
+        //     stdDetails.name = prompt("Enter Name ");
+        //     stdDetails.age = prompt("Enter Age ");
+        //     stdDetails.marks = [];
+        //     for (i = 0; i < 3; i++){
+        //         stdDetails.marks[i] = parseInt(prompt("Enter Marks for Subject " + i));
+        //     }
+        //     getTotalandAvg();
+        // }
+
+        // var getTotalandAvg = () =>  {
+        //     stdDetails.total = 0;
+        //     for (i = 0; i < stdDetails.marks.length; i++){
+        //         stdDetails.total += stdDetails.marks[i];
+        //     }
+        //     stdDetails.avg = stdDetails.total / stdDetails.marks.length;
+        // }
+
+        // var showStudentDetails = () =>  {
+        //     readStudentDetails();
+        //     console.log("Student Name :  " + stdDetails.name);
+        //     console.log("Student Age : " + stdDetails.age);
+        //     console.log("Student Total Marks " + stdDetails.total);
+        //     console.log("Student Avg Score " + stdDetails.avg);
+        // }
+
+        // showStudentDetails();
+        
+
+        var stdDetails = {
+            readStudentDetails() {
+                stdDetails.name = prompt("Enter Name ");
+                stdDetails.age = prompt("Enter Age ");
+                stdDetails.marks = [];
+                for (i = 0; i < 3; i++){
+                    stdDetails.marks[i] = parseInt(prompt("Enter Marks for Subject " + i));
+                }
+                stdDetails.getTotalandAvg();
+            },
+            getTotalandAvg() {
+                stdDetails.total = 0;
+                for (i = 0; i < stdDetails.marks.length; i++){
+                    stdDetails.total += stdDetails.marks[i];
+                }
+                stdDetails.avg = stdDetails.total / stdDetails.marks.length;
+            },
+            showStudentDetails() {
+                stdDetails.readStudentDetails();
+                console.log("Student Name :  " + stdDetails.name);
+                console.log("Student Age : " + stdDetails.age);
+                console.log("Student Total Marks " + stdDetails.total);
+                console.log("Student Avg Score " + stdDetails.avg);
+            }
+        }
+
+        stdDetails.showStudentDetails();
+        
+
+    </script>
+</body>
+</html>

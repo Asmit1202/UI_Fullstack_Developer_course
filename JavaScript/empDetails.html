@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empolyee Details Using JavaScript</title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Empolyee Details Using JavaScript </h1>
+    
+    <script>
+        var empName, empAge, empGender, empDeapartment, bsalary;
+        
+        empName = "Asmit"; 
+        empGender = "Male";
+        empAge = 23;
+        empDeapartment = "IT Department";
+        bsalary = 20000;
+
+        var pf = (bsalary * 14) / 100;
+        var hra = (bsalary * 24) / 100; 
+        var totalSalary = bsalary + pf + hra;
+        
+        console.log(" Empolyee Details ");
+        console.log("Empolyee Name : " + empName);
+        console.log("Empolyee Gender : " + empGender);
+        console.log("Empolyee Age : " + empAge);
+        console.log("Empolyee Departname : " + empDeapartment);
+        console.log("Basic Salary is : " + bsalary);
+        console.log("PF Salary is : " + pf);
+        console.log("HRA Salary is : " + hra);
+        console.log("Total Salary is : " + totalSalary);
+        
+    </script>
+</body>
+</html>

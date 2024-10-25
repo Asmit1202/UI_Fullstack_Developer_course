@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passing Parameter</title>
+</head>
+<body>
+    <script>
+        
+        var myDeclare = () => {  //Calling Function
+            var a1, a2;
+            a1 = parseInt(prompt("Enter value 1 "));
+            a2 = parseInt(prompt("Enter value 2 "));
+            mySum(a1, a2);
+        }
+
+        var mySum = (p1, p2) =>{  // called functuion
+            var result;
+            result = p1 + p2;
+            console.log("This is sum : " + result);
+        }
+        
+        myDeclare(); 
+    </script>
+</body>
+</html>

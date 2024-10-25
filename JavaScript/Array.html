@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        var a = 90;
+        var b = 99;
+        var marks = [20, 30, 50, 45, 12];
+        console.log(a);
+        console.log(b);
+        console.log(marks);
+        console.log(marks[2]);
+
+        var n = [20, 45, 65, 15, 95];
+        var smallNo = n[0];
+        var largeNo = n[0];
+        for (var i = 0; i< n.length; i++) {
+            if (smallNo > n[i]){
+                smallNo = n[i];
+            }
+            if (largeNo < n[i]){
+                largeNo = n[i];
+            }
+        }
+        console.log("The smallest value : " + smallNo);
+        console.log("The largeest value : " + largeNo);
+
+        var data = [20, 45, 46, 58, 75, 89, 21, 12, 63, 95, 45, 46, 75, 70];
+        //lucky number
+        for (var i = 0; i < data.length; i++){
+            var m = data[i];
+            var luckyNo = 0;
+            while (m != 0) {
+                rem = m % 10;
+                m = parseInt(m/10);
+                luckyNo += rem;
+
+                if (m == 0 && luckyNo > 9){
+                    m = luckyNo;
+                    luckyNo = 0;
+                }
+            }
+            console.log("Lucky No : " + luckyNo);
+        } 
+        
+        // swaping the number
+        // var a = 90;
+        // var b = 99;
+        // console.log("a : " + a);
+        // console.log("b : " + b);
+
+        // var c;
+        // c = a;
+        // a = b;
+        // b = c;
+
+        // console.log("a : " + a);
+        // console.log("b : " + b);
+
+        // array sorting
+
+        for (var i = 0; i < data.length; i++) {
+            for (var j = i + 1; j < data.length; j++){
+                if (data[i] > data[j]){
+                    var temp = data[j];
+                    data[j] = data[i];
+                    data[i] = temp;
+                }
+            }
+        }       
+        console.log(data);
+        
+    </script>
+</body>
+</html>

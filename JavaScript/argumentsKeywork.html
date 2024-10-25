@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arguents Keyword</title>
+</head>
+<body>
+    <script>
+        var testing = (...a) =>{
+            console.log(a)
+
+        }
+
+        testing(20, 30, 50, 40);
+
+        function addvalue(a, b) {
+            console.log(arguments);
+            var sum = 0;
+            for (i = 0; i < arguments.length; i++){
+                sum += arguments[i];
+            }
+            console.log("this sum is " + sum);
+        }
+
+        addvalue(10, 20);
+        addvalue(10, 20, 30, 40);
+    </script>
+</body>
+</html>

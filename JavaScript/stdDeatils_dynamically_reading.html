@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student deatils from User</title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Student deatils from User </h1>
+    
+    <script>
+        var stdName, stdAge, stdGender, m1, m2, m3, m4, m5;
+        stdName = prompt("Enter Student Name : "); 
+        stdGender = prompt("Enter Student Gender : ");
+        stdAge = prompt("Enter Student age : ");
+        m1 = prompt("Enter Subject 1 Marks : ");
+        m2 = prompt("Enter Subject 2 Marks : ");
+        m3 = prompt("Enter Subject 3 Marks : ");
+        m4 = prompt("Enter Subject 4 Marks : ");
+        m5 = prompt("Enter Subject 5 Marks : ");
+        
+        m1 = parseInt(m1);
+        m2 = parseInt(m2);
+        m3 = parseInt(m3);
+        m4 = parseInt(m4);
+        m5 = parseInt(m5);
+
+        var total = m1 + m2 + m3 + m4 + m5;
+        total = parseInt(total);
+        var avg = total / 5;
+        avg = parseFloat(avg);
+        var per = (total * 100) / 500; 
+        per = parseFloat(per);
+        
+        console.log(" Student Details ");
+        console.log("Student Name : " + stdName);
+        console.log("Student Gender : " + stdGender);
+        console.log("Student Age : " + stdAge);
+        console.log("Total Marks : " + total);
+        console.log("Average Mark is " + avg);
+        console.log("Percentage is " + per,"%");
+    </script>
+</body>
+</html>

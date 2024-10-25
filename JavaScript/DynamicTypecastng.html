@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typecasting and Dynamic Typecasting </title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Typecasting and Dynamic Typecasting </h1>
+    
+    <script>
+        var a = 90;
+        console.log(typeof(a));
+        var a = 'asmit';
+        console.log(typeof(a));
+        var a = true;
+        console.log(typeof(a));
+
+        var b = "90.01";
+        console.log(typeof(b));
+        //b = parseInt(b);
+        b = parseFloat(b);
+        console.log(b);
+        console.log(typeof(b));
+
+        var age = 23;
+        console.log(typeof(age));
+        age = age.toString();
+        console.log(typeof(age));
+        console.log(age);
+
+        var isPass = true;
+        console.log(typeof(isPass));
+        isPass = isPass.toString();
+        console.log(typeof(isPass));
+        console.log(isPass);
+
+        // parsrint()
+        // parseFloat()
+        // toString()
+
+    </script>
+</body>
+</html>

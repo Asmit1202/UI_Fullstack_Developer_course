@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fee = 0;
+        var rank = prompt("Enter Rank");
+
+        rank = parseInt(rank);
+
+        // if(rank <= 100){
+        //     fee = 5000;
+        // }
+        // else{
+        //     fee= 100000;
+        // }
+
+        fee = (rank <= 100) ? 5000 : 100000;
+
+        console.log("Fee Pay is " + fee);
+    </script>
+</body>
+</html>

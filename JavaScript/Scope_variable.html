@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 10; // global scope
+        var c;
+        const d = 111;
+        function one(){
+            a++;
+            c = 99;
+            //d++;
+            var b = 50; // local scope 
+            console.log(a);
+            console.log(b);
+            console.log(c);
+            console.log(d);
+        }
+        one();
+        console.log(a);
+        //console.log(b);
+        console.log(c);
+        console.log(d);
+
+
+        if(true){
+            let a1 = 100; //block Scope
+            var a2 = 100; //block Scope
+            //console.log(a1);
+            //console.log(a2);         
+        }
+        //console.log(a1);
+        console.log(a2);
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var userData = {
+            a1 : 90,
+            a2 : 99,
+            result : 0,
+            findsum() {
+                userData.result = userData.a1 + userData.a2;
+                userData.showData();
+            },
+            showData(){
+                console.log("The sum is " + userData.result);
+            }
+        }
+        userData.findsum();
+
+        //this alwys indicates the current object reference
+        var userData = {
+            a1 : 90,
+            a2 : 99,
+            result : 0,
+            findsum() {
+                this.result = this.a1 + this.a2;
+                this.showData();
+            },
+            showData(){
+                console.log("The sum is " + this.result);
+            }
+        }
+        userData.findsum();
+    </script>
+</body>
+</html>

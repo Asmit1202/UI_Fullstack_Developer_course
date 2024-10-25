@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        var msg = "Hello Everyone";
+        console.log(msg);
+        console.log(msg.length);
+        console.log(msg[12]);
+        console.log(msg.charAt(6));
+        // start at 2 index, ends at 5 index
+        console.log(msg.includes("every"));
+        console.log(msg.substr(2, 5)); // start at 2 index and find 5 char from there
+        console.log(msg.substring(2, 5));// start at 2 index, ends at 5 index
+        console.log(msg.slice(2, 5));// similar as substring, start at 2 index, ends at 5 index
+
+        var m1 = "Hello";
+        var m2 = "Everyone"
+        console.log(m1.concat(m2));
+        console.log(msg.replace("I", "Asmit"));
+
+        console.log(msg.toLowerCase());
+        console.log(msg.toUpperCase());
+        console.log(msg.split(''));
+        
+    </script>
+</body>
+</html>
