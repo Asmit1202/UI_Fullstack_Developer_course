@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronics and Await </title>
+</head>
+<body>
+    <script>
+        var myPromise = new Promise((resolve, reject) =>{
+            var age = 25;
+            if (age >= 21){
+                resolve();
+            } else {
+                reject();
+            }
+        });
+
+        async function dojob(){
+            console.log("started");
+            await myPromise.then(() => {
+                console.log("Age Valid");
+            }).catch(() => {
+                console.log("Age Invalid")
+            });
+            await myPromise.then(() => {
+                console.log("Age Valid");
+            }).catch(() => {
+                console.log("Age Invalid")
+            });
+            console.log("Ended")
+        }
+
+        dojob();  
+       
+    </script>
+</body>
+</html>

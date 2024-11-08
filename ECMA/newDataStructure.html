@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var data = [34, 54, 12, 77, 69, 45, 44];
+
+        //set Data structure
+
+        var s1 = new Set();
+        s1.add(20);
+        s1.add(30);
+        s1.add(40);
+        s1.add(30);
+        s1.add(60); 
+
+        console.log(s1);
+
+        console.log(s1.size);
+
+        console.log(s1.has(50));
+
+        s1.delete(40);
+        // s1.clear();
+        console.log(s1);
+
+        // for of
+
+        for (var temp of  s1){
+            console.log(temp);
+        }
+
+        console.log("-------------------------------------------------------------------------")
+
+        // Map Data Structure
+        var m1 = new Map();
+        m1.set("uname", "Asmit");
+        m1.set("gender", "Male");
+        m1.set("age", 23);
+
+        console.log(m1);
+        console.log(m1.size);
+
+        for (var [key, value] of m1){
+            console.log(key);
+            console.log(value);
+        }
+
+        m1.delete("uname");
+        console.log(m1);
+
+        // m1.clear()
+</script>
+</body>
+</html>

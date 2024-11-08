@@ -63,6 +63,29 @@
         });
 
         console.log(temp);
+
+        //filter
+        var temp1 = b.filter((value) => {
+            if (value % 2 == 0){
+                return true;
+            }
+        });
+        console.log(temp1);
+
+        var empDetails = [
+            {name: "Asmit", gender: "Male"},
+            {name: "Ria", gender: "Female"},
+            {name: "Aatish", gender: "Male"},
+            {name: "Sonia", gender: "Female"}
+        ];
+
+        var filterValue = empDetails.filter((obj) => {
+            if (obj.gender == "Female"){
+                return true;
+            }
+        });
+
+        console.log(filterValue);
     </script>
 </body>
 </html>
