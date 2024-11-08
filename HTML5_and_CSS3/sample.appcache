@@ -1,0 +1,16 @@
+CACHE:
+    the list of all the files which need to be forcefully cached
+
+    http://sample.com/books/pages/abc.html
+
+    books/pages/*.*
+    books/images/*.png
+    ...
+    ...
+    styles/books/*.css
+
+NETWORK:
+    the resources which should never get cached, and for sure needed network connection
+
+FALLBACK:
+    the custom file should be loaded on page if user tries to aces network specific page

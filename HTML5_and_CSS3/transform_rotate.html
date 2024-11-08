@@ -1,0 +1,58 @@
+<!-- transform_rotate.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid;
+            width: 350px;
+            text-align: center;
+            margin: 200px auto;
+            padding: 20px;
+            background-color: #ccc;
+            text-align: center;
+            /* animation: clock 60s infinite; */
+        }
+        /* @keyframes clock {
+            1%{
+                transform: rotate(0deg);
+            }
+            26%{
+                transform: rotate(90deg);
+            }
+            51%{
+                transform: rotate(180deg);
+            }
+            76%{
+                transform: rotate(270deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        Block
+    </div>
+
+    <script>
+        var value = 0;
+        setInterval(() => {
+            value += 5;
+            var degValue = value + "deg";
+            document.querySelector(".container").style.transform = `rotate(${degValue})`;
+            if (value == 360){
+                value = 0;
+            }
+            // console.log(degValue);
+        }, 1000);
+        
+    </script>
+</body>
+</html>

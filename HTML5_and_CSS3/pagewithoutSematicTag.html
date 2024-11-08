@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tbar, .mbar, .fbar{
+            position: absolute;
+            left: 5px;
+            right: 5px;
+            border: 1px solid indianred;
+            background-color: #dadada;
+        }
+        .tbar{
+            padding: 10px;
+            text-align: center;
+        }
+        .fbar{
+            bottom: 10px;
+            font-size: 13px;
+            padding: 10px;
+            text-align: center;
+        }
+        .mbar{
+            top: 50px;
+            bottom: 50px;
+        }
+        .lbar, .rbar{
+            margin: 10px;
+            padding: 10px;
+            float: left;
+            border: 1px solid indianred;
+            height: 640px;
+        }
+        .lbar{
+            width: 28%;
+        }
+        .rbar{
+            width: 64.2%;
+            overflow: scroll;
+        }
+        .container{
+            border: 1px solid;
+        }
+        .block{
+            border: 1px solid;
+            height: 150px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="tbar">Online Shopping app</div>
+    <div class="mbar">
+        <div class="lbar">Left content</div>
+        <div class="rbar">
+            <div class="container">
+                <div class="block">block1</div>
+                <div class="block">block2</div>
+                <div class="block">block3</div>
+                <div class="block">block4</div>
+                <div class="block">block5</div>
+                <div class="block">block6</div>
+            </div>
+        </div>
+    </div>
+    <div class="fbar">@ copyrights 2024</div>
+</body>
+</html>

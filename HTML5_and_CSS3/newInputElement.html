@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid indianred;
+            width: 500px;
+        }
+        li{
+            margin: 10px ;
+            padding: 10px;
+            border: 1px solid;
+            list-style: none;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            User Name: <input type="text">
+        </li>
+        <li>
+            Age: <input type="number" min="10" max="20">
+        </li>
+        <li>
+            Price Range: <input step="1000" id="priceFilter" type="range" min="1000" max="20000" onchange="getPriceValue()">
+            <span></span>
+        </li>
+        <li>
+            Color: <input type="color" >
+        </li>
+        <li>
+            Upload Resume: <input type="file">
+        </li>
+        <li>
+            <button>
+                <b>search</b>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </button>
+        </li>
+        <li>
+            DOB:
+            <input type="date">
+            <input type="datetime-local">
+            <input type="time">
+        </li>
+        <li>
+            Phone: <input type="tel">
+        </li>
+        <li>
+            Syllabus Complete: <progress id="file" value="70" max="100" > 59% </progress>
+        </li>
+    </ul>
+
+    <script>
+        var getPriceValue = () => {
+            var priceValue = document.querySelector("#priceFilter").value;
+            // console.log(priceValue);
+            document.querySelector("span").innerText = priceValue;
+        }
+    </script>
+</body>
+</html>

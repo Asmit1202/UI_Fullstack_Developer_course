@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        border: 1px solid;
+        margin: 1%;
+        padding: 10px;
+        width: 310px;
+        height: 400px;
+        display: inline-block;
+        overflow: auto;
+    }
+    .productBlock{
+        border: 1px solid;
+        margin: 1% auto;
+        padding: 10px;
+        width: 830px;
+        height: 180px;
+        overflow: auto;
+    }
+    h1{
+            color: indianred;
+            font-size: 15px;
+            margin: 10px auto;
+            text-align: center;
+            padding: 10px;
+            width: 90%;
+            border: 1px solid indianred;
+            text-transform: uppercase;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+        border: 1px solid;
+        margin: 5px;
+    }
+    .imgContainer{
+        border: 1px solid;
+        width: auto;
+        float: left;
+        margin: 5px;
+        position: relative;
+    }
+    span{
+        border-radius: 50%;
+        border: 1px solid;
+        color: BLACK;
+        cursor: pointer;
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        z-index: 2;
+    }
+    </style>
+</head>
+<body>
+    <div class="container" ondrop="elementGotDropped(event)" ondragover="elementDragOver(event)" containertype="mens">
+        <h1>Mens</h1>
+    </div>
+    <div class="container" ondrop="elementGotDropped(event)" ondragover="elementDragOver(event)" containertype="kids">
+        <h1>Kids</h1>
+    </div>
+    <div class="container" ondrop="elementGotDropped(event)" ondragover="elementDragOver(event)" containertype="womens"> 
+        <h1>Womens</h1>
+    </div>
+    <div class="productBlock">
+        <h1>Products</h1>
+        <img ondragstart="elementDragStarted(event)" src="../images/kshoe1.jpg" id="myProduct1" type ="kids">
+        <img ondragstart="elementDragStarted(event)" src="../images/mshoe1 (1).jpg" id="myProduct2" type ="mens">
+        <img ondragstart="elementDragStarted(event)" src="../images/mshoe1 (2).jpg" id="myProduct3" type ="mens">
+        <img ondragstart="elementDragStarted(event)" src="../images/wshoes1.jpg" id="myProduct4" type ="womens">
+        <img ondragstart="elementDragStarted(event)" src="../images/kshoe2.jpg" id="myProduct5" type ="kids">
+        <img ondragstart="elementDragStarted(event)" src="../images/mshoe1 (3).jpg" id="myProduct6" type ="mens">
+        <img ondragstart="elementDragStarted(event)" src="../images/kshoe3.jpg" id="myProduct7" type ="kids">
+        <img ondragstart="elementDragStarted(event)" src="../images/wshoes3.jpg" id="myProduct8" type ="womens">
+        <img ondragstart="elementDragStarted(event)" src="../images/wshoes2.jpg" id="myProduct9" type ="womens">
+        <img ondragstart="elementDragStarted(event)" src="../images/mshoe1 (4).jpg" id="myProduct10" type ="mens">
+        <img ondragstart="elementDragStarted(event)" src="../images/wshoes4.jpg" id="myProduct11" type ="womens">
+        <img ondragstart="elementDragStarted(event)" src="../images/kshoe4.jpg" id="myProduct12" type ="kids">
+    </div>
+
+    <script>
+        var imgId = ''; 
+        var elementDragStarted = (event) => {
+            imgId = event.target.getAttribute("id");
+            imgId = '#' + imgId;
+        }
+        var elementGotDropped = (event) => {
+            event.preventDefault();
+            var imageTag = document.querySelector(imgId);
+
+            var divContainer = document.createElement("div");
+            divContainer.setAttribute("class", "imgContainer");
+            var divType = imageTag.getAttribute("type");
+            divContainer.setAttribute("type", divType);
+
+            var imageSrc = imageTag.getAttribute('src');
+            // var imageType = imageTag.getAttribute('type');
+
+            var newImgTag = document.createElement("img");
+            newImgTag.setAttribute("src", imageSrc);
+            // newImgTag.setAttribute("type", imageType);
+            divContainer.append(newImgTag);
+            
+            var containerType = event.target.getAttribute("containertype");
+            var imageCategoryType = divContainer.getAttribute("type"); 
+            // console.log("containerType: " + containerType); 
+            // console.log("imageCategoryType: " + imageCategoryType);
+                
+            if (containerType === imageCategoryType){
+                event.target.append(divContainer);
+            }   
+
+            var closenIcon = document.createElement("span");
+            closenIcon.innerText = "X";
+            divContainer.append(closenIcon);
+            closenIcon.addEventListener("click", (event) => {
+                var parentElement = event.target.parentElement;
+                parentElement.remove();
+            });
+             
+        }
+
+           
+        var elementDragOver = (event) => {
+            event.preventDefault();
+        }
+         
+        // document.addEventListener("DOMContentLoaded", () => {
+        //     var imageElementList = document.querySelectorAll("img");
+        //     imageElementList.forEach((item) => {
+        //         item.addEventListener("elementDragstarted", (event) => {
+        //             imgId = event.target.getAttribute("id");
+        //             imgId = '#' + imgId;
+        //         });
+        //     });
+        // });
+        
+    </script>
+</body>
+</html>

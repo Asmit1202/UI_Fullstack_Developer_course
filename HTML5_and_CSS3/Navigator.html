@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(navigator);
+        console.log(navigator.userAgent);
+        console.log(navigator.userAgent.match("Chrome")); 
+
+        // if (navigator.userAgent.match("Chrome") != null){
+        //     alert("The much for using Chrome browser")
+        // }
+        // else{
+        //     alert("Please switch to chrome browser for faster Experience...")
+        // }
+
+        navigator.geolocation.getCurrentPosition((point) => {
+            console.log(point);
+        })
+    </script>
+</body>
+</html>

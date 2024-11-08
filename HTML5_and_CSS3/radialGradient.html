@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radial linear-gradient</title>
+    <style> 
+        .container{
+            border: 1px solid;
+            width: 400px;
+            height: 500px;
+            margin: 20px auto;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;
+            font-size: 30px;
+            border-radius: 5%;
+            box-shadow: 5px 5px 10px skyblue;
+            text-shadow: 5px 5px 8px navy;
+            /* background-color: skyblue; */
+            /* background-image: radial-gradient(white, lightskyblue, skyblue, blue); */
+            background-image: radial-gradient(white 10%, lightskyblue 30%, skyblue 70%, blue);
+            /* background-image: repeating-radial-gradient(white, skyblue 10%, blue 17%); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        Content
+    </div>
+</body>
+</html> 

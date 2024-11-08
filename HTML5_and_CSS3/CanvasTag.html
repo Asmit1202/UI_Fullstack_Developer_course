@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="captchaGenreator.js"></script>
+    <style>
+        h3{
+            border: 1px solid indianred;
+            margin: 10px 0px;
+            padding: 10px;
+            color: indianred;
+            width: 20%;
+        }
+        canvas{
+            border: 1px solid;
+            margin: 20px auto;
+            padding: 20px;
+            width: 200px;   
+            height: 150px;
+            filter: blur(2px);
+            -webkit-filter: blur(3px);
+        }
+    </style>
+</head>
+<body>
+    <h3>Canvas Tag</h3>
+    <canvas id="myCanvas"> 
+    
+    </canvas>
+
+    <script>
+        var ctx = document.querySelector("#myCanvas").getContext("2d");
+        ctx.moveTo(0,60);
+        ctx.lineTo(280, 100);
+        ctx.stroke();
+
+        ctx.moveTo(0, 90);
+        ctx.lineTo(280, 80);
+        ctx.stroke();
+
+        // ctx.beginPath();
+        // ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        // ctx.stroke();
+
+        ctx.font = "50px Arial";
+        //ctx.fillText("Hello World", 10, 50);
+        var captchaText = Captchgenerte.generateCaptchText();
+
+        ctx.fillText(captchaText[0], 20, 100);
+        ctx.fillText(captchaText[1], 60, 115);
+        ctx.fillText(captchaText[2], 100, 100);
+        ctx.fillText(captchaText[3], 140, 95);
+        ctx.fillText(captchaText[4], 180, 115);
+        ctx.fillText(captchaText[5], 220, 100);
+    </script>
+</body>
+</html>
