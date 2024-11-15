@@ -1,0 +1,45 @@
+ Local Storage and Session Storage related code:
+ PS Note: 
+ LocalStorage retains the values in different Tabs of client browser even if old Tab is closed and new tab is opened 
+ SessionStorage retains the value for a particular single tab, mainly used if page refreshed or logged out and logged back in the same tab
+ 
+Step 1: first create a checkbox for remember my credentials in login.htm
+ 
+ <input type="checkbox" id="rememberCheckbox">Remember my credentials
+
+Step 2: then baased on id of checkbox in login.js set the  UserInfo variable using setItem() localStorage and sessionStorage , also if checkbox is unchecked then delete 
+the stored values using removeItem()
+
+var checkRememberCheckbox = (userInfo) => {
+    if ($("#rememberCheckbox")[0].checked) {
+        localStorage.setItem("userLoginInfo", JSON.stringify(userInfo));
+        sessionStorage.setItem("userLoginInfo", JSON.stringify(userInfo));
+    } else {
+        localStorage.removeItem("userLoginInfo");
+        sessionStorage.removeItem("userLoginInfo");
+    }
+}
+
+Step 3: Call the above checkRememberCheckbox function in validateUserCredentials function passing userinfo object to it
+	
+	checkRememberCheckbox(userInfo);
+
+Step 4: Also now In main.js we need to populate the stored values of username and password as well as checkbox selected status from local and sessionstorage objects saved
+by below function checkLocalAndSessionStorages at the very start of javascript.
+
+var checkLocalAndSessionStorages = () => {
+    if (localStorage.getItem("userLoginInfo") != null) {
+        var userCredentials = JSON.parse(localStorage.getItem("userLoginInfo"));
+        $("#userId").val(userCredentials.accountId);
+        $("#accountPwd").val(userCredentials.accountPwd);
+        $("#rememberCheckbox")[0].checked = true;
+    } else if (sessionStorage.getItem("userLoginInfo") != null) {
+        var userCredentials = JSON.parse(sessionStorage.getItem("userLoginInfo"));
+        $("#userId").val(userCredentials.accountId);
+        $("#accountPwd").val(userCredentials.accountPwd);
+        $("#rememberCheckbox")[0].checked = true;
+    }
+	
+If Still facing issue for first time then manually delete the local and sessionstorage objects by Right clicking on loginpage i.e.  Inspect--> Application --> Storage 	
+
+Local Storage and Session Storage Section --> Right Click and Clear

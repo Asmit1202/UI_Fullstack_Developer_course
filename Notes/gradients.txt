@@ -1,0 +1,27 @@
+
+RGBA
+
+Gradients:
+    Linear Gradients (can apply for direction down/up/left/right/diagonally)   
+        background-image: linear-gradient(pink, yellow);
+        background-image: linear-gradient(direction, red, yellow);
+        background-image: linear-gradient(angle, color1, color2);
+        Repeating a linear-gradient :
+            The repeating-linear-gradient() function is used to repeat linear gradients:
+                background-image: repeating-linear-gradient(#ccc, green 10%, yellow 20%);
+
+                
+    Radial Gradients (defined by their center)
+        A radial gradient is allways defined by its center.
+            background-image: radial-gradient(red, yellow, green);
+            background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+            background-image: radial-gradient(circle, red, yellow, green);
+            background-image: repeating-radial-gradient(pink, #ccc 10%, green 15%);
+
+    Conic Gradients (rotated around a center point)
+        A conic gradient is a gradient with color transitions rotated around a center point.
+            background-image: conic-gradient(red, yellow, green);
+            background-image: conic-gradient(red 55deg, yellow 60deg, green 210deg);
+        Repeating
+            background-image: repeating-conic-gradient(red 10%, yellow 20%);
+            

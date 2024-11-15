@@ -1,0 +1,29 @@
+.ratingBlock{
+    position: absolute;
+    top: 0px;
+    left: 60px
+}
+.fullStar{
+    background-image: url(images/StarImage.PNG);
+    width: 25px;
+    height: 25px;
+    background-position: 0px 0px;
+    background-size: 105px 29px;
+    float: left;
+}
+.halfStar{
+    background-image: url(images/StarImage.PNG);
+    width: 25px;
+    height: 25px;
+    background-position: -52px 0px;
+    background-size: 105px 29px;
+    float: left;
+}
+.emptyStar{
+    background-image: url(images/StarImage.PNG);
+    width: 25px;
+    height: 25px;
+    background-position: -78px 0px;
+    background-size: 105px 29px;
+    float: left;
+}

@@ -1,0 +1,200 @@
+.mainProductContainer{
+   display: inline-flex;
+   width: 100%;
+}
+.leftContainer{
+    width: 20%;
+    height: auto;
+    border: 1px solid #828282;
+    margin: 10px;
+    overflow: auto;
+}
+.leftContainer h1{
+    font-size: 22px;
+    padding: 20px;
+    background: -webkit-linear-gradient(rgb(194, 194, 194) 30%,#525252 60%  , rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+}
+.Prd_categories{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #828282;
+    border: 1px solid;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 0px 10px;
+    border-bottom-color: #828282;
+}
+.Prd_categories:hover{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  #828282;
+    border: 1px solid;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 0px 10px;
+    border-bottom-color: #828282;
+    cursor: pointer;
+}
+.rightContainer{
+    width: 77%; 
+    height: auto;
+    border: 1px solid #828282;
+    margin: 10px;
+    display: inline;
+    position: relative;
+}
+.ProductContainer{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+    display: block;
+}
+.ProductContainer1{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+    display: none;
+}
+.ProductContainer2{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+    display: none;
+}
+.rightContainer h3{
+    font-size: 25px;
+    margin: 0px;
+    background: -webkit-linear-gradient(rgb(194, 194, 194) 30%,#525252 60%  , rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+}
+.productDetailsContainer3 > li{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+.productDetailsContainer3 img{
+    /* width: 200px;
+    height: 180px; */
+    margin: 0px;
+    object-fit: contain;
+    width: auto;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.laptopContainer > li{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+.laptopContainer img{
+    margin: 0px;
+    object-fit: contain;
+    width: auto;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.mobileContainer img{
+    margin: 0px;
+    object-fit: contain;
+    width: auto;
+    height: 150px;
+    margin: 0px auto;
+}
+.mobileContainer > li{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+
+.ProductContainer3{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+    display: none;
+}
+.smartwatchContainer img{
+    margin: 0px;
+    object-fit: contain;
+    width: auto;
+    height: 150px;
+    margin: 0px auto;
+}
+.smartwatchContainer > li{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+.singleProduct{
+    margin: 5px;
+    padding: 5px;
+}
+.singleProduct li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    
+}
+.actualPrice{
+    font-weight: 500;
+    text-decoration: line-through;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.discountPrice{
+    font-weight: 700;
+    color: black;
+    font-size: 13px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.fullStar{
+    width: 20px !important;
+    height: 20px !important;
+    background-position: 0px 0px;
+    background-size: 76px 23px !important;
+}
+.halfStar {
+    width: 20px !important;;
+    height: 20px !important;;
+    background-position: -52px 0px !important;;
+    background-size: 101px 23px !important;;
+}

@@ -825,4 +825,314 @@ European Computer Manufacturers Association (ECMA) ->
         find 
         findindex
         sort
+
+    New Data structure in ECMA 
+
+        Set data structure
+        Map data structure
+
+    Import and Export 
+        app.js:
+            import {getTotalSal} from "./salaryUtil.js";
+            import * as ref from "./salaryUtil.js"; -> ref.getTotlSal(20000);
+            var totalSal = getTotalSal(23000);
+
+            console.log("totalSal: " + totalSal);
+
+
+        salaryUtil.js:
+            export var getTotalSal = (bSal) => {
+                var totalSal = 30000;
+                return totalSal;
+            }
+
+___________________________________________________________________________________________________________
+
+HTML5 and CSS3
+    1. Local Storage and Session Storage
+        .setItem("Key", value);
+        .getItem("Key");
+        .removeItem("key")
+        .removeAll();
+
+        JSON.stringify(<object>) -> converts object to json string
+        JSON.parse(<string object>) -> converts string to json object
+
+    2. Semantic Tags:
+        header
+        footer
+        main
+        section
+        article
+        navbar
+        menu
+        figure
+        aside
+        etc..
+    
+    3. New Input Elements
+        <input type = "">
+
+    4. Doctype
+        DTD - Document type definition
+        schema of webpage
+
+    5. Appcache: 
+        Book Reading Webpage:
+
+            login
+            explore the list of categories
+            select one category
+            select the book from list
+            start reading book -> next and prev btns
+
+            if you want physical copy, but it through payment process 
+
+    6. Canvas And SVG tag:
         
+        both the tags are used to crete graphical objects within the page...
+
+        refered: canvasSvgnotes.txt in HTML5_and_CSS3 file
+            Canvas -> <script> in betwwen 
+                var ctx = document.querySelector("#myCanvas").getContext("2d");
+                ctx.moveTo(0, 0);
+                ctx.lineTo(200, 100);
+                ctx.stroke();
+
+            Svg -> <body> in betwwen
+                <SVG>
+                    <line x1="0" y1="" x2="100" y2="200" stroke="green"></line>
+                </SVG>
+
+    7. Navigator:
+        geolocation
+        userAgent
+    
+    8. Drag and drop new events:
+
+        ondropstart
+        ondropover
+        ondrop
+
+    9. Webworkers:
+        Mulititasking and Multithreading
+
+        Multi Threading: 
+
+        Multi Tasking: 
+        Multi Programming:
+
+        var myWorker = new Worker("worker/dateworker.js"); worker in the js file 
+        open in localhost in node.js
+
+         postMessage(customDate);
+
+        myWorker.onmessage = (event) => {
+            document.querySelector(".dateContainer").innerText = event.data;
+        }
+
+    10. DL, DT, DD Tag:
+        
+        DL -> Description List
+        DT -> Description Term
+        DD -> Description Defination
+
+    11. border radius 
+
+        border-radius: 5%;
+           
+    12. shadow effects
+
+        box-shadow: 5px 5px 10px green;
+        text-shadow: 5px 5px 5px indianred;
+
+    13. gradients
+
+        Linear Gradients (can apply for direction down/up/left/right/diagonally)   
+            background-image: linear-gradient(pink, yellow);
+            background-image: linear-gradient(direction, red, yellow);
+            background-image: linear-gradient(angle, color1, color2);
+            Repeating a linear-gradient :
+                The repeating-linear-gradient() function is used to repeat linear gradients:
+                    background-image: repeating-linear-gradient(#ccc, green 10%, yellow 20%);
+
+                
+        Radial Gradients (defined by their center)
+            A radial gradient is allways defined by its center.
+                background-image: radial-gradient(red, yellow, green);
+                background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+                background-image: radial-gradient(circle, red, yellow, green);
+                background-image: repeating-radial-gradient(pink, #ccc 10%, green 15%);
+
+        Conic Gradients (rotated around a center point)
+            A conic gradient is a gradient with color transitions rotated around a center point.
+                background-image: conic-gradient(red, yellow, green);
+                background-image: conic-gradient(red 55deg, yellow 60deg, green 210deg);
+            Repeating
+                background-image: repeating-conic-gradient(red 10%, yellow 20%);
+
+    14. backgroundimages control
+
+        background-image: url(../images/anime1.jpg);
+        background-repeat: no-repeat;
+        background-position: left top, right bottom;
+        background-size: 100%;
+        
+    15. transitions
+
+        transition: transform 2s, width 2s;
+
+    16. transformations:
+
+        transform : rotate, translate, skew, scale , matrix;
+        
+    17. keyframes
+
+        animation: mystyles 10s infinite;
+
+        @keyframes mystyles {
+            1%{
+                background-color: lightblue;
+            }
+            5%{
+                background-color: rgb(1, 38, 51);
+            }
+            15%{
+                background-color: lightblue;
+                border-radius: 20%;
+            }
+            25%{
+                background-color: rgb(1, 38, 51);
+                border-radius: 40%;
+                top: 20%;
+            }
+            35%{
+                background-color: lightblue;
+                border-radius: 50%;
+                top: 50%
+            }
+            50%{
+                background-color: rgb(1, 38, 51);
+                border-radius: 40%;
+                top: 30%
+            }
+            75%{
+                background-color: lightblue;
+                border-radius: 20%;
+                top: 10%
+            }
+            95%{
+                background-color: rgb(1, 38, 51)
+            }
+        }
+
+    18. flex
+
+        After block, inline, table and position layout, we go for flex layout to create flexible containers
+
+        Display: flex - > makes container as flex container
+
+        Flex container:
+            flex-direction -> column, row, column-reverse, row-reverse
+
+            flex-wrap - wrap, no-wrap, wrap-reverse
+
+            flex-flow -> combination of wrap and direction
+
+            justify-content - center, flex-start, flex-end, space-around, space-between,
+            
+
+            align-items - center, flex-start, flex-end, stretch 
+            
+            align-content - The align-content property is used to align the flex lines.
+                space-between, space-around, center, flex-start, flex-end
+
+            perfect centering
+
+            Flex items: 
+                order -specifies order of rendering
+                flex-grow:  specifies how much has to be grown relevant to others
+                flex-shrink
+                flex-basis -specifies the initial length of a flex item
+                flex - combination of flex-grow, flex-shrink, and flex-basis
+                align-self - Later
+
+    19. grid
+        
+        display: grid;
+
+        Container: 
+            grid-template-columns: auto auto;
+            grid-template-rows: 80px 200px;
+            justify-content: space-evenly/space-around/space-between/center/start/end
+            align-content: space-evenly/space-around/space-between/center/start/end
+            column-gap
+            row-gap
+            gap - combination of both row and column
+
+        Items:
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-column: 1 / 3;
+            grid-row: 1 / 4;
+
+            grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end
+    
+
+    20. Animations
+
+        animation: mystyles 10s infinite;
+    
+    21. Multi Column content:
+        Any multi line text content can be rendered like multi column content,
+
+        column-count: 4;
+        column-width: 200px;
+        column-gap: 20px;
+        /* column-rule-color: green;
+        column-rule-width: 2px;
+        column-rule-style: solid; */
+        column-rule: 2px solid red;
+
+    22. Media Queries:
+        screen -> all
+        print
+        handheld
+        tv
+        etc.
+
+        min-height
+        min-width
+        max-height
+        max-width
+    
+    23. Bootstrap complete
+___________________________________________________________________________________________________________________________
+
+Git: 
+    git respository
+
+    git client:
+        git desktop
+        git bash
+        git tortoise
+
+
+Backend -> 
+    Webserver -> Node.js, 
+        +
+    Database -> MangoDb
+    
+    Webserver Roles:
+        
+        1. Capable of iterating with external Database webServer
+        2. It is capaa=ble of holding resources(pdf, css, html , js, img), which can be accessiable within a network.
+        3. Capable of running webservices within it, whuch can be invoked by client for getting response.
+
+    Node.js:
+
+
+        http 
+        https
+        express
+        express-generator

@@ -20,12 +20,6 @@ var loadProductDetails = (data, index) => {
     li3.append(span2);
     var li4 = $("<li/>").text("Manufaturer: " + data.manufature);
     ulTag.append(li4);
-    // var li5 = $("<li/>").text("Rating: ");
-    // ulTag.append(li5);
-    // var div1 = $("<div/>").addClass("ratingBlock");
-    // li5.append(div1);
-    // var div2 = $("<div/>").addClass("starRating"); 
-    // li5.append(div2);
 
     var id2 = "ratingBlock_" + index;
     var li5 = $("<li id='" + id2 + "' />").text("Rating: ");

@@ -1,0 +1,115 @@
+body{
+    background-color: #ccc;
+}
+header, main, footer{
+    border: 1px solid;
+    padding: 10px;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    background-color: #fff;
+}
+header{
+    top: 5px;
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    top: 65px;
+    bottom: 50px;
+}
+footer{
+    bottom: 5px ;
+    text-align: center;
+}
+.msgBlock{
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: aliceblue;
+    width: 340px;
+    height: 20px;
+    border-radius: 10px;
+}
+.addBlock{
+    border: 1px solid;
+    width: 180px;
+    height: 120px;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 100px;
+    right: 120px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav div{
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 90px;
+    text-align: center;
+}
+nav div:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.menu{
+    text-align: right;
+    display: none;
+}
+
+@media screen and (max-width: 300px) {
+    .msgBlock{
+        width: 200px;
+        height: 30px;
+        margin-left: 0px;
+        background-color: lightblue;
+    }
+    .addBlock{
+        right: 10px;
+        background-color: lightcoral;
+    }
+}
+@media screen  and (min-width: 301px) and (max-width: 600px) {
+    .msgBlock{
+        width: 200px;
+        height: 30px;
+        background-color: lightgreen;
+    }
+    .addBlock{
+        right: 10px;
+        background-color: lightgoldenrodyellow;
+    }
+    nav{
+        flex-direction: column;
+        display: none;
+    }
+    nav div{
+        border: 1px solid;
+        width: auto;
+        text-align: left;
+    }
+    .menu{
+        display: block;
+    }
+}
+
+@media print {
+    .addBlock{
+        display: none;
+    }
+    header{
+        color: indianred;
+    }
+    nav div{
+        color: lightgreen;
+    }
+}

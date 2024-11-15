@@ -1,0 +1,24 @@
+h3{
+    text-align: center;
+    border: 1px solid indianred;
+    margin: 10px auto;
+    width: 500px;
+    padding: 10px;
+    color: #6f6f6f;
+}
+ul{
+    border: 1px solid;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+}
+li{
+    list-style: none;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+.themeBlock{
+    float: right;
+    padding-right: 30px;
+}

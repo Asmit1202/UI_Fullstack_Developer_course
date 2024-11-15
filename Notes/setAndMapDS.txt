@@ -1,0 +1,50 @@
+DS
+    Arrays
+    JSON 
+
+    SET 
+    Map 
+
+    Syntax:
+        var s1 = new Set(<optional set values>);
+
+            set.add(<value>) -> to add a value to existing set 
+            set.delete(<value>) -> To delete a value from existing set 
+            set.has(<value>) -> Returns true/false
+            set.clear() -> Clears all the data from set
+            set.size -> Returns the total values within a set 
+
+    Iterating over a Set DS 
+            
+        Way 1 -> through for of looping CS 
+                
+                Syntax:
+                    for (var value of Set) {
+                        ... value
+                    }
+
+        Way 2 -> through for each Looping CS
+
+                Syntax:
+                    set.forEach((value, valueagain, set) => {
+                        .. value
+                    })
+
+
+Map DataStructure: 
+    To store collection of data with keyed collections
+
+        Syntax:
+
+            var m1 = new Map() ;
+
+            m1.set(key, value); // key could be any datattype what js supports
+            m1.get(key)
+            m1.has(key)
+            m1.delete(key) - Deletes corresponding key and value
+            m1.clear() -> emptys existing map 
+            m1.size - REturns total keys
+
+            m1.keys() - Returns list of keys from a map 
+
+            m1.values() - Returns list of values from a map 

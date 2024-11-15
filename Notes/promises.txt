@@ -1,0 +1,38 @@
+Promises:
+
+    A promise is a special JavaScript object that links the “producing code” and the “consuming code” together. In terms of our analogy: this is the “subscription list”. The “producing code” takes whatever time it needs to produce the promised result, and the “promise” makes that result available to all of the subscribed code when it’s ready.
+
+    Promises States:
+        Pending 
+        Resolved
+        Rejected
+
+    let promise = new Promise(function(resolve, reject) {
+        // executor (the producing code, "singer")
+    
+    });
+
+    The executor runs automatically and attempts to perform a job. When it is finished with the attempt, it calls resolve if it was successful or reject if there was an error.
+
+    The promise object returned by the new Promise constructor has these internal properties:
+
+    state — initially "pending", then changes to either "fulfilled" when resolve is called or "rejected" when reject is called.
+    result — initially undefined, then changes to value when resolve(value) is called or error when reject(error) is called.
+
+
+    if only need to check for errors then use catch method
+
+    promise.catch(() => {
+            // code to handle catch.
+    })
+
+    "finally" to implement clean up
+
+
+        promise.then(() => {
+
+        }, () => {
+
+        }).finally(() => {
+            
+        })

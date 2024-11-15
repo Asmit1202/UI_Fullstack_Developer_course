@@ -1,0 +1,119 @@
+.maincontainer{
+    background-color: #eaeaea;
+    padding: 10px;
+}   
+.container{
+    width: 1500px;
+    height: 480px;
+    margin: 20px auto;
+    background-color: #fff;
+    position: relative;
+}
+.container h3{
+    font-size: 25px;
+    margin: 0px;
+    background: -webkit-linear-gradient(rgb(194, 194, 194) 30%,#525252 60%  , rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+}
+.productDetailsContainer > li{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+.productDetailsContainer1 > li{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+.productDetailsContainer2 > li{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    list-style: none;
+    float: left;
+}
+img{
+    width: 120px;
+    height: 160px;
+    margin-left: 30px;
+}
+.prdImg1{
+    width: 200px;
+    height: 140px;
+    margin: 0px;
+}
+.singleProduct{
+    margin: 5px;
+    padding: 5px;
+}
+.singleProduct li {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+}
+.actualPrice{
+    font-weight: 500;
+    text-decoration: line-through;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.discountPrice{
+    font-weight: 700;
+    color: black;
+    font-size: 13px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.fullStar{
+    width: 20px !important;
+    height: 20px !important;
+    background-position: 0px 0px;
+    background-size: 76px 23px !important;
+}
+.halfStar {
+    width: 20px !important;;
+    height: 20px !important;;
+    background-position: -52px 0px !important;;
+    background-size: 101px 23px !important;;
+}
+.emptyStar {
+    width: 20px !important;
+    height: 20px !important;
+    background-position: -137px 0px !important;
+    background-size: 79px 22px !important;
+}
+.more_btn{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #525252;
+    background-color: #dadada;
+    border-color: #fff;
+    padding: 15px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.more_btn:hover{
+    /* transition: 0.1s; */
+    transform: scale(1.1, 1.1);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex container</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            border: 1px solid;
+            margin: 20px auto;
+            width: 1000px;
+            height: auto;
+            background-color: lightblue;
+            display: flex;
+        }
+        .container div{
+            border: 1px solid;
+            padding: 10px;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: #dadada;
+            color: rgb(59, 59, 229);
+            text-align: center;
+        }
+        #block1{ 
+            flex-grow: 4;
+        }
+        #block4{
+            /* flex-shrink: 0.3;
+            flex-basis: 150px; */
+            flex: 2 3 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="order: 2;" id="block1"> Raj</div>
+        <div style="order: 3;" id="block2"> Teena</div>
+        <div style="order: 1;" id="block3"> Meena </div>
+        <div style="order: 4;" id="block4"> Krish</div>
+    </div>  
+</body>
+</html>

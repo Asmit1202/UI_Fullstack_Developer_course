@@ -1,0 +1,62 @@
+ var [name, age, loc] = ["Raj", 20, 'Hyderabad'];
+ var data = {
+    userName, 
+    userGender, 
+    userLoc, 
+    displayData() {}}
+-----
+    Higher order function:
+     A higher order function is a function that takes one or more functions as arguments, or returns a function as its result
+    function DoJob(fun1, fun2) {
+        //...
+        return () => {
+            console.log("Done");
+        }
+    }
+
+    var result = DoJob(() => {
+
+    }, () => {
+
+    })
+-----
+JavaScript Promise are easy to manage when dealing with multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code. Prior to promises events and callback functions were used but they had limited functionalities and created unmanageable code. Multiple callback functions would create callback hell that leads to unmanageable code. 
+
+Promises are used to handle asynchronous operations in JavaScript.
+
+The promise constructor takes only one argument which is a callback function
+The callback function takes two arguments, resolve and reject
+Perform operations inside the callback function and if everything went well then call resolve.
+If desired operations do not go well then call reject.
+
+Syntax:
+let promise = new Promise(function(resolve, reject){
+    //do something
+});
+
+
+let myPromise = new Promise(function(res, rej) {
+      
+    if (x == 0) {
+      myResolve("OK"); // can be kept under timeout
+    } else {
+      myReject("Error");
+    }
+  });
+  
+  myPromise.then(
+    function(value) {showmsg(value);},
+    function(error) {showmsg(error);}
+  ).catch(() => {
+
+  });
+----
+with Async/Await, the await keyword causes the JavaScript engine to pause the execution of the async function until the Promise is resolved or rejected. While the async function waits for the Promise to resolve, it does not block the call stack, and any other synchronous code can be executed
+
+eg:
+  async function myDisplay() {
+    let myPromise = new Promise(function(resolve) {
+      setTimeout(function() {resolve(msg);}, 100);
+    });
+    DOM.innerHTML = await myPromise;
+  }

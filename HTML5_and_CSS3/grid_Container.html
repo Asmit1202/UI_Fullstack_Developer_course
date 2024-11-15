@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid container</title>
+    <style>
+        .container{
+            border: 1px solid;
+            margin: 20px auto;
+            width: 1000px;
+            height: 600px;
+            background-color: lightblue; 
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 60px auto 60px;
+            gap: 20px 40px;
+        }
+        .container div{
+            border: 1px solid;
+            padding: 10px;
+            background-color: #dadada;
+            color: rgb(59, 59, 229);
+        }
+        .header{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .left{
+            grid-column: 1/2;
+            margin-left: 10px;
+        }
+        .right{
+            grid-column: 2/5;
+            margin-right: 10px;
+        }
+        .footer{
+            grid-column: 1/5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="left">Left</div>
+        <div class="right">Rigtht</div>
+        <div class="footer">Footer</div>
+    </div>  
+</body>
+</html>
