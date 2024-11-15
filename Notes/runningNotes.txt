@@ -1116,7 +1116,11 @@ Git:
         git desktop
         git bash
         git tortoise
-
+    git commands:
+        git clone
+        got commit
+        git push 
+        git pull
 
 Backend -> 
     Webserver -> Node.js, 

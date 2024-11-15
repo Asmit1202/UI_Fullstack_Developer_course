@@ -1,0 +1,27 @@
+.modal-header{
+    background-color: #ccc;
+}
+.modal-footer{
+    background-color: #ccc;
+    text-align: center;
+    padding-right: 180px;
+}
+.modal-body{
+    padding: 20px;
+    text-align: center;
+}
+.form-floating{
+    padding-bottom: 20px;
+}
+.modal-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.modal-body h1{
+    padding-bottom: 20px;
+    font-size: 27px;
+    padding-top: 20px;
+}
+.modal-footer button{
+    margin: 0px 15px;
+}
