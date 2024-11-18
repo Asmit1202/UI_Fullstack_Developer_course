@@ -1,3 +1,38 @@
 .slide{
     margin: 20px 0px;
 }
+.prd-slide{
+    margin: 20px 0px;
+    height: auto;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+.prd-card{
+    margin: 10px 10px;
+}
+.card{
+    padding: 10px;
+}
+.card a{
+    text-decoration: none;
+}
+.card-img-top{
+    height: 150px;
+    width: 120px;
+    border-radius: 5px;
+}
+.card-img-top1{
+    height: 150px;
+    width: 120px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.card-title{
+    padding-left: 5px;
+    /* font-weight: bold; */
+    color: black;
+}
+.prd-slide-card{
+    margin: 40px 150px;
+
+}
