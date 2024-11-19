@@ -201,6 +201,10 @@ var showPassWord2 = (click) => {
     }   
 }
 
+var switchMenuBar = () => {
+    $(".nav").toggle();
+}
+
 
 var prefilAccountDetails = () => {
     var userData = localStorage.getItem("userPrefData");

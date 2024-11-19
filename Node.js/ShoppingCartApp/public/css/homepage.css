@@ -3,7 +3,7 @@
 }
 .prd-slide{
     margin: 20px 0px;
-    height: auto;
+    height: 520px;
     background-color: #ccc;
     border-radius: 10px;
 }
@@ -29,10 +29,21 @@
 }
 .card-title{
     padding-left: 5px;
+    padding-top: 5px;
     /* font-weight: bold; */
     color: black;
 }
 .prd-slide-card{
-    margin: 40px 150px;
-
+    margin: 0px 150px;
+}
+.prd-slide-btn{
+    margin-left: 0px;
+    width: 70px;
+    font-weight: bold;
+}
+.prd-slide-title{
+    padding-left: 165px;
+    padding-top: 40px;
+    font-size: 35px;
+    color: #4d4d4d;
 }

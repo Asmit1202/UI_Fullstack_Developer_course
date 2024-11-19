@@ -117,3 +117,382 @@ img{
     /* transition: 0.1s; */
     transform: scale(1.1, 1.1);
 }
+
+@media  screen and (min-width: 1200px) and (max-width: 1500px) {
+    .slider-container{
+        width: 1200px !important;
+    }
+    .slide {
+        width: 1200px !important;
+    }
+    
+    .slide img {
+        width: 1200px !important;
+    }
+    .container{
+        width: 1200px !important;
+    }
+    .productDetailsContainer > li{
+        width: 200px;
+    }
+    .productDetailsContainer1 > li{
+        width: 200px;
+    }
+    .productDetailsContainer2 > li{
+        width: 200px;
+    }
+    img{
+        width: 110px;
+        height: 140px;
+        margin-left: 0px;
+    }
+    .prdImg1{
+        width: 180px;
+        height: 120px;
+        margin: 0px;
+    }
+    .singleProduct li {
+        font-size: 11px;
+    }
+    .actualPrice{
+        font-size: 10px;
+    }
+    .discountPrice{
+        font-size: 11px;
+    }
+}
+@media  screen and (min-width: 1000px) and (max-width: 1200px) {
+    .slider-container{
+        width: 1000px !important;
+    }
+    .slide {
+        width: 1000px !important;
+    }
+    
+    .slide img {
+        width: 1000px !important;
+    }
+    .container{
+        width: 1000px !important;
+        height: 820px !important;
+        border-radius: 10px;
+    }
+    .productDetailsContainer > li{
+        width: 280px;
+    }
+    .productDetailsContainer1 > li{
+        width: 280px;
+    }
+    .productDetailsContainer2 > li{
+        width: 280px;
+    }
+    img{
+        width: 130px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    .prdImg1{
+        width: 200px;
+        height: 120px;
+        margin: 0px;
+    }
+    .singleProduct li {
+        font-size: 13px;
+    }
+    .actualPrice{
+        font-size: 12px;
+    }
+    .discountPrice{
+        font-size: 13px;
+    }
+}
+@media  screen and (min-width: 799px) and (max-width: 1000px) {
+    .slider-container{
+        width: 800px !important;
+    }
+    .slide {
+        width: 800px !important;
+    }
+    
+    .slide img {
+        width: 800px !important;
+    }
+    .container{
+        width: 800px !important;
+        height: 820px !important;
+        border-radius: 10px;
+    }
+    .productDetailsContainer > li{
+        width: 280px;
+    }
+    .productDetailsContainer1 > li{
+        width: 280px;
+    }
+    .productDetailsContainer2 > li{
+        width: 280px;
+    }
+    .productDetailsContainer3 > li{
+        width: 250px !important;
+    }
+    .productDetailsContainer3 img{
+        height: 130px !important;
+    }
+    
+    .laptopContainer > li{
+        width: 250px !important;
+    }
+    .laptopContainer img{
+        height: 130px !important;
+    }
+    
+    .mobileContainer img{
+        height: 130px !important;
+    }
+    .mobileContainer > li{
+        width: 250px !important;
+    }
+    .smartwatchContainer img{
+        height: 130px !important;
+    }
+    .smartwatchContainer > li{
+        width: 250px !important;
+    }
+
+    img{
+        width: 130px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    .prdImg1{
+        width: 200px;
+        height: 120px;
+        margin: 0px;
+    }
+    .singleProduct li {
+        font-size: 13px;
+    }
+    .actualPrice{
+        font-size: 12px;
+    }
+    .discountPrice{
+        font-size: 13px;
+    }
+}
+
+@media  screen and (min-width: 600px) and (max-width: 799px) {
+    .slider-container{
+        width: 580px !important;
+        height: 150px !important;
+    }
+    .slide {
+        width: 580px !important;
+        height: 150px !important;
+    }
+    .slide img {
+        width: 580px !important;
+        height: 150px !important;
+    }
+    .dot {
+        width: 8px !important;
+        height: 8px !important;
+    }
+    .prev, .next{
+        font-size: 12px !important;
+    }
+    .container{
+        width: 580px !important;
+        height: 820px !important;
+        border-radius: 10px;
+    }
+    .productDetailsContainer > li{
+        width: 225px;
+    }
+    .productDetailsContainer1 > li{
+        width: 225px;
+    }
+    .productDetailsContainer2 > li{
+        width: 225px;
+    }
+    .productDetailsContainer3 > li{
+        width: 300px !important;
+    }
+    .productDetailsContainer3 img{
+        height: 160px !important;
+    }
+    
+    .laptopContainer > li{
+        width: 300px !important;
+    }
+    .laptopContainer img{
+        height: 160px !important;
+    }
+    
+    .mobileContainer img{
+        height: 160px !important;
+    }
+    .mobileContainer > li{
+        width: 300px !important;
+    }
+    .smartwatchContainer img{
+        height: 160px !important;
+    }
+    .smartwatchContainer > li{
+        width: 300px !important;
+    }
+
+    img{
+        width: 100px;
+        height: 120px;
+        margin-left: 0px;
+    }
+    .prdImg1{
+        width: 200px;
+        height: 120px;
+        margin: 0px;
+    }
+    .singleProduct li {
+        font-size: 13px;
+    }
+    .actualPrice{
+        font-size: 12px;
+    }
+    .discountPrice{
+        font-size: 13px;
+    }
+    .more_btn{
+        font-size: 12px;
+    }
+}
+
+@media  screen and (min-width: 400px) and (max-width: 600px) {
+    .slider-container{
+        width: 380px !important;
+        height: 100px !important;
+    }
+    .slide {
+        width: 380px !important;
+        height: 100px !important;
+    }
+    .slide img {
+        width: 380px !important;
+        height: 100px !important;
+    }
+    .dot {
+        width: 5px !important;
+        height: 5px !important;
+    }
+    .prev, .next{
+        font-size: 9px !important;
+    }
+    .container{
+        width: 380px !important;
+        height: 672px !important;
+        border-radius: 10px;
+    }
+    .productDetailsContainer > li{
+        width: 128px;
+        margin-right: 5px !important;
+        margin-bottom: 5px !important;
+        margin: 0px;
+    }
+    .productDetailsContainer1 > li{
+        width: 128px;
+        margin-right: 5px !important;
+        margin-bottom: 5px !important;
+        margin: 0px;
+    }
+    .productDetailsContainer2 > li{
+        width: 128px;
+        margin-right: 5px !important;
+        margin-bottom: 5px !important;
+        margin: 0px;
+    }
+    .productDetailsContainer3 > li{
+        width: 300px !important;
+    }
+    .productDetailsContainer3 img{
+        height: 160px !important;
+    }
+    
+    .laptopContainer > li{
+        width: 300px !important;
+    }
+    .laptopContainer img{
+        height: 160px !important;
+    }
+    
+    .mobileContainer img{
+        height: 160px !important;
+    }
+    .mobileContainer > li{
+        width: 300px !important;
+    }
+    .smartwatchContainer img{
+        height: 160px !important;
+    }
+    .smartwatchContainer > li{
+        width: 300px !important;
+    }
+    .singleProduct li {
+        font-size: 10px !important;
+    }
+    .discountPrice {
+        font-size: 10px !important;
+    }
+    .actualPrice {
+        font-size: 9px !important;
+    }
+    .container h3{
+        font-size: 18px;
+    }
+
+    img{
+        width: 85px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    .prdImg1{
+        width: 115px !important;
+        height: 95px !important;
+        margin: -9px;
+    }
+    .singleProduct li {
+        font-size: 13px;
+    }
+    .actualPrice{
+        font-size: 12px;
+    }
+    .discountPrice{
+        font-size: 13px;
+    }
+    .more_btn{
+        font-size: 9px;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .fullStar{
+        width: 10px !important;
+        height: 10px !important;
+        background-position: 0px 0px;
+        background-size: 40px 12px !important;
+    }
+    .halfStar {
+        width: 10px !important;;
+        height: 10px !important;;
+        background-position: -52px 0px !important;;
+        background-size: 35px 12px !important;;
+    }
+    .emptyStar {
+        width: 10px !important;
+        height: 10px !important;
+        background-position: -134px 0px !important;
+        background-size: 36px 12px !important;
+    }
+    .ratingBlock {
+        position: absolute;
+        top: 5px !important;
+        left: 42px !important;
+    }
+}
