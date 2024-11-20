@@ -198,3 +198,35 @@
     background-position: -52px 0px !important;;
     background-size: 101px 23px !important;;
 }
+.emptyStar{
+    width: 20px !important;
+    height: 20px !important;
+    background-position: -150px 0px !important;
+    background-size: 85px 23px !important;
+}
+
+@media  screen and (min-width: 300px) and (max-width: 400px){
+    .fullStar{
+        width: 15px !important;
+        height: 15px !important;
+        background-position: 0px 0px;
+        background-size: 63px 16px !important;
+    }
+    .halfStar {
+        width: 15px !important;;
+        height: 15px !important;;
+        background-position: -31px 0px !important;;
+        background-size: 63px 16px !important;;
+    }
+    .emptyStar {
+        width: 15px !important;
+        height: 15px !important;
+        background-position: 16px 0px !important;
+        background-size: 63px 16px !important;
+    }
+    .ratingBlock {
+        position: absolute;
+        top: 3px !important;
+        left: 42px !important;
+    }
+}

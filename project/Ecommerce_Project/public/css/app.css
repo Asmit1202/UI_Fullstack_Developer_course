@@ -798,46 +798,63 @@ body{
 
 @media  screen and (min-width: 400px) and (max-width: 600px) { 
     .footer{
-        height: 320px;
+        height: 220px;
+    }
+    .header{
+        height: 60px;
+    }
+    .header img{
+        left: 30px;
+        height: 50px;
+        width: 50px;
+        top: 5px;
     }
     .menu{
         display: block;
+        top: 20px;
+    }
+    .menu svg{
+        height: 20px;
+        width: 20px;
     }
     .nav{
         flex-direction: column;
         display: none;
-        margin-top: 100px;
+        margin-top: 60px;
         float: left;
         background-color: #555555;
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
     }
     .nav li{
-        margin-top: 10px;
+        margin-top: 5px;
         margin-right: 0px;
         margin-bottom: 5px;
         border-radius: 10px;
-        width: 500px;
+        width: 100%;
         padding: 10px;
     }
     .nav li a{
         color: #fff;
+        font-size: 12px;
     }
     .nav li a:hover{
         color: #000;
     }
     .ft_copyright{
-        margin-top: 300px;
+        margin-top: 200px;
     }
     .ft_about,
-    .ft_prdt,
-    .ft_contact,
-    .ft_follow{
-        width: 25%;
-        height: 320px;
+    .ft_contact{
+        width: 50%;
+        height: 220px;
+    }
+    .ft_follow,
+    .ft_prdt{
+        display: none;
     }
     .ft_about img{
-        margin: 0px 50px;
+        margin: 0px 80px;
     }
     .ft_about p{
         font-size: 12px;
@@ -854,6 +871,8 @@ body{
     .ft_prdt ul li{
         font-size: 12px;
     }
+
+
     .socialContainer{
         width: 100%;
         height: 240px;
@@ -861,7 +880,8 @@ body{
         padding-left: 0px; 
     }
     .abt_container{
-        width: 580px;
+        width: 380px;
+        margin: 40px auto;
     }
     .abt_container p{
         margin: 10px auto;
@@ -870,59 +890,325 @@ body{
         padding-bottom: 20px;
     }
     .abt_container1{
-        width: 550px;
+        width: 350px;
     }
     .abt_left_container{
-        width: 200px;
+        width: 100px;
     }
     .abt_left_container img{
-        width: 150px;
-        height: 250px;
+        width: 100px;
+        height: 150px;
     }
     .abt_right_container{
-        width: 350px;
-        padding: 30px 0px;
+        width: 250px;
+        padding: 15px 0px;
     }
+    .abt_right_container h3{
+        font-size: 18px;
+    }
+    .abt_right_container span{
+        font-size: 14px;
+    }  
+    .abt_container h1{
+        font-size: 25px;
+        margin: 25px auto;
+    }
+    .abt_container p{
+        font-size: 16px;
+    }
+
+
     .cnt_container{
-        width: 590px;
+        width: 390px;
+        display: block;
+    }
+    .cnt_left_container{
+        width: 390px;
+    }
+    .cnt_right_container{
+        width: 390px;
     }
 
     .loginContainer{
-        width: 600px;
-        margin: 80px auto !important;
+        width: 380px;
+        height: 790px;
+        margin: 50px auto !important;
     }
     .sign-in{
-        width: 350px;
+        width: 380px;
+        height: 300px;
     }
     .login{
-        width: 398px;
-        left: 350px;
+        width: 380px;
+        height: 490px;
+        left: 0px;
+        top: 300px;
     }
     .sign-in img{
-        margin-left:50px;
+        margin-left: 100px;
+        width: 180px;
+        height: 180px;
+        margin-top: 30px;
     }
     .sign-in_click1{
-        left: 82px;
+        left: 95px;
+        top: 220px;
     }
     .sign-in_click2{
-        left: 205px;
+        left: 230px;
+        top: 220px;
     }
     .login-page{
-        left: -30px;
+        left: -40px;
+        top: 70px;
+    }
+    .login-page li{
+        width: 339px;
+        font-size: 15px;
+    }
+    .login-page li p{
+        margin-left: 90px;
     }
     .sign-in-page{
         left: -30px;
-        top: 60px;
+        top: 10px;
     }
     .sign-in-page li{
         font-size: 15px;
+        width: 339px;
+    }
+    .sign-in-page li input[type="password"]{
+        width: 140px;
     }
     .Fg_password{
-        left: -30px;
-        top: 200px;
+        left: -40px;
+        top: 145px;
+    }
+    .Fg_password li{
+        width: 339px;
+        font-size: 15px;
     }
     .leftContainer{
-        width: 25% !important;
+        width: 35% !important;
+        margin: 5px !important;
+    }
+    .rightContainer{
+        width: 59% !important;
+        margin: 5px !important;
+        display: block !important;
+    }
+}
+
+@media  screen and (min-width: 300px) and (max-width: 400px) { 
+    .footer{
+        height: 238px;
+    }
+    .header{
+        height: 60px;
+    }
+    .header img{
+        left: 30px;
+        height: 50px;
+        width: 50px;
+        top: 5px;
+    }
+    .menu{
+        display: block;
+        top: 20px;
+    }
+    .menu svg{
+        height: 20px;
+        width: 20px;
+    }
+    .nav{
+        flex-direction: column;
+        display: none;
+        margin-top: 60px;
+        float: left;
+        background-color: #555555;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .nav li{
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+    .nav li a{
+        color: #fff;
+        font-size: 12px;
+    }
+    .nav li a:hover{
+        color: #000;
+    }
+    .ft_copyright{
+        margin-top: 220px;
+    }
+    .ft_about,
+    .ft_contact{
+        width: 39%;
+        padding: 10px;
+        height: 225px;
+    }
+    .ft_follow,
+    .ft_prdt{
+        display: none;
+    }
+    .ft_about img{
+        margin: 0px 15px;
+    }
+    .ft_about p{
+        font-size: 12px;
+        padding-left: 0px;
+        padding-right: 10px; 
+        text-align: center;
+    }
+    .ft_title{
+        font-size: 16px !important;
+    }
+    .ft_contact ul li{
+        font-size: 12px;
+    }
+    .ft_prdt ul li{
+        font-size: 12px;
+    }
+
+
+    .socialContainer{
+        width: 100%;
+        height: 240px;
+        margin: 10px auto;
+        padding-left: 0px; 
+    }
+    .abt_container{
+        width: 290px;
+        margin: 40px auto;
+    }
+    .abt_container p{
+        margin: 10px auto;
+        display: inline;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .abt_container1{
+        width: 280px;
+    }
+    .abt_left_container{
+        width: 100px;
+    }
+    .abt_left_container img{
+        width: 100px;
+        height: 150px;
+    }
+    .abt_right_container{
+        width: 180px;
+        padding: 0px 0px;
+    }
+    .abt_right_container h3{
+        font-size: 18px;
+    }
+    .abt_right_container span{
+        font-size: 14px;
+    }  
+    .abt_container h1{
+        font-size: 25px;
+        margin: 25px auto;
+    }
+    .abt_container p{
+        font-size: 16px;
+    }
+
+
+    .cnt_container{
+        width: 290px;
+        display: block;
+    }
+    .cnt_left_container{
+        width: 290px;
+    }
+    .cnt_right_container{
+        width: 290px;
+    }
+
+    .loginContainer{
+        width: 290px;
+        height: 860px;
+        margin: 50px auto !important;
+    }
+    .sign-in{
+        width: 290px;
+        height: 300px;
+    }
+    .login{
+        width: 290px;
+        height: 560px;
+        left: 0px;
+        top: 300px;
+    }
+    .sign-in img{
+        margin-left: 60px;
+        width: 180px;
+        height: 180px;
+        margin-top: 30px;
+    }
+    .sign-in_click1{
+        left: 60px;
+        top: 220px;
+    }
+    .sign-in_click2{
+        left: 175px;
+        top: 220px;
+    }
+    .login-page{
+        left: -40px;
+        top: 70px;
+    }
+    .login-page li{
+        width: 250px;
+        font-size: 15px;
+    }
+    .login-page li p{
+        margin-left: 50px;
+    }
+    .login-page li input[type="button"]{
+        margin-left: 60px;
+    }
+    .sign-in-page{
+        left: -30px;
+        top: 10px;
+    }
+    .sign-in-page li{
+        font-size: 15px;
+        width: 200px;
+    }
+    .sign-in-page li input[type="password"]{
+        width: 140px;
+    }
+    .sign-in-page li input[type="button"]{
+        margin-left: 60px;
+    }
+    .Fg_password{
+        left: -40px;
+        top: 145px;
+    }
+    .Fg_password li{
+        width: 250px;
+        font-size: 15px;
+    }
+    .Fg_password li input[type="button"]{
+        margin-left: 60px;
+    }
+    .leftContainer{
+        width: 40% !important;
+        margin: 2px !important;
+    }
+    .rightContainer{
+        width: 56% !important;
+        margin: 2px !important;
+        display: block !important;
     }
 }
 
