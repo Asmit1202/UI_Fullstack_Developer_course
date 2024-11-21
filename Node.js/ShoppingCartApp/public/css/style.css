@@ -89,3 +89,276 @@ footer{
     font-size: 25px;
     padding-left: 10px;
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1700px){
+    .nav-link{
+        font-size: 18px;
+    }
+    .dropdown-item{
+        font-size: 16px;
+    }
+    .login{
+        font-size: 16px;
+    }
+    .sign-in{
+        font-size: 16px;
+    }
+    .loginout{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+    .nav-link{
+        font-size: 18px;
+    }
+    .dropdown-item{
+        font-size: 16px;
+    }
+    .login{
+        font-size: 16px;
+    }
+    .sign-in{
+        font-size: 16px;
+    }
+    .loginout{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+    .nav-link{
+        font-size: 18px;
+    }
+    .dropdown-item{
+        font-size: 16px;
+    }
+    .login{
+        font-size: 16px;
+    }
+    .sign-in{
+        font-size: 16px;
+    }
+    .loginout{
+        font-size: 16px;
+    }
+    .searchBar{
+        display: none !important;
+    }
+    .navbar-nav{
+        right: 260px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px){
+    .nav-link{
+        font-size: 18px;
+    }
+    .dropdown-item{
+        font-size: 16px;
+    }
+    .login{
+        font-size: 16px;
+    }
+    .sign-in{
+        font-size: 16px;
+    }
+    .loginout{
+        font-size: 16px;
+    }
+    .searchBar{
+        display: none !important;
+    }
+    .navbar-collapse{
+        margin-top: 0px;
+        height: 345px !important;
+        color: #fff;
+        display: flex;
+    }
+    .navbar-nav{
+        right: 0px;
+        top: 50px;
+    }
+    .login{
+        right: 16px;
+        top: 235px !important;
+        background-color: #f2f2f2;
+    }
+    .sign-in{
+        right: 16px;
+        top: 290px !important;
+        background-color: #f2f2f2;
+    }
+    .loginout{
+        right: 16px;
+        top: 350px !important;
+        background-color: #f2f2f2;
+    }
+    .dropdown-menu{
+        position: absolute !important;
+        top: 39px !important;
+        left: -70px !important;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px){
+    .nav-link{
+        font-size: 15px;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 14px;
+    }
+    .sign-in{
+        font-size: 14px;
+    }
+    .loginout{
+        font-size: 14px;
+    }
+    .searchBar{
+        display: none !important;
+    }
+    .navbar-collapse{
+        margin-top: 0px;
+        height: 330px !important;
+        color: #fff;
+        display: flex;
+    }
+    .navbar-nav{
+        right: 0px;
+        top: 50px;
+    }
+    .login{
+        right: 16px;
+        top: 214px !important;
+        background-color: #f2f2f2;
+    }
+    .sign-in{
+        right: 16px;
+        top: 274px !important;
+        background-color: #f2f2f2;
+    }
+    .loginout{
+        right: 16px;
+        top: 334px !important;
+        background-color: #f2f2f2;
+    }
+    .dropdown-menu{
+        position: absolute !important;
+        top: 39px !important;
+        left: -70px !important;
+    }
+    .ft-mail{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px){
+    .nav-link{
+        font-size: 15px;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 14px;
+    }
+    .sign-in{
+        font-size: 14px;
+    }
+    .loginout{
+        font-size: 14px;
+    }
+    .searchBar{
+        display: none !important;
+    }
+    .navbar-collapse{
+        margin-top: 0px;
+        height: 330px !important;
+        color: #fff;
+        display: flex;
+    }
+    .navbar-nav{
+        right: 0px;
+        top: 50px;
+    }
+    .login{
+        right: 16px;
+        top: 214px !important;
+        background-color: #f2f2f2;
+    }
+    .sign-in{
+        right: 16px;
+        top: 274px !important;
+        background-color: #f2f2f2;
+    }
+    .loginout{
+        right: 16px;
+        top: 334px !important;
+        background-color: #f2f2f2;
+    }
+    .dropdown-menu{
+        position: absolute !important;
+        top: 39px !important;
+        left: -70px !important;
+    }
+    .ft-mail{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px){
+    .nav-link{
+        font-size: 15px;
+    }
+    .dropdown-item{
+        font-size: 12px;
+    }
+    .login{
+        font-size: 14px;
+    }
+    .sign-in{
+        font-size: 14px;
+    }
+    .loginout{
+        font-size: 14px;
+    }
+    .searchBar{
+        display: none !important;
+    }
+    .navbar-collapse{
+        margin-top: 0px;
+        height: 330px !important;
+        color: #fff;
+        display: flex;
+    }
+    .navbar-nav{
+        right: 0px;
+        top: 50px;
+    }
+    .login{
+        right: 16px;
+        top: 214px !important;
+        background-color: #f2f2f2;
+    }
+    .sign-in{
+        right: 16px;
+        top: 274px !important;
+        background-color: #f2f2f2;
+    }
+    .loginout{
+        right: 16px;
+        top: 334px !important;
+        background-color: #f2f2f2;
+    }
+    .dropdown-menu{
+        position: absolute !important;
+        top: 39px !important;
+        left: -70px !important;
+    }
+    .ft-mail{
+        display: none;
+    }
+}
