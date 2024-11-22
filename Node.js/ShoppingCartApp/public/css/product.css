@@ -1,0 +1,72 @@
+.mainContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto ;
+    width: 90%;
+    margin: 20px auto;
+}
+.leftContainer{
+    border: 1px solid;
+    width: 250px;
+    min-height: 800px;
+    grid-column: 1/2;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightContainer{
+    background-color: #fefefe;
+    min-height: 800px;
+    grid-column: 2/5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.leftContainer h3{
+    font-size: 30px;
+    padding: 20px;
+    color: #525252;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.leftContainer a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.leftContainer dt{
+    font-size: 20px;
+    padding-left: 21px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+    color: #525252;
+}
+.leftContainer dd{
+    font-size: 18px;
+    padding-left: 35px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.leftContainer dl a{
+    color: #424242;
+    cursor: pointer;
+}
+.leftContainer dt a:hover{
+    color: #000;
+    cursor: pointer;
+}
+.rightContainer h3{
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 50px;
+    width: 100%;
+    color: #525252;
+}
+.prdContainer{
+    width: 280px;
+    height: 400px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+}
