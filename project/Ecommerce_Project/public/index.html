@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="icon" type="image/x-icon" href="images/Favicon/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Project</title>
@@ -8,15 +10,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Libray/RatingStarLib/ratingStar.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/product.css">
     <script src="Libray/jquery.js"></script>
     <script src="JS/app.js"></script>
     <script src="Libray/RatingStarLib/rating.js"></script>
     <script src="Libray/axios.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="Libray/handlerbar.js"></script>
+    <script src="JS/index.js"></script>
     <script src="JS/ProductContainer1.js"></script>
     <script src="JS/ProductContainer2.js"></script>
     <script src="JS/ProductContainer3.js"></script>
+    <script src="JS/ProductContainer4.js"></script>
+    <script src="JS/laptopContainer.js"></script>
+    <script src="JS/mobileContainer.js"></script>
+    <script src="JS/smartwatchContainer.js"></script>
     <script src="JS/slider.js"></script>
     <script src="JS/product.js"></script>
 
@@ -30,61 +37,7 @@
         </div>
     </div>
     <div class="mainPageContainer">
-        <div class="maincontainer">
-            <div class="slider-container">
-                <!-- Slides -->
-                <div class="slide active">
-                    <img src="images/PhoneSlider.jpg" alt="Slide 1">
-                </div>
-                <div class="slide">
-                    <img src="images/smartwatchSlider.jpg" alt="Slide 2">
-                </div>
-                <div class="slide">
-                    <img src="images/clothSlider.jpg" alt="Slide 3">
-                </div>
-            
-                <!-- Navigation buttons -->
-                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(1)">&#10095;</a>
-            
-                <!-- Dot indicators -->
-                <div class="dots">
-                    <span class="dot active" onclick="currentSlide(0)"></span>
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                </div>
-            </div>
-
-            <div class="container">
-                <h3>Best Deals on Smartphones</h3>
-                <ul class="productDetailsContainer">
         
-                </ul>
-                <a href="product.html" target="_blank">
-                    <input class="btn more_btn" type="button" value="view all">
-                </a>
-            </div>
-
-            <div class="container">
-                <h3>Best Deals on Laptop</h3>
-                <ul class="productDetailsContainer1">
-        
-                </ul>
-                <a href="product.html" target="_blank">
-                    <input class="btn more_btn" type="button" value="view all">
-                </a>
-            </div>
-
-            <div class="container">
-                <h3>Best Deals on Shoes</h3>
-                <ul class="productDetailsContainer2">
-        
-                </ul>
-                <a href="product.html" target="_blank">
-                    <input class="btn more_btn" type="button" value="view all">
-                </a>
-            </div>
-        </div>
     </div>
     <div class="footer">
         

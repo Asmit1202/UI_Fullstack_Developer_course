@@ -23,17 +23,26 @@ var readUserDetails = () => {
 
 var validateUserCredentials = (userDetails) => {
 
-    axios.post('/validate/UserCredentials', userDetails).then((response) => {
+    // http://localhost:3000/validate/userCredentials
+    axios.get('/validate/userCredentials', {params: userDetails}).then((response) => {
         if (response.data.msg == 'Invalid') {
             $("#errMsgBlock").text("Invalid Credentials....");
         } else {
-            // loadSelectedPage('product');
-            window.open("/product.html");
+            loadselectedPage('product');
         }
-    }).catch((err) => {
-        
-    });;
+    }).catch((error) => {
+        console.log("error");
+    }) 
 
+    // axios.post('/validate/userCredentials', userDetails).then((response) => {
+    //     if (response.data.msg == 'Invalid') {
+    //         $("#errMsgBlock").text("Invalid Credentials....");
+    //     } else {
+    //         loadSelectedPage('product');
+    //     }
+    // }).catch((err) => {
+        
+    // });;
 }
 
 var updateCaptchaText = () => {

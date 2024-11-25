@@ -6,7 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var validateRouter = require('./routes/validateUserCredentials');
+var validateRouter = require("./routes/validateUserCredentials");
+var ProductRouter = require("./routes/getProductDetails")
 
 var app = express();
 
@@ -22,7 +23,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/validate/UserCredentials', validateRouter);
+app.use("/validate/userCredentials", validateRouter);
+app.use("/load/productDetails", ProductRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

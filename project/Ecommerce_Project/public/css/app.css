@@ -44,9 +44,11 @@ body{
     color: #525252;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
 }
 .nav li a:hover{
     color: #000;
+    cursor: pointer;
 }
 
 .loginContainer{
@@ -150,6 +152,12 @@ body{
     margin-left: 72px;
     cursor: pointer;
 }
+.login-page li button img{
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0px;
+}
+
 
 .sign-in-page{
     list-style: none;

@@ -1,0 +1,23 @@
+
+<div class="card" >
+    <img src="{{mainImage}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{title}}</h5>
+      <p class="card-text">{{description}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        MRP <currency>₹</currency><span class="discountPrice"> {{discountPrice}}</span>
+    </li>
+      <li class="list-group-item">
+        MRP <currency>₹</currency>
+        <span class="actualPrice"> {{price}}</span>
+        <span class="discountPercent">  ( {{discountPercent}}% Off)</span>
+    </li>
+      <li class="list-group-item" id="product_{{id}}"></li>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link btn btn-secondary">View Deatils</a>
+      <a href="#" class="card-link btn  btn-dark">Add to card</a>
+    </div>
+  </div>

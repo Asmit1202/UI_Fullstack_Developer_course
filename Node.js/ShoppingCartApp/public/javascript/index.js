@@ -22,6 +22,10 @@ var loadselectedPage = (pagetype) => {
         console.log(templtResponse);
         $("main").html(templtResponse.data);
 
+        if (pagetype == 'product'){
+            getProductDetails();
+        }
+
         loginModelInstance.hide();
     });
 

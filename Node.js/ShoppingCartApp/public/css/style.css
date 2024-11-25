@@ -41,9 +41,11 @@ footer{
 }
 .nav-link{
     color: #fff !important;
+    cursor: pointer;
 }
 .nav-link:hover{
     color: #d2d2d2 !important;
+    cursor: pointer;
 }
 .navbar-brand{
     color: #f2f2f2;
@@ -55,10 +57,12 @@ footer{
 }
 .dropdown-item{
     padding-left: 20px;
+    cursor: pointer;
 }
 .dropdown-item:hover{
     padding-left: 30px;
     color: #525252;
+    cursor: pointer;
 }
 .searchBar{
     position: absolute;

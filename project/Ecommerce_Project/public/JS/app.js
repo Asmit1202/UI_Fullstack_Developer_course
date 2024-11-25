@@ -27,13 +27,13 @@ var loadHeader = (data) => {
     ulTag.append(li4tag);
     var atag = $("<a/>").text("Home").attr("href", "index.html");
     litag.append(atag);
-    var a1tag = $("<a/>").text("Login").attr("href", "login.html");
+    var a1tag = $("<a/>").text("Login").attr("onclick", "loginContainerPage()");
     li1tag.append(a1tag);
     var a2tag = $("<a/>").text("Products").attr("href", "product.html").attr("target", "_blank");
     li2tag.append(a2tag);
-    var a3tag = $("<a/>").text("About Us").attr("href", "about.html");
+    var a3tag = $("<a/>").text("About Us").attr("onclick", "aboutContainerPage()");
     li3tag.append(a3tag);
-    var a4tag = $("<a/>").text("Contact us").attr("href", "contact.html");
+    var a4tag = $("<a/>").text("Contact us").attr("onclick", "contactContainerPage()");
     li4tag.append(a4tag);
     console.log(ulTag);
 }

@@ -36,6 +36,7 @@ var productData = [
 var loadProductDetails = (data, index) => {
     var mainLiTag = $("<li/>");
     $(".productDetailsContainer").append(mainLiTag);
+
     var ulTag = $("<ul/>").addClass("singleProduct");
     mainLiTag.append(ulTag);
 
