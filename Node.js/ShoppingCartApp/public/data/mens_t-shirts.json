@@ -1,0 +1,328 @@
+{
+    "data" : [
+        {
+            "id" : "13",
+            "Category" : "Mens",
+            "title" : "Black Cotton Knitted Shirt",
+            "shortDescription" : "Men's black cotton knitted shirt from SELECTED HOMME.",
+            "description" : "Men's black cotton knitted shirt from SELECTED HOMME.",
+            "price" : 4000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Black_Cotton_Knitted_Shirt.webp",
+            "imageList" : ["../images/Black_Cotton_Knitted_Shirt-1.webp",
+                "../images/Black_Cotton_Knitted_Shirt-2.webp",
+                "../images/Black_Cotton_Knitted_Shirt-3.webp",
+                "../images/Black_Cotton_Knitted_Shirt-4.webp",
+                "../images/Black_Cotton_Knitted_Shirt-5.webp",
+                "../images/Black_Cotton_Knitted_Shirt-6.webp"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "100% Cotton",
+                "Color" : "Black",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Slim"
+            } 
+        },
+        {
+            "id" : "14",
+            "Category" : "Mens",
+            "title" : "Blue Organic Cotton Full Sleeves Shirt",
+            "description" : "Crafted for enduring comfort and timeless style, our Classic Shirt is an essential addition to your daily wardrobe. Featuring a sophisticated shirt collar and long sleeves with buttoned cuffs, it exudes understated refinement. The button fastening ensures ease of wear, complemented by practical chest pockets for added functionality. Designed with a curved hem and treated for a luxuriously soft feel, this shirt promises both comfort and durability. Embrace effortless sophistication with its regular fit, tailored to elevate your look from day to night.",
+            "price" : 3700,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Blue_Organic_Cotton_Full_Sleeves_Shirt.webp",
+            "imageList" : ["../images/Blue_Organic_Cotton_Full_Sleeves_Shirt-1.webp",
+                "../images/Blue_Organic_Cotton_Full_Sleeves_Shirt-2.webp",
+                "../images/Blue_Organic_Cotton_Full_Sleeves_Shirt-3.webp",
+                "../images/Blue_Organic_Cotton_Full_Sleeves_Shirt-4.webp",
+                "../images/Blue_Organic_Cotton_Full_Sleeves_Shirt-5.webp",
+                "../images/Blue_Organic_Cotton_Full_Sleeves_Shirt-6.webp"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "55% Cotton - Organic,45% Cotton",
+                "Color" : "Blue",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "15",
+            "Category" : "Mens",
+            "title" : "Green Cotton Knitted Shirt",
+            "description" : "Add some extra comfort to your 9-to-5 wardrobe with our new cotton shirt. Knitted from a jersey fabrication made with cotton, it prioritises durability and flexibility while maintaining a formal look, courtesy of the cutaway collar. Wear it with anything from smart-casual chinos to your best two-piece suit.",
+            "price" : 4000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Green_Cotton_Knitted_Shirt.webp",
+            "imageList" : ["../images/Green_Cotton_Knitted_Shirt-1.webp",
+                "../images/Green_Cotton_Knitted_Shirt-2.webp",
+                "../images/Green_Cotton_Knitted_Shirt-3.webp",
+                "../images/Green_Cotton_Knitted_Shirt-4.webp",
+                "../images/Green_Cotton_Knitted_Shirt-5.webp",
+                "../images/Green_Cotton_Knitted_Shirt-6.webp"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Cotton",
+                "Color" : "Green",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Slim"
+            } 
+        },
+        {
+            "id" : "16",
+            "Category" : "Mens",
+            "title" : "White Formal Cotton Shirt",
+            "description" : "Elevate your wardrobe with this White Formal Cotton Shirt, where sophistication meets comfort. Crafted from premium cotton, this shirt offers a soft touch against the skin while ensuring breathability throughout the day. Its timeless white hue adds a subtle yet distinguished flair to your formal attire, making it a versatile choice for both business and special occasions. The tailored fit provides a sharp silhouette, allowing you to look effortlessly polished. Pair it with your favourite trousers or a sleek blazer for an ensemble that exudes confidence and elegance.",
+            "price" : 3500,
+            "discountPercent" : 10,
+            "mainImage" : "../images/White_Formal_Cotton_Shirt.webp",
+            "imageList" : ["../images/White_Formal_Cotton_Shirt-1.webp",
+                "../images/White_Formal_Cotton_Shirt-2.webp",
+                "../images/White_Formal_Cotton_Shirt-3.webp",
+                "../images/White_Formal_Cotton_Shirt-4.webp",
+                "../images/White_Formal_Cotton_Shirt-5.webp",
+                "../images/White_Formal_Cotton_Shirt-6.webp"
+            ],
+            "rating" : 3.5,
+            "details" : {
+                "Fabric" : "67% Cotton,29% Polyamide,4% Spandex",
+                "Color" : "White",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Slim"
+            } 
+        },
+        {
+            "id" : "17",
+            "Category" : "Mens",
+            "title" : "Green Overshirt",
+            "description" : "Introducing our laidback overshirt, a must-have for embracing lighter, happier days. Crafted with meticulous attention to detail, this overshirt boasts a classic shirt collar and long sleeves with buttoned cuffs, exuding timeless sophistication. Its press stud fastening ensures effortless wear, while chest pockets add a touch of utility. Unlined for breathability, this overshirt features a straight hem and a loose fit, offering both style and comfort in equal measure. Treated for a soft feel and comfortable wear, it effortlessly elevates any ensemble. Embrace the opportunity to dress with ease and elegance in our versatile overshirt. The main material in this product contains a minimum of 50% TENCEL™ branded lyocell fibres, high quality cellulose fibres made from wood pulp from sustainably managed forests and produced in a way that reduces environmental impact.",
+            "price" : 5000,
+            "discountPercent" : 20,
+            "mainImage" : "../images/Green_Overshirt.webp",
+            "imageList" : ["../images/Green_Overshirt-1.webp",
+                "../images/Green_Overshirt-2.webp",
+                "../images/Green_Overshirt-3.webp",
+                "../images/Green_Overshirt-4.webp",
+                "../images/Green_Overshirt-5.webp",
+                "../images/Green_Overshirt-6.webp"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Lyocell Tencel",
+                "Color" : "White",
+                "Closure" : "Button",
+                "Collar Type" : "Collared",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "18",
+            "Category" : "Mens",
+            "title" : "Light Grey Formal Shirt",
+            "description" : "Light Grey Formal Cotton Shirt for men from SELECTED HOMME.",
+            "price" : 3500,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Light_Grey_Formal_Shirt.webp",
+            "imageList" : ["../images/Light_Grey_Formal_Shirt-1.webp",
+                "../images/Light_Grey_Formal_Shirt-2.webp",
+                "../images/Light_Grey_Formal_Shirt-3.webp",
+                "../images/Light_Grey_Formal_Shirt-4.webp",
+                "../images/Light_Grey_Formal_Shirt-5.webp",
+                "../images/Light_Grey_Formal_Shirt-6.webp"
+            ],
+            "rating" : 3.5,
+            "details" : {
+                "Fabric" : "67% Cotton,29% Polyamide,4% Spandex",
+                "Color" : "Light Grey",
+                "Closure" : "Button",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Slim"
+            } 
+        },
+        {
+            "id" : "19",
+            "Category" : "Mens",
+            "title" : "Brown Check Print Cotton Shirt",
+            "description" : "Men's brown check printed Cotton Shirt from SELECTED HOMME.",
+            "price" : 4000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Brown_Check_Print_Cotton_Shirt.webp",
+            "imageList" : ["../images/Brown_Check_Print_Cotton_Shirt-1.webp",
+                "../images/Brown_Check_Print_Cotton_Shirt-2.webp",
+                "../images/Brown_Check_Print_Cotton_Shirt-3.webp",
+                "../images/Brown_Check_Print_Cotton_Shirt-4.webp",
+                "../images/Brown_Check_Print_Cotton_Shirt-5.webp",
+                "../images/Brown_Check_Print_Cotton_Shirt-6.webp"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "100% Cotton",
+                "Color" : "Brown",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Slim"
+            } 
+        },
+        {
+            "id" : "20",
+            "Category" : "Mens",
+            "title" : "Off-White Check Print Overshirt",
+            "description" : "Introducing our distinguished Overshirt, a refined addition to your wardrobe for the modern gentleman. Crafted with meticulous attention to detail, this shirt boasts a timeless Shirt Collar and Long Sleeves with Buttoned cuffs, exuding sophistication with every wear. The Button fastening ensures a seamless closure, while the Chest pockets add a touch of practicality to its aesthetic. Designed for comfort and versatility, the Loose Fit and Straight hem provide an effortlessly stylish silhouette. Perfect for summer, this Overshirt effortlessly transitions from day to night, embodying a laid-back elegance that captures the essence of warm-weather sophistication.",
+            "price" : 4300,
+            "discountPercent" : 20,
+            "mainImage" : "../images/Off-White_Check_Print_Overshirt.webp",
+            "imageList" : ["../images/Off-White_Check_Print_Overshirt-1.webp",
+                "../images/Off-White_Check_Print_Overshirt-2.webp",
+                "../images/Off-White_Check_Print_Overshirt-3.webp",
+                "../images/Off-White_Check_Print_Overshirt-4.webp",
+                "../images/Off-White_Check_Print_Overshirt-5.webp",
+                "../images/Off-White_Check_Print_Overshirt-6.webp"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "50% Cotton - Organic,30% Cotton,20% Viscose",
+                "Color" : "Off White",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Collared",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "21",
+            "Category" : "Mens",
+            "title" : "Red Check Print Cotton Shirt",
+            "description" : "Men's red check printed Cotton Shirt from SELECTED HOMME.",
+            "price" : 4000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Red_Check_Print_Cotton_Shirt.webp",
+            "imageList" : ["../images/Red_Check_Print_Cotton_Shirt-1.webp",
+                "../images/Red_Check_Print_Cotton_Shirt-2.webp",
+                "../images/Red_Check_Print_Cotton_Shirt-3.webp",
+                "../images/Red_Check_Print_Cotton_Shirt-4.webp",
+                "../images/Red_Check_Print_Cotton_Shirt-5.webp",
+                "../images/Red_Check_Print_Cotton_Shirt-6.webp"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Cotton",
+                "Color" : "Brown",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Slim"
+            } 
+        },
+        {
+            "id" : "22",
+            "Category" : "Mens",
+            "title" : "Brown Organic Cotton Check Shirt",
+            "description" : "Introducing a staple for your everyday wardrobe: the Classic Long Sleeve Shirt. Crafted with meticulous detail, this shirt features a traditional shirt collar and buttoned cuffs, ensuring timeless elegance. Its regular fit offers comfort and versatility, perfect for any occasion. Complete with a button fastening and a curved hem, this piece effortlessly blends sophistication with everyday ease. Ideal for those who appreciate quality and style in their attire.",
+            "price" : 3500,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Brown_Organic_Cotton_Check_Shirt.webp",
+            "imageList" : ["../images/Brown_Organic_Cotton_Check_Shirt-1.webp",
+                "../images/Brown_Organic_Cotton_Check_Shirt-2.webp",
+                "../images/Brown_Organic_Cotton_Check_Shirt-3.webp",
+                "../images/Brown_Organic_Cotton_Check_Shirt-4.webp",
+                "../images/Brown_Organic_Cotton_Check_Shirt-5.webp",
+                "../images/Brown_Organic_Cotton_Check_Shirt-6.webp"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "50% Cotton - Organic,50% Cotton ",
+                "Color" : "Brown",
+                "Closure" : "Button-up front",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "23",
+            "Category" : "Mens",
+            "title" : "Blue Check Print Shacket",
+            "description" : "Giving you the perfect mix of a jacket and shirt is this blue check printed shacket for men. Made from recycled fabric and is super soft to wear. Layer over a beige tee and pair with jeans for a smart-casual look.",
+            "price" : 12000,
+            "discountPercent" : 50,
+            "mainImage" : "../images/Blue_Check_Print_Shacket.webp",
+            "imageList" : ["../images/Blue Check Print Shacket-1.webp",
+                "../images/Blue Check Print Shacket-2.webp",
+                "../images/Blue Check Print Shacket-3.webp",
+                "../images/Blue Check Print Shacket-4.webp",
+                "../images/Blue Check Print Shacket-5.webp"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "50% Polyester Recycled 30% Wool 15% Polyester 5% Uk Fibres",
+                "Color" : "Blue",
+                "Closure" : "Button",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "24",
+            "Category" : "Mens",
+            "title" : "Brown Check Print Shacket",
+            "description" : "Taken from the archives, this checked shacket combines function and form for a modern take on a classic style. It features long sleeves and buttoned patch pockets inspired by the workwear heritage of this piece, as well as a timeless checked print. Responsibly crafted from recycled materials, it's undoubtedly a comfortable, versatile, and easy-to-wear wardrobe staple that will never go out of style. Style it with dark-wash denim and suede boots. This product is made with recycled polyester. Recycled polyester saves natural resources and reduces the amount of waste.",
+            "price" : 12000,
+            "discountPercent" : 50,
+            "mainImage" : "../images/Brown_Check_Print_Shacket.webp",
+            "imageList" : ["../images/Brown_Check_Print_Shacket-1.webp",
+                "../images/Brown_Check_Print_Shacket-2.webp",
+                "../images/Brown_Check_Print_Shacket-3.webp",
+                "../images/Brown_Check_Print_Shacket-4.webp",
+                "../images/Brown_Check_Print_Shacket-5.webp",
+                "../images/Brown_Check_Print_Shacket-6.webp"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "65% Polyester - Recycled,30% Wool - Recycled,5% UK Fibres",
+                "Color" : "Brown",
+                "Closure" : "Button",
+                "Collar Type" : "Spread",
+                "Length" : "Regular",
+                "Pattern" : "Checked",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Regular"
+            } 
+        }
+    ]
+}
