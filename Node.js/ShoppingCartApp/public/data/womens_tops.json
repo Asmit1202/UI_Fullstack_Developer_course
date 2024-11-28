@@ -1,0 +1,301 @@
+{
+    "data" : [
+        {
+            "id" : "85",
+            "Category" : "Womens",
+            "title" : "Macy Metallic Top",
+            "description" : "Feminine glamour meets trending details in these uniquely Melbourne designs. Known for quality, this brand creates clothing and accessories you'll wear season after season. Explore the collection and find something for every moment and occasion. The Macy Metallic Top is the update your wardrobe has been waiting for.",
+            "price" : 6000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Macy_Metallic_Top.jpg",
+            "imageList" : ["../images/Macy_Metallic_Top-1.jpg",
+                "../images/Macy_Metallic_Top-2.jpg",
+                "../images/Macy_Metallic_Top-3.jpg",
+                "../images/Macy_Metallic_Top-4.jpg",
+                "../images/Macy_Metallic_Top-5.jpg"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Black",
+                "Closure" : "High neckline with back keyhole and button fasteningt",
+                "Collar Type" : "Classic collar",
+                "Length" : "Cropped",
+                "Pattern" : "Lined",
+                "Sleeve" : "Sheer blouson sleeves",
+                "Fit" : "Tapered"
+            } 
+        },
+        {
+            "id" : "86",
+            "Category" : "Womens",
+            "title" : "Courtney Belted Bardot Top",
+            "description" : "A refined top with a flattering waist cinch and delicate embellishments, Fit and flare silhouette, Comfortable jersey fabrication, Bardot neckline with folded band, Long sleeves, Adjustable belt with embellished buckle, Back zip fastening and Lined.",
+            "price" : 5800,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Courtney_Belted_Bardot_Top.jpg",
+            "imageList" : ["../images/Courtney_Belted_Bardot_Top-1.jpg",
+                "../images/Courtney_Belted_Bardot_Top-2.jpg",
+                "../images/Courtney_Belted_Bardot_Top-3.jpg",
+                "../images/Courtney_Belted_Bardot_Top-4.jpg",
+                "../images/Courtney_Belted_Bardot_Top-5.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "93% Polyester, 7% Elastane. Lining: 95% Polyester, 5% Elastane",
+                "Color" : "Black",
+                "Closure" : "Back zip fastening",
+                "Collar Type" : "Bardot neckline with folded band",
+                "Length" : "Regular",
+                "Pattern" : "Comfortable jersey",
+                "Sleeve" : "Long Sleeves",
+                "Fit" : "Fit and flare"
+            } 
+        },
+        {
+            "id" : "87",
+            "Category" : "Womens",
+            "title" : "Stephanie Ruffle Crepe Bustier Top",
+            "description" : "Framed by feminine ruffles and an elegant off-shoulder drape, this top meets any event dress code, Fitted silhouette, Modern crepe fabrication, Bardot neckline with ruffle trim, Draped ruffle straps, Flattering princess seams, Concealed zip fastening and Lined.",
+            "price" : 6000,
+            "discountPercent" : 12,
+            "mainImage" : "../images/Stephanie_Ruffle_Crepe_Bustier_Top.jpg",
+            "imageList" : ["../images/Stephanie_Ruffle_Crepe_Bustier_Top-1.jpg",
+                "../images/Stephanie_Ruffle_Crepe_Bustier_Top-2.jpg",
+                "../images/Stephanie_Ruffle_Crepe_Bustier_Top-3.jpg",
+                "../images/Stephanie_Ruffle_Crepe_Bustier_Top-4.jpg",
+                "../images/Stephanie_Ruffle_Crepe_Bustier_Top-5.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Salsa",
+                "Closure" : "Concealed zip fastening",
+                "Collar Type" : "Bardot neckline with ruffle trim",
+                "Length" : "Regular",
+                "Pattern" : "Flattering princess seams",
+                "Sleeve" : "Draped ruffle straps",
+                "Fit" : "Silhouette"
+            } 
+        },
+        {
+            "id" : "88",
+            "Category" : "Womens",
+            "title" : "Issa High Neck Top",
+            "description" : "A refined top accented by a chic twist detail, Regular fit, Satin fabrication, High neckline with asymmetrical twist detail, Sleeveless design, Keyhole and button fastening at back neck.",
+            "price" : 6000,
+            "discountPercent" : 20,
+            "mainImage" : "../images/Issa_High_Neck_Top.jpg",
+            "imageList" : ["../images/Issa_High_Neck_Top-1.jpg",
+                "../images/Issa_High_Neck_Top-2.jpg",
+                "../images/Issa_High_Neck_Top-3.jpg",
+                "../images/Issa_High_Neck_Top-4.jpg",
+                "../images/Issa_High_Neck_Top-5.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "59% Polyester, 41% Viscose",
+                "Color" : "Salsa",
+                "Closure" : "Keyhole and button fastening at back neck",
+                "Collar Type" : "High neckline",
+                "Length" : "Regular",
+                "Pattern" : "Asymmetrical twist detail",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "89",
+            "Category" : "Womens",
+            "title" : "Emily Embellished Halter Top",
+            "description" : "Embrace a resort-chic feel with this breezy satin shirt, Regular fit, Lustrous satin fabrication, Classic collar, Short sleeves, Button-through front and 100% Viscose.",
+            "price" : 6000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Emily_Embellished_Halter_Top.jpg",
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Merino",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Short sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "90",
+            "Category" : "Womens",
+            "title" : "Kim PU Button Front Top",
+            "description" : "Clean cut and stylish, this top is a cool girl staple piece, Tailored fit, Faux leather fabrication, High, round neckline, Sleeveless design, Button-through front, Cinched waist seam and Lined.",
+            "price" : 6000,
+            "discountPercent" : 20,
+            "mainImage" : "../images/Kim_PU_Button_Front_Top.jpg",
+            "imageList" : ["../images/Kim_PU_Button_Front_Top-1.jpg",
+                "../images/Kim_PU_Button_Front_Top-2.jpg",
+                "../images/Kim_PU_Button_Front_Top-3.jpg",
+                "../images/Kim_PU_Button_Front_Top-4.jpg",
+                "../images/Kim_PU_Button_Front_Top-5.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "50% Viscose, 29% Polyester, 21% Polyamide",
+                "Color" : "Black",
+                "Closure" : "Button-through front",
+                "Collar Type" : "High, round neckline",
+                "Length" : "Regular",
+                "Pattern" : "Cinched waist seam",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Tailored"
+            } 
+        },
+        {
+            "id" : "91",
+            "Category" : "Womens",
+            "title" : "Elodie Frill Sleeve Knit Tank",
+            "description" : "A comfortable knit top with delicately detailed frilled sleeves for a whimsical, feminine look, Fitted silhouette, Ribbed knit fabrication, V-neckline, Short, sheer frilled sleeves with embroidered detailing, V-back and Slip-on style.",
+            "price" : 5000,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Elodie_Frill_Sleeve_Knit_Tank.jpg",
+            "imageList" : ["../images/Elodie_Frill_Sleeve_Knit_Tank-1.jpg",
+                "../images/Elodie_Frill_Sleeve_Knit_Tank-2.jpg",
+                "../images/Elodie_Frill_Sleeve_Knit_Tank-3.jpg",
+                "../images/Elodie_Frill_Sleeve_Knit_Tank-4.jpg",
+                "../images/Elodie_Frill_Sleeve_Knit_Tank-5.jpg"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "85% Viscose, 15% Polyamide",
+                "Color" : "Black",
+                "Closure" : "Slip-on style",
+                "Collar Type" : "V-neckline",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Short, sheer frilled sleeves with embroidered detailing",
+                "Fit" : "Silhouette"
+            } 
+        },
+        {
+            "id" : "92",
+            "Category" : "Womens",
+            "title" : "Dawn Hardware Tank",
+            "description" : "This garment contains recycled polyester, which reuses existing plastic material. This reduces reliance on virgin materials. An refined tank top with asymmetrical hardware detail for subtle yet sophisticated flair, Regular fit, Lightweight woven fabrication, High, draped neckline, Asymmetrical gold-tone hardware at the shoulder, Gathering through the shoulder and bodice, Sleeveless design, Zip-up back and Lined",
+            "price" : 4400,
+            "discountPercent" : 30,
+            "mainImage" : "../images/Dawn_Hardware_Tank.jpg",
+            "imageList" : ["../images/Dawn_Hardware_Tank-1.jpg",
+                "../images/Dawn_Hardware_Tank-2.jpg",
+                "../images/Dawn_Hardware_Tank-3.jpg",
+                "../images/Dawn_Hardware_Tank-4.jpg",
+                "../images/Dawn_Hardware_Tank-5.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Ivory",
+                "Closure" : "Zip-up back",
+                "Collar Type" : "High, draped neckline",
+                "Length" : "Regular",
+                "Pattern" : "Asymmetrical gold-tone hardware at the shoulder",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "93",
+            "Category" : "Womens",
+            "title" : "Lexi Self Knit Tank",
+            "description" : "This comfortable tank top offers an elevated look with intricate striped knit patterns, Fitted silhouette, Patterned knit fabrication, High neckline and Slip-on stylee.",
+            "price" : 4000,
+            "discountPercent" : 5,
+            "mainImage" : "../images/Lexi_Self_Knit_Tank.jpg",
+            "imageList" : ["../images/Lexi_Self_Knit_Tank-1.jpg",
+                "../images/Lexi_Self_Knit_Tank-2.jpg",
+                "../images/Lexi_Self_Knit_Tank-3.jpg",
+                "../images/Lexi_Self_Knit_Tank-4.jpg",
+                "../images/Lexi_Self_Knit_Tank-5.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "52% Viscose, 48% Polyamide",
+                "Color" : "Black",
+                "Closure" : "Slip-on stylee",
+                "Collar Type" : "High neckline",
+                "Length" : "Regular",
+                "Pattern" : "Intricate striped knit",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Silhouette"
+            } 
+        },
+        {
+            "id" : "94",
+            "Category" : "Womens",
+            "title" : "Sallie Satin Cowl Tank",
+            "description" : "This soft satin tank is the perfect option for elevated desk to dinner dressing, Regular fit, Lustrous satin fabrication, High, cowl neckline, Side split hem, Back keyhole and button fastening and Lined.",
+            "price" : 3800,
+            "discountPercent" : 30,
+            "mainImage" : "../images/Tashi_Tie_Neck_Tank.jpg",
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Black",
+                "Closure" : "Back keyhole and button fastening",
+                "Collar Type" : "High, cowl necklinee",
+                "Length" : "Regular",
+                "Pattern" : "Side split hem",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Regular"
+            }  
+        },
+        {
+            "id" : "95",
+            "Category" : "Womens",
+            "title" : "Tashi Tie Neck Tank",
+            "description" : "An elegant blouse with a sophisticated tie-neck for customisable flair, Regular fit, Lightweight woven fabrication, High neckline with asymmetrical tie detail, Sleeveless design, Back keyhole and button fastening and Lined.",
+            "price" : 4800,
+            "discountPercent" : 29,
+            "mainImage" : "../images/Sallie_Satin_Cowl_Tank.jpg",
+            "imageList" : ["../images/Sallie_Satin_Cowl_Tank-1.jpg",
+                "../images/Sallie_Satin_Cowl_Tank-2.jpg",
+                "../images/Sallie_Satin_Cowl_Tank-3.jpg",
+                "../images/Sallie_Satin_Cowl_Tank-4.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Black",
+                "Closure" : "Back keyhole and button fastening",
+                "Collar Type" : "High neckline with asymmetrical tie detail",
+                "Length" : "Regular",
+                "Pattern" : "Lined",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "96",
+            "Category" : "Womens",
+            "title" : "Kalinda Cowl Drape Tank",
+            "description" : "A feminine tank top with a 00s-inspired asymmetrical design that pairs perfectly with trending denim, Regular fit, Soft satin fabrication, Cowl neckline, Asymmetrical hem, Slip-on style and Lined.",
+            "price" : 3800,
+            "discountPercent" : 50,
+            "mainImage" : "../images/Kalinda_Cowl_Drape_Tank.jpg",
+            "imageList" : ["../images/Kalinda_Cowl_Drape_Tank-1.jpg",
+                "../images/Kalinda_Cowl_Drape_Tank-2.jpg",
+                "../images/Kalinda_Cowl_Drape_Tank-3.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Black",
+                "Closure" : "Slip-on style",
+                "Collar Type" : "Cowl neckline",
+                "Length" : "Regular",
+                "Pattern" : "Asymmetrical hem",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Regular"
+            } 
+        }
+    ]
+}

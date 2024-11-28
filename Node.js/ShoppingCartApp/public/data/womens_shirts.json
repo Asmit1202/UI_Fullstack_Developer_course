@@ -1,0 +1,309 @@
+{
+    "data" : [
+        {
+            "id" : "73",
+            "Category" : "Womens",
+            "title" : "Becca Print Shirt",
+            "description" : "Embrace a resort-chic feel with this breezy satin shirt, Regular fit, Lustrous satin fabrication, Classic collar, Short sleeves, Button-through front and 100% Viscose.",
+            "price" : 4400,
+            "discountPercent" : 20,
+            "mainImage" : "../images/becca_print_shirt.jpg",
+            "imageList" : ["../images/becca_print_shirt-1.jpg",
+                "../images/becca_print_shirt-2.jpg",
+                "../images/becca_print_shirt-3.jpg",
+                "../images/becca_print_shirt-4.jpg",
+                "../images/becca_print_shirt-5.jpg"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Merino",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Short sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "74",
+            "Category" : "Womens",
+            "title" : "Fiona Textured Shirt",
+            "description" : "This garment contains recycled polyester, which reuses existing plastic material. This reduces reliance on virgin materials. Combining a crisp cut and a soft sheen, this shirt is an elegant essential, Regular fit, Lightweight textured fabrication, Classic collar, Long sleeves with buttoned cuffs, Button-through front and 97% Polyester, 3% Elastane",
+            "price" : 4800,
+            "discountPercent" : 10,
+            "mainImage" : "../images/Fiona_Textured_Shirt.jpg",
+            "imageList" : ["../images/Fiona_Textured_Shirt-1.jpg",
+                "../images/Fiona_Textured_Shirt-2.jpg",
+                "../images/Fiona_Textured_Shirt-3.jpg",
+                "../images/Fiona_Textured_Shirt-4.jpg",
+                "../images/Fiona_Textured_Shirt-5.jpg"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "97% Polyester, 3% Elastane",
+                "Color" : "Green",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Solid",
+                "Sleeve" : "Long sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "75",
+            "Category" : "Womens",
+            "title" : "Lydia Oversized Linen Shirt",
+            "description" : "Her garment contains linen, a natural fibre. A comfortable, airy fabric, linen is known for its breathable nature and durability. Airy linen and statement print combine for this comfortable, oversized style that evokes dreamy holiday vibes, Oversized fit, Luxe linen fabrication, Classic collar, Patch pocket at the bust, Long cuffed sleeves, Button-through front and High-low hem.",
+            "price" : 5400,
+            "discountPercent" : 20,
+            "mainImage" : "../images/lydia_oversized_linen_shirt.jpg",
+            "imageList" : ["../images/lydia_oversized_linen_shirt-1.jpg",
+                "../images/lydia_oversized_linen_shirt-2.jpg",
+                "../images/lydia_oversized_linen_shirt-3.jpg",
+                "../images/lydia_oversized_linen_shirt-4.jpg",
+                "../images/lydia_oversized_linen_shirt-5.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Linen",
+                "Color" : "Amalfi White",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "AU 8/XS",
+                "Pattern" : "Airy linen and statement print",
+                "Sleeve" : "Long cuffed sleeves",
+                "Fit" : "Oversized"
+            } 
+        },
+        {
+            "id" : "76",
+            "Category" : "Womens",
+            "title" : "Harvey Notched Neck Satin Shirt",
+            "description" : "With a comfortable feel and beautiful drape, this garment contains branded viscose fibre that is sourced from sustainably managed forests. LENZING™ ECOVERO™ is a trademark of Lenzing AG. A timeless shirt with a sophisticated satin lustre, Regular fit, Lustrous satin fabrication, Classic collar, Gold-tone, button-through front, Long sleeves with buttoned cuffs and 100% Viscose",
+            "price" : 5400,
+            "discountPercent" : 20,
+            "mainImage" : "../images/Harvey_Notched_Neck_Satin_Shirt.jpg",
+            "imageList" : ["../images/Harvey_Notched_Neck_Satin_Shirt-1.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt-2.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt-3.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt-4.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt-5.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Black",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Long sleeves",
+                "Fit" : "Regular"
+            }
+        },
+        {
+            "id" : "77",
+            "Category" : "Womens",
+            "title" : "Ilah Lace Crop Shirt",
+            "description" : "An elegant lace shirt for weekend outings, Regular fit, Luxe lace fabrication, Classic collar, Short sleeves with scalloped edge, Elegant diamante-flower buttons, Front button fastening and Sheer lining.",
+            "price" : 5800,
+            "discountPercent" : 30,
+            "mainImage" : "../images/Ilah_Lace_Crop_Shirt.jpg",
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "68% Polyamide, 32% Cotton",
+                "Color" : "Black",
+                "Closure" : "Front button fastening",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Sheer lining",
+                "Sleeve" : "Short sleeves",
+                "Fit" : "Regular"
+            }
+        },
+        {
+            "id" : "78",
+            "Category" : "Womens",
+            "title" : "Jacqui Petite Shirt",
+            "description" : "With a super-soft hand feel and beautiful drape, this garment contains branded lyocell fibre that is sourced from sustainably managed forests. TENCEL™ Lyocell is a trademark of Lenzing AG. This stylish shirt plays with texture for a modern look that effortlessly transitions from office to after hours, Regular fit, Lightweight textured fabrication, Classic collar, Button-through front, Cut-out embellishment throughout, Long, semi-sheer sleeves with deep button cuffs and Cami lining with sheer overlay",
+            "price" : 4800,
+            "discountPercent" : 40,
+            "mainImage" : "../images/Jacqui_Petite_Shirt.jpg",
+            "imageList" : ["../images/Jacqui_Petite_Shirt-1.jpg",
+                "../images/Jacqui_Petite_Shirt-2.jpg",
+                "../images/Jacqui_Petite_Shirt-3.jpg",
+                "../images/Jacqui_Petite_Shirt-4.jpg",
+                "../images/Jacqui_Petite_Shirt-5.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "67% Lyocell, 33% Polyamide",
+                "Color" : "Burnt Red",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Cami lining with sheer overlay",
+                "Sleeve" : "Long, semi-sheer sleeves",
+                "Fit" : "Regular"
+            }
+        },
+        {
+            "id" : "79",
+            "Category" : "Womens",
+            "title" : "Blakely Printed Shirt",
+            "description" : "This garment contains recycled polyester, which reuses existing plastic material. This reduces reliance on virgin materials. Pair this printed shirt with pants or skirts for a trending look that will carry you from Monday to Sunday, Regular fit, Lightweight woven fabrication, Pointed collar, Sheer long sleeves with button cuffs,Button-through front and Semi-sheer design with cami lining.",
+            "price" : 4800,
+            "discountPercent" : 30,
+            "mainImage" : "../images/Blakely_Printed_Shirt.jpg",
+            "imageList" : ["../images/Blakely_Printed_Shirt-1.jpg",
+                "../images/Blakely_Printed_Shirt-2.jpg",
+                "../images/Blakely_Printed_Shirt-3.jpg",
+                "../images/Blakely_Printed_Shirt-4.jpg",
+                "../images/Blakely_Printed_Shirt-5.jpg"
+            ],
+            "rating" : 4.5,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Leopard",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Pointed collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Sheer long sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "80",
+            "Category" : "Womens",
+            "title" : "Harvey Notched Neck Satin Shirt",
+            "description" : "With a comfortable feel and beautiful drape, this garment contains branded viscose fibre that is sourced from sustainably managed forests. LENZING™ ECOVERO™ is a trademark of Lenzing AG. A timeless shirt with a sophisticated satin lustre, Regular fit, Lustrous satin fabrication, Classic collar, Gold-tone, button-through front, Long sleeves with buttoned cuffs and 100% Viscose",
+            "price" : 5400,
+            "discountPercent" : 35,
+            "mainImage" : "../images/Harvey_Notched_Neck_Satin_Shirt_blush_latona.jpg",
+            "imageList" : ["../images/Harvey_Notched_Neck_Satin_Shirt_blush_latona-1.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt_blush_latona-2.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt_blush_latona-3.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt_blush_latona-4.jpg",
+                "../images/Harvey_Notched_Neck_Satin_Shirt_blush_latona-5.jpg"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Blush latona",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Long sleeves",
+                "Fit" : "Regular"
+            }
+        },
+        {
+            "id" : "81",
+            "Category" : "Womens",
+            "title" : "Lila Longline Printed Satin Shirt",
+            "description" : "A sleek longline satin shirt to pair with denim or skirts, Relaxed fit, Lustrous satin fabrication, Classic collar, Full-length sleeves with deep cuffs, Side splits, Curved hem and Button-through front",
+            "price" : 4800,
+            "discountPercent" : 40,
+            "mainImage" : "../images/Lila_Longline_Printed_Satin_Shirt.jpg",
+            "imageList" : ["../images/Lila_Longline_Printed_Satin_Shirt-1.jpg",
+                "../images/Lila_Longline_Printed_Satin_Shirt-2.jpg",
+                "../images/Lila_Longline_Printed_Satin_Shirt-3.jpg",
+                "../images/Lila_Longline_Printed_Satin_Shirt-4.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Brown",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Full-length sleeves",
+                "Fit" : "Relaxed"
+            }
+        },
+        {
+            "id" : "82",
+            "Category" : "Womens",
+            "title" : "Becca Border Print Shirt",
+            "description" : "This soft satin shirt embraces a statement print and a relaxed fit, Relaxed fit, Print satin fabrication, Classic collar, Short sleeves and Gold-tone button-through fastening.",
+            "price" : 4400,
+            "discountPercent" : 48,
+            "mainImage" : "../images/becca_Border_print_shirt.jpg",
+            "imageList" : ["../images/becca_Border_print_shirt-1.jpg",
+                "../images/becca_Border_print_shirt-2.jpg",
+                "../images/becca_Border_print_shirt-3.jpg",
+                "../images/becca_Border_print_shirt-4.jpg",
+                "../images/becca_Border_print_shirt-5.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Viscose",
+                "Color" : "Bisque",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Short sleeves",
+                "Fit" : "Relaxed"
+            } 
+        },
+        {
+            "id" : "83",
+            "Category" : "Womens",
+            "title" : "Mandi Ruched Sleeve Shirt",
+            "description" : "A feminine shirt with elegantly ruched sleeves, perfect for easy desk to dinner wear, Regular fit, Lightweight woven fabrication, Placket neckline with v-shaped slit, Ruched, short sleeves, Button-through front and High low hem",
+            "price" : 4400,
+            "discountPercent" : 30,
+            "mainImage" : "../images/Mandi_Ruched_Sleeve_Shirt.jpg",
+            "imageList" : ["../images/Mandi_Ruched_Sleeve_Shirt-1.jpg",
+                "../images/Mandi_Ruched_Sleeve_Shirt-2.jpg",
+                "../images/Mandi_Ruched_Sleeve_Shirt-3.jpg",
+                "../images/Mandi_Ruched_Sleeve_Shirt-4.jpg",
+                "../images/Mandi_Ruched_Sleeve_Shirt-5.jpg"
+            ],
+            "rating" : 4,
+            "details" : {
+                "Fabric" : "100% Polyester",
+                "Color" : "Green",
+                "Closure" : "Button-through front",
+                "Collar Type" : "Placket neckline with v-shaped slit",
+                "Length" : "Regular",
+                "Pattern" : "Printed",
+                "Sleeve" : "Ruched, short sleeves",
+                "Fit" : "Regular"
+            } 
+        },
+        {
+            "id" : "84",
+            "Category" : "Womens",
+            "title" : "Tanya Tie Front Shirt",
+            "description" : "A feminine top that pairs with skirts and jeans for effortless weekend styling, Regular fit, Luxe linen blend fabrication, Classic collar, Placket neck, Sleeveless design, Tie-front detail and Slip-on style.",
+            "price" : 4400,
+            "discountPercent" : 25,
+            "mainImage" : "../images/Tanya_Tie_Front_Shirt.jpg",
+            "imageList" : ["../images/Tanya_Tie_Front_Shirt-1.jpg",
+                "../images/Tanya_Tie_Front_Shirt-2.jpg",
+                "../images/Tanya_Tie_Front_Shirt-3.jpg",
+                "../images/Tanya_Tie_Front_Shirt-4.jpg",
+                "../images/Tanya_Tie_Front_Shirt-5.jpg"
+            ],
+            "rating" : 5,
+            "details" : {
+                "Fabric" : "52% Linen, 48% Viscose",
+                "Color" : "Aspen Gold",
+                "Closure" : "Placket neck",
+                "Collar Type" : "Classic collar",
+                "Length" : "Regular",
+                "Pattern" : "Tie-front detail",
+                "Sleeve" : "Sleeveless design",
+                "Fit" : "Regular"
+            }
+        }
+    ]
+}
