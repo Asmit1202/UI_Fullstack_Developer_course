@@ -50,7 +50,7 @@
     cursor: pointer;
 }
 .leftContainer dt a:hover{
-    color: #000;
+    color: #f38507;
     cursor: pointer;
 }
 .rightContainer h3{
@@ -69,8 +69,13 @@
 
 .rightContainer > .card img{
     height: 400px;
-    width: 300px;
+    width: 320px;
 }
+
+.rightContainer > .card p{
+    padding-top: 10px;
+}
+
 .ratingBlock{
     /* position: absolute;
     top: 0px;

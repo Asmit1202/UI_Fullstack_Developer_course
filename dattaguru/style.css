@@ -1,0 +1,19 @@
+.carousel-inner{
+    height: 100vh;
+    background-color: #ccc;
+}
+.carousel-control-prev{
+    left: 1615px !important;
+}
+.carousel-control-prev-icon{
+    position: absolute !important;
+    bottom: 90px !important;
+    right: 50px !important;
+    border: 2px solid;
+}
+.carousel-control-next-icon{
+    position: absolute !important;
+    bottom: 50px;
+    right: 50px;
+    border: 2px solid;
+}

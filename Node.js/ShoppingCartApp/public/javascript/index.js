@@ -13,9 +13,6 @@ var loadselectedPage = (pagetype) => {
         case 'womens':
             templateUrl = 'Templates/womens.htm';
             break;
-        case 'kids':
-            templateUrl = 'Templates/kids.htm';
-            break;
     }
 
     axios.get(templateUrl).then((templtResponse) => {
@@ -45,9 +42,5 @@ var MensPage = () => {
 
 var WomensPage = () => {
     loadselectedPage('womens');
-}
-
-var KidsPage = () => {
-    loadselectedPage('kids');
 }
 
