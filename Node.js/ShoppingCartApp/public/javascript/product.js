@@ -11,6 +11,7 @@ var getProductDetails = () => {
     axios.get('/load/productDetails').then((response) => {
         productDetails = response.data.pdata;
         productDetails.forEach((product, index) =>{
+            product.description = product.description.substr(0, 100) + "...";
             product.discountPrice = product.price - (product.price * product.discountPercent) / 100;
             $("#productDetailsBlock").append(singleProductTemplate(product));
 
@@ -20,4 +21,10 @@ var getProductDetails = () => {
     })
         
     
+}
+
+var getPriceValue = () => {
+    var priceValue = document.querySelector("#priceFilter").value;
+    // console.log(priceValue);
+    document.querySelector(".priceRangeValue").innerText = priceValue;
 }

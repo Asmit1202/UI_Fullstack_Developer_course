@@ -1,4 +1,15 @@
 var loadselectedPage = (pagetype) => {
+    if (pagetype == 'homePage'){
+        $("#loginBtn").show();
+        $("#sign-inBtn").show();
+        $("#loginoutBtn").hide();
+    }
+    else{        
+        $("#loginBtn").hide();
+        $("#sign-inBtn").hide();
+        $("#loginoutBtn").show();
+    }
+
     var templateUrl = '';
     switch (pagetype) {
         case 'homePage':
@@ -30,10 +41,13 @@ var loadselectedPage = (pagetype) => {
 }
 
 var loginModelInstance;
+var loginOutModelInstance;
 document.addEventListener('DOMContentLoaded', () => {
     loadselectedPage('homePage');
 
     loginModelInstance = new bootstrap.Modal('#exampleModal', {});
+    loginOutModelInstance = new bootstrap.Modal('#logOutPopup', {});
+
 });
 
 var MensPage = () => {

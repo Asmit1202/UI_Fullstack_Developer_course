@@ -13,6 +13,73 @@
             <a href="#"><dd>Dresses</dd></a>
             <a href="#"><dd>Blazers</dd></a>
         </dl>
+
+        <h3>Price</h3>
+        <input step="100" id="priceFilter" type="range" min="500" max="20000" onmousemove="getPriceValue()"><span class="priceRangeValue"></span>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Brand 
+                  </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <input type="checkbox" name="Brand" class="brand">&nbsp;SELECTED HOMME<br>
+                    <input type="checkbox" name="Brand" class="brand">&nbsp;Forever New<br>
+                    <input type="checkbox" name="Brand" class="brand">&nbsp;VERO MODA<br>
+                </div>
+              </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Delivery Day
+                </button>
+              </h3>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <input type="radio" name="Delivery" value="Delivery on Tommorow" class="delivery">&nbsp;Delivery on Tommorow <br>
+                <input type="radio" name="Delivery" value="Delivery on Time" class="delivery">&nbsp;Delivery on Time <br>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Discount
+                </button>
+              </h3>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <input type="checkbox" name="Discount" class="discount">&nbsp;10% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;20% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;30% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;40% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;50% or more<br>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Offers
+                  </button>
+                </h3>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <input type="checkbox" name="Offers" class="offers">&nbsp;Buy More, Save More<br>
+                  <input type="checkbox" name="Offers" class="offers">&nbsp;Special Price<br>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Availability
+                  </button>
+                </h3>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                  <input type="checkbox" name="Availability" class="availability">&nbsp;Include Out of Stock<br>
+                </div>
+              </div>
+        </div>
+
+        <button class="btn btn-dark filter" id="filter">Filter</button>
+        
     </div>
     <div class="rightContainer" id="productDetailsBlock">
         

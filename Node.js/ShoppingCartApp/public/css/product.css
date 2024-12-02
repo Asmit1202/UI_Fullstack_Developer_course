@@ -101,3 +101,48 @@ currency{
     text-decoration: line-through;
     color: #525252;
 }
+#priceFilter{
+    margin-left: 20px;
+    accent-color: #9e9e9e;
+}
+.priceRangeValue{
+    margin-left: 5px;
+    font-size: 18px;
+    color: #424242;
+}
+.delivery{
+    margin-left: 20px;
+}
+.accordion-button{
+    font-size: 27px !important;
+    padding: 0px !important;
+    color: #525252 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.discount{
+    margin-left: 20px;
+}
+.brand{
+    margin-left: 20px;
+}
+.offers{
+    margin-left: 20px;
+}
+.availability{
+    margin-left: 20px;
+}
+.filter{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 150px;
+}
+.productTitle{
+    height: 55px;
+}
+.productSmallDesp{
+    height: 100px;
+}

@@ -25,19 +25,19 @@ footer{
 }
 .navbar-nav{
     position: absolute;
-    right: 580px;
+    right: 490px;
 }
 .login{
     position: absolute;
-    right: 185px;
+    right: 100px;
 }
 .sign-in{
     position: absolute;
-    right: 100px;
+    right: 5px;
 }
 .loginout{
     position: absolute;
-    right: 5px;
+    right: 70px;
 }
 .nav-link{
     color: #fff !important;
@@ -66,7 +66,7 @@ footer{
 }
 .searchBar{
     position: absolute;
-    right: 260px;
+    right: 175px;
 }
 .ft-mail{
     position: absolute;

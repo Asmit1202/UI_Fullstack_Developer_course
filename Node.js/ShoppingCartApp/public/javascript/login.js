@@ -23,26 +23,26 @@ var readUserDetails = () => {
 
 var validateUserCredentials = (userDetails) => {
 
-    // http://localhost:3000/validate/userCredentials
-    axios.get('/validate/userCredentials', {params: userDetails}).then((response) => {
+    // // http://localhost:3000/validate/userCredentials
+    // axios.get('/validate/userCredentials', {params: userDetails}).then((response) => {
+    //     if (response.data.msg == 'Invalid') {
+    //         $("#errMsgBlock").text("Invalid Credentials....");
+    //     } else {
+    //         loadselectedPage('product');
+    //     }
+    // }).catch((error) => {
+    //     console.log("error");
+    // }) 
+
+    axios.post('/validate/userCredentials', userDetails).then((response) => {
         if (response.data.msg == 'Invalid') {
             $("#errMsgBlock").text("Invalid Credentials....");
         } else {
             loadselectedPage('product');
         }
-    }).catch((error) => {
+    }).catch((err) => {
         console.log("error");
-    }) 
-
-    // axios.post('/validate/userCredentials', userDetails).then((response) => {
-    //     if (response.data.msg == 'Invalid') {
-    //         $("#errMsgBlock").text("Invalid Credentials....");
-    //     } else {
-    //         loadSelectedPage('product');
-    //     }
-    // }).catch((err) => {
-        
-    // });;
+    });;
 }
 
 var updateCaptchaText = () => {
@@ -103,9 +103,9 @@ var showPassLogin = (event) => {
 
 var logoutUser = () => {
         
-    lgooutModelInstance.hide();
-    loadSelectedPage('homePage');
-    axios.get('/logout').then(() => {});
+    loginOutModelInstance.hide();
+    loadselectedPage('homePage');
+    // axios.post('/logout').then(() => {});
 }
 
 
