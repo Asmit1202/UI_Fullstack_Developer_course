@@ -27,11 +27,17 @@ var loadselectedPage = (pagetype) => {
     }
 
     axios.get(templateUrl).then((templtResponse) => {
-        console.log(templtResponse);
+        // console.log(templtResponse);
         $("main").html(templtResponse.data);
 
         if (pagetype == 'product'){
             getProductDetails();
+        }
+        else if (pagetype == 'mens'){
+            mensProductDetails();
+        }
+        else if (pagetype == 'womens'){
+            womensProductDetails();
         }
 
         loginModelInstance.hide();
@@ -42,11 +48,13 @@ var loadselectedPage = (pagetype) => {
 
 var loginModelInstance;
 var loginOutModelInstance;
+var signUpModelInstance;
 document.addEventListener('DOMContentLoaded', () => {
     loadselectedPage('homePage');
 
     loginModelInstance = new bootstrap.Modal('#exampleModal', {});
     loginOutModelInstance = new bootstrap.Modal('#logOutPopup', {});
+    signUpModelInstance = new bootstrap.Modal('#newSignupModel', {});
 
 });
 

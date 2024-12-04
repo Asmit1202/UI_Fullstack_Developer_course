@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .heading{
+            text-align: center;
+            font-size: 20px;
+            width: 90%;
+            padding: 10px;
+            margin: 20px auto;
+            text-decoration: underline;
+            font-weight: 600; 
+            border: 2px solid black;           
+        }
+        .container{
+            text-align: center;
+            border: 2px solid orangered;
+            margin: 10px auto;
+            height: 650px;
+            width: 1200px;
+        }
+        .block1,
+        .block2,
+        .block3,
+        .block4,
+        .block5{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .block1{
+            background-color: red; 
+            position: static;
+        }
+        .block2{
+            background-color: yellow;  
+            position: relative;
+            left: 150px;
+        }
+        .block3{
+            background-color: lightgreen;
+            position: absolute;
+            left: 500px;
+        }
+        .block4{
+            background-color: blueviolet;
+            position: fixed;
+            left: 250px;
+        }
+        .block5{
+            background-color: rgb(252, 172, 23);
+            position: sticky;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "heading">
+        CSS Position
+    </div>
+    <div class="container">
+        <div class="block1">1</div>
+        <div class="block2">2</div>
+        <div class="block3">3</div>
+        <div class="block4">4</div>
+        <div class="block5">5</div>
+    </div>
+</body>
+</html>

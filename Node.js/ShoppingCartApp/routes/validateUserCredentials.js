@@ -1,39 +1,29 @@
-var express = require("express");
+var express = require('express');
 var router = express.Router();
-var { MongoClient } = require('mongodb');
-const url = 'mongodb://localhost:27017';
-const client = new MongoClient(url);
+var mongoDbDetails =  require("./common/dbConnectionDetails");
+const bcrypt = require('bcrypt');
 
-router.post("/", (req, res) => {
-    var resopnseObj;
-    console.log("req.body");
-    console.log(req.body);
-
-    getDbConnection(req.body).then((result) => {
-        console.log("result");
-        console.log(result);
-        if(result.length == 0){
-            resopnseObj = {msg: "Invalid"};
+router.post('/', function(req, res, next) {
+    var responseObj;
+  
+    mongoDbDetails.getConnectToCollection("userAccountDetails", "finduser", req.body).then((result) => {
+        if (result.length == 0) { 
+            responseObj = {msg: 'Invalid'};
+        } else {
+            bcrypt.compare(req.body.accountPassword, result[0].accountPassword, function(err, result) {
+                if (result) {
+                    // req.session.isLoggedinUser = true;
+                    // req.session.loggedInUserId = req.body.accountId;
+                    responseObj = {msg: 'Valid details'};
+                } else {
+                    // req.session.isLoggedinUser = false;
+                    responseObj = {msg: 'Invalid'};
+                }
+                res.send(JSON.stringify(responseObj));
+            });
         }
-        else{
-            resopnseObj = {msg: "Valid Details"};
-        }
-
-        res.send(JSON.stringify(resopnseObj));
-    }).catch((err) => {
-
     });
+    
 });
-
-async function getDbConnection(userData) {
-    // Use connect method to connect to the server
-    await client.connect();
-    console.log('Connected successfully to server');
-    const db = client.db("Shopping_Cart");
-    const collection = db.collection('userAccountDetails');
-  
-    return collection.find(userData).toArray();
-  
-  }
 
 module.exports = router;

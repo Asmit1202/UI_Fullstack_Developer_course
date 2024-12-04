@@ -1,8 +1,8 @@
-{
-    "data" : [
+[
         {
             "id" : "85",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Macy Metallic Top",
             "description" : "Feminine glamour meets trending details in these uniquely Melbourne designs. Known for quality, this brand creates clothing and accessories you'll wear season after season. Explore the collection and find something for every moment and occasion. The Macy Metallic Top is the update your wardrobe has been waiting for.",
             "price" : 6000,
@@ -29,6 +29,7 @@
         {
             "id" : "86",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Courtney Belted Bardot Top",
             "description" : "A refined top with a flattering waist cinch and delicate embellishments, Fit and flare silhouette, Comfortable jersey fabrication, Bardot neckline with folded band, Long sleeves, Adjustable belt with embellished buckle, Back zip fastening and Lined.",
             "price" : 5800,
@@ -55,6 +56,7 @@
         {
             "id" : "87",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Stephanie Ruffle Crepe Bustier Top",
             "description" : "Framed by feminine ruffles and an elegant off-shoulder drape, this top meets any event dress code, Fitted silhouette, Modern crepe fabrication, Bardot neckline with ruffle trim, Draped ruffle straps, Flattering princess seams, Concealed zip fastening and Lined.",
             "price" : 6000,
@@ -81,6 +83,7 @@
         {
             "id" : "88",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Issa High Neck Top",
             "description" : "A refined top accented by a chic twist detail, Regular fit, Satin fabrication, High neckline with asymmetrical twist detail, Sleeveless design, Keyhole and button fastening at back neck.",
             "price" : 6000,
@@ -107,6 +110,7 @@
         {
             "id" : "89",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Emily Embellished Halter Top",
             "description" : "Embrace a resort-chic feel with this breezy satin shirt, Regular fit, Lustrous satin fabrication, Classic collar, Short sleeves, Button-through front and 100% Viscose.",
             "price" : 6000,
@@ -127,6 +131,7 @@
         {
             "id" : "90",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Kim PU Button Front Top",
             "description" : "Clean cut and stylish, this top is a cool girl staple piece, Tailored fit, Faux leather fabrication, High, round neckline, Sleeveless design, Button-through front, Cinched waist seam and Lined.",
             "price" : 6000,
@@ -153,6 +158,7 @@
         {
             "id" : "91",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Elodie Frill Sleeve Knit Tank",
             "description" : "A comfortable knit top with delicately detailed frilled sleeves for a whimsical, feminine look, Fitted silhouette, Ribbed knit fabrication, V-neckline, Short, sheer frilled sleeves with embroidered detailing, V-back and Slip-on style.",
             "price" : 5000,
@@ -179,6 +185,7 @@
         {
             "id" : "92",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Dawn Hardware Tank",
             "description" : "This garment contains recycled polyester, which reuses existing plastic material. This reduces reliance on virgin materials. An refined tank top with asymmetrical hardware detail for subtle yet sophisticated flair, Regular fit, Lightweight woven fabrication, High, draped neckline, Asymmetrical gold-tone hardware at the shoulder, Gathering through the shoulder and bodice, Sleeveless design, Zip-up back and Lined",
             "price" : 4400,
@@ -205,6 +212,7 @@
         {
             "id" : "93",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Lexi Self Knit Tank",
             "description" : "This comfortable tank top offers an elevated look with intricate striped knit patterns, Fitted silhouette, Patterned knit fabrication, High neckline and Slip-on stylee.",
             "price" : 4000,
@@ -231,6 +239,7 @@
         {
             "id" : "94",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Sallie Satin Cowl Tank",
             "description" : "This soft satin tank is the perfect option for elevated desk to dinner dressing, Regular fit, Lustrous satin fabrication, High, cowl neckline, Side split hem, Back keyhole and button fastening and Lined.",
             "price" : 3800,
@@ -251,6 +260,7 @@
         {
             "id" : "95",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Tashi Tie Neck Tank",
             "description" : "An elegant blouse with a sophisticated tie-neck for customisable flair, Regular fit, Lightweight woven fabrication, High neckline with asymmetrical tie detail, Sleeveless design, Back keyhole and button fastening and Lined.",
             "price" : 4800,
@@ -276,6 +286,7 @@
         {
             "id" : "96",
             "Category" : "Womens",
+            "type" : "Womens-Top",
             "title" : "Kalinda Cowl Drape Tank",
             "description" : "A feminine tank top with a 00s-inspired asymmetrical design that pairs perfectly with trending denim, Regular fit, Soft satin fabrication, Cowl neckline, Asymmetrical hem, Slip-on style and Lined.",
             "price" : 3800,
@@ -297,5 +308,4 @@
                 "Fit" : "Regular"
             } 
         }
-    ]
-}
+]

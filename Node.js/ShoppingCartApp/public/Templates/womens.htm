@@ -1,0 +1,108 @@
+<div class="mainContainer">
+    <div class="leftContainer">
+        <h3>Categories</h3>
+        <dl>
+            <a onclick="MensPage()"><dt>Mens</dt></a>
+            <dd>Shirts</dd>
+            <dd>T-shirts</dd>
+            <dd>Blazers</dd>
+
+            <a onclick="WomensPage()"><dt>Womens</dt></a>
+            <dd>Shirts</dd>
+            <dd>Tops</dd>
+            <dd>Dresses</dd>
+            <dd>Blazers</dd>
+        </dl>
+
+        <h3>Price</h3>
+        <input step="100" id="priceFilter" type="range" min="500" max="20000" onmousemove="getPriceValue()"><span class="priceRangeValue"></span>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Brand 
+                  </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <input type="checkbox" name="Brand" class="brand">&nbsp;SELECTED HOMME<br>
+                    <input type="checkbox" name="Brand" class="brand">&nbsp;Forever New<br>
+                    <input type="checkbox" name="Brand" class="brand">&nbsp;VERO MODA<br>
+                </div>
+              </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Delivery Day
+                </button>
+              </h3>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <input type="radio" name="Delivery" value="Delivery on Tommorow" class="delivery">&nbsp;Delivery on Tommorow <br>
+                <input type="radio" name="Delivery" value="Delivery on Time" class="delivery">&nbsp;Delivery on Time <br>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Discount
+                </button>
+              </h3>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <input type="checkbox" name="Discount" class="discount">&nbsp;10% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;20% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;30% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;40% or more<br>
+                <input type="checkbox" name="Discount" class="discount">&nbsp;50% or more<br>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Offers
+                  </button>
+                </h3>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <input type="checkbox" name="Offers" class="offers">&nbsp;Buy More, Save More<br>
+                  <input type="checkbox" name="Offers" class="offers">&nbsp;Special Price<br>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Availability
+                  </button>
+                </h3>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                  <input type="checkbox" name="Availability" class="availability">&nbsp;Include Out of Stock<br>
+                </div>
+              </div>
+        </div>
+
+        <button class="btn btn-dark filter" id="filter" onclick="applyFilter()">Filter</button>
+        
+    </div>
+    <div class="rightContainer" id="productDetailsBlock">
+      <div id="carouselExampleInterval3" class="carousel slide prd_detail-slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../images/New_Banner-1.png" class="d-block w-100 prd_detail-slide-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../images/New_Banner-2.png" class="d-block w-100 prd_detail-slide-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../images/New_Banner-3.png" class="d-block w-100 prd_detail-slide-img">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+    </div>
+</div>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Validation</title>
+    <style>
+        ul{
+            border: 2px solid;
+            margin: 30px auto;
+            width: 500px;
+        }
+        li{
+            list-style: none;
+            border: 1px solid;
+            margin: 10px;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            Enter First value <input type="text" id="fval" onkeypress="return userData.validateData(event);">
+        </li>
+        <li>
+            Enter Second value <input type="text" id="sval"
+            onkeypress="return userData.validateData(event);">
+        </li>
+        <li>
+            <div>
+                The sum is <span> </span> 
+            </div>
+        </li>
+        <li>
+            <input type="button" value="Sum" onclick="userData.mySum();">
+        </li>
+    </ul>
+    <Script>
+        var userData = {
+            mySum() {
+            
+                this.a1 = document.querySelector("#fval").value;
+                this.a1 = parseInt(this.a1);
+                this.a2 = document.querySelector("#sval").value;
+                this.a2 = parseInt(this.a2);
+                this.result = 0;
+                this.result = this.a1 + this.a2;
+                document.querySelector('span').innerText = this.result;
+            },
+            validateData(event) {
+                if (event.keyCode >= 48 && event.keyCode <= 57) {
+                    return true;    
+                }
+                else {
+                    return false;
+            
+                }
+            }
+        }
+    </Script>
+</body>
+</html>

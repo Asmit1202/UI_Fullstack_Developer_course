@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Postioning Work</title>
+    <style>
+        .container{
+            width: 1200px;
+            margin: 10px auto;
+        }
+        .header, .footer{
+            border: 2px solid orangered;
+            font-weight: 600;
+            background-color: aliceblue;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        .header{
+            font-size: 20px;
+        }
+        .details{
+            border: 2px solid orangered;
+            margin: 10px 0px;
+            height: 650px;
+            position: relative;
+            padding: 10px;
+        }
+        .footer{
+            font-size: 15px;
+        }
+        .block1,
+        .block2,
+        .block3,
+        .block4,
+        .block5{
+            border: 2px solid black;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .block2,
+        .block3,
+        .block4,
+        .block5{
+            border-radius: 50%;
+            z-index: 3;
+            background-color: #fff;
+        }
+        .block1{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 442px;
+            top: 167px;
+            z-index: 2;
+        } 
+        .block2{
+            position: absolute;
+            left: 400px;
+            top: 124px;
+            width: 100px;
+            height: 100px;
+        }
+        .block3{
+            position: absolute;
+            left: 405px;
+            top: 285px;
+            width: 70px;
+            height: 70px;
+        }
+        .block4{
+            position: absolute;
+            left: 560px;
+            top: 130px;
+            width: 70px;
+            height: 70px;
+        }
+        .block5{
+            position: absolute;
+            right: 410px;
+            bottom: 154px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">CSS POSITIONING WORK</div>
+
+        <div class="details">
+            <div class="block1"></div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+            <div class="block4"></div>
+            <div class="block5"></div>
+        </div>
+
+        <div class="footer">@copyright 2024</div>
+    </div>
+</body>
+</html>

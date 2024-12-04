@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP generator </title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+            color: maroon;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Random Alphabet Generator</h1>
+    
+    <script>
+        // upper case  Ascii => 65 to 90
+        // lower case Ascii => 97 to 122
+
+        var max = 90;
+        var min = 65;
+        var randomAlpha = Math.round(Math.random() * (max - min) + min);
+        console.log(randomAlpha);
+
+        let char = String.fromCharCode(randomAlpha);
+        console.log(char);
+    </script>
+</html>
+</body>
+</html>

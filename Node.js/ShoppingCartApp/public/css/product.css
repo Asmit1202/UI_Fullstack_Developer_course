@@ -101,7 +101,7 @@ currency{
     text-decoration: line-through;
     color: #525252;
 }
-#priceFilter{
+#priceRange{
     margin-left: 20px;
     accent-color: #9e9e9e;
 }
@@ -110,7 +110,7 @@ currency{
     font-size: 18px;
     color: #424242;
 }
-.delivery{
+.filters{
     margin-left: 20px;
 }
 .accordion-button{
@@ -118,18 +118,6 @@ currency{
     padding: 0px !important;
     color: #525252 !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.discount{
-    margin-left: 20px;
-}
-.brand{
-    margin-left: 20px;
-}
-.offers{
-    margin-left: 20px;
-}
-.availability{
-    margin-left: 20px;
 }
 .filter{
     margin-left: 20px;
@@ -145,4 +133,24 @@ currency{
 }
 .productSmallDesp{
     height: 100px;
+}
+.prd_detail-slide{
+    width: 1400px;
+    height: auto;
+    background-color: #9e9e9e;
+    margin: 0px auto;
+}
+.prd_detail-slide-img{
+    height: auto;
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+    .prd_detail-slide{
+        width: 1200px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .prd_detail-slide{
+        width: 1000px;
+    }
 }

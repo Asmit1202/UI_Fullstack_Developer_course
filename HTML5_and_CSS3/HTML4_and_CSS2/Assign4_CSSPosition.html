@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        .container{
+            width: 1200px;
+            margin: 10px auto;
+        }
+        .header, .footer{
+            border: 2px solid orangered;
+            font-weight: 600;
+            background-color: aliceblue;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        .header{
+            font-size: 20px;
+        }
+        .details{
+            border: 2px solid orangered;
+            margin: 10px 0px;
+            height: 650px;
+            position: relative;
+            padding: 10px;
+        }
+        .footer{
+            font-size: 15px;
+        }
+        .block1,
+        .block2,
+        .block3,
+        .block4,
+        .block5,
+        .block6,
+        .block7,
+        .block8,
+        .block9,
+        .block10,
+        .block11,
+        .block12,
+        .block13{
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .block2{
+            position: absolute;
+            left: 35px;
+            top: 35px;
+        }
+        .block3{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+        .block4{
+            position: absolute;
+            right: 35px;
+            top: 35px;
+        }
+        .block5{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        .block6{
+            position: absolute;
+            right: 35px;
+            bottom: 35px;
+        }
+        .block7{
+            position: absolute;
+            bottom: 10px;
+        }
+        .block8{
+            position: absolute;
+            left: 35px;
+            bottom: 35px;
+        }
+        .block9{
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            left: 467px;
+            top: 192px;
+        }
+        .block10{
+            position: absolute;
+            left: 444px;
+            top: 167px;
+        }
+        .block11{
+            position: absolute;
+            right: 446px;
+            top: 167px;
+        }
+        .block12{
+            position: absolute;
+            left: 444px;
+            bottom: 197px;
+        }
+        .block13{
+            position: absolute;
+            right: 446px;
+            bottom: 197px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">CSS Blocks</div>
+        <div class="details">
+            <div class="block1">1</div>
+            <div class="block2">2</div>
+            <div class="block3">3</div>
+            <div class="block4">4</div>
+            <div class="block5">5</div>
+            <div class="block6">6</div>
+            <div class="block7">7</div>
+            <div class="block8">8</div>
+            <div class="block9">9</div>
+            <div class="block10">10</div>
+            <div class="block11">11</div>
+            <div class="block12">12</div>
+            <div class="block13">13</div>
+        </div>
+        <div class="footer">@copyright 2024</div>
+    </div>
+</body>
+</html>

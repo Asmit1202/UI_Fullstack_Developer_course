@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHTML</title>
+    <style>
+        .container{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+            color: maroon;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        The Sum of Values is <span></span>
+    </div>
+    <script>
+        var a1 = 20;
+        var a2 = 30;
+        var result = a1 + a2;
+        console.log("The sum is " + result);
+
+        document.querySelector("span").innerText = result;
+    </script>
+</body>
+</html>

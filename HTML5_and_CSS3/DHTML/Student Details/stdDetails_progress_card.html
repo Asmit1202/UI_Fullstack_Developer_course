@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Progress Card</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="stdDetails.js"></script>
+</head>
+<body>
+    <h1>Student Progress Card</h1>
+
+    <ul>
+        <li>
+            Student Name:<br>
+            <span>
+            <input type="text" id="fName"  placeholder="First Name"><span class="astric">*</span>
+            <div class="nameErr error">First Name is Mandatory To Field </div>
+            <input type="text" id="lName" placeholder="Last Name"><span class="astric">*</span>
+            <div class="nameErr1 error">Last Name is Mandatory To Field </div>
+            </span>
+        </li>
+        <li>
+            Student Age:
+            <input type="text" id="stdAge"  onkeypress="return stdDetails.validateData(event);" maxlength="2">
+            <span class="astric">*</span>
+            <div class="ageErr error">Age is Mandatory To Field </div>
+        </li>
+        <li>
+            Student Gender:
+            <input type="radio" name="gender" value="Male" checked>Male
+            <input type="radio" name="gender" value="Female">Female
+        </li>
+        <li>
+            Student Class: 
+            <select id="stdClass">
+                <option selected>Select Student Class</option>
+                <option value="Class I">Class I</option>
+                <option value="Class II">Class II</option>
+                <option value="Class III">Class III</option>
+                <option value="Class IV">Class IV</option>
+            </select>
+        </li>
+        <li id="markscontainer">
+            Student Marks:
+            <input type="text" id="m1" placeholder="Sub 1"  onkeypress="return stdDetails.validateData(event);" maxlength="3">
+            <input type="text" id="m2" placeholder="Sub 2" onkeypress="return stdDetails.validateData(event);" maxlength="3">
+            <input type="text" id="m3" placeholder="Sub 3" onkeypress="return stdDetails.validateData(event);" maxlength="3">
+            <input type="text" id="m4" placeholder="Sub 4" onkeypress="return stdDetails.validateData(event);" maxlength="3">
+            <input type="text" id="m5" placeholder="Sub 5" onkeypress="return stdDetails.validateData(event);" maxlength="3">
+            <div class="marksErr error">Marks is Mandatory To Field </div>
+        </li>
+        <li>
+            <input type="submit" value="Generate" onclick = "stdDetails.readstdDetails();">
+        </li>
+    </ul>
+
+    <ul id="progreeCardContainer">
+        <li class="title">
+            Progress Card
+        </li>
+        <li>
+            Student Name:
+            <span id="dfName"></span>
+            <span id="dlName"></span>
+        </li>
+        <li>
+            Student Age: <Span id="dage"></Span> 
+        </li>
+        <li>
+            Student Gender: <Span id="dgender"></Span>
+        </li>
+        <li>
+            Student Class: <Span id="dclass"></Span>
+        </li>
+        <li >
+            Student Total Marks: <Span id="dtotal"></Span>
+        </li>
+        <li >
+            Student Average: <Span id="davg"></Span>
+        </li>
+        <li>
+            Student Grade is <Span id="dgrade"></Span>
+        </li>
+    </ul>   
+</body>
+</html>

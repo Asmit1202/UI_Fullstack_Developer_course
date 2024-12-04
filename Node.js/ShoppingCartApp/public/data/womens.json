@@ -1,5 +1,4 @@
-{
-    "data" : [
+[
         {
             "id" : "61",
             "Category" : "Womens",
@@ -311,5 +310,4 @@
                 "Fit" : "Regular"
             } 
         }
-    ]
-}
+]

@@ -1,8 +1,8 @@
-{
-    "data" : [
+[
         {
             "id" : "97",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Nina Heat Seal Maxi Dress",
             "description" : "Sculpted with a high-shine finish, this maxi dress is the perfect party style, Fitted silhouette, Jersey fabrication, All over diamanté embellishments, High neckline, Sheer, fitted sleeves, Flattering ruching throughout, Maxi skirt length, Concealed zip fastening and Lined.",
             "price" : 20000,
@@ -28,6 +28,7 @@
         {
             "id" : "98",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Kylie Asym Crinkle Midi Dress",
             "description" : "Offering a sculpted fit and elegantly flowing drape, this midi dress is a sophisticated choice for special occasions, Regular fit, Lightweight plisse fabrication, Draped, asymmetrical neckline, One-shoulder, sleeveless design, Wide, fitted waistband with asymmetrical cut-out, Flowing midi skirt, Concealed side zip fastening and Lined.",
             "price" : 20000,
@@ -53,6 +54,7 @@
         {
             "id" : "99",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Elena Velvet One Shoulder Gown",
             "description" : "Embrace luxe velvet in a sleek, body-contoured style that pairs with strappy heels for any formal event, Fitted silhouette, Luxe velvet fabrication, Asymmetrical, v-cut neckline, One-shoulder design, Cold-shoulder strap, Princess seams, Floor-length trumpet skirt and Concealed back zip.",
             "price" : 20000,
@@ -77,6 +79,7 @@
         {
             "id" : "100",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Nya Metallic Asym Maxi Dress",
             "description" : "This striking maxi dress plays with texture and asymmetry for a sophisticated evening look, Fit and flare silhouette, Shimmering metallic fabrication, Asymmetrical neckline, Sleeveless design, Ruched bodice, Asymmetrical waist hem, Flowing, pleated maxi skirt with side slit, Side zip and Lined.",
             "price" : 20000,
@@ -104,6 +107,7 @@
         {
             "id" : "101",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Delilah Velvet Bubble Hem Midi Dress",
             "description" : "A striking dress that plays with asymmetry and volume for an entrance-making style, Fitted velvet bodice, Premium blend fabrication, Straight neckline, Sleeveless design, Asymmetrical waistline, Pleated midi skirt with voluminous bubble hem, Concealed side zip fastening and Lined.",
             "price" : 20000,
@@ -129,31 +133,33 @@
         {
             "id" : "102",
             "Category" : "Womens",
-            "title" : "Kylie Asym Crinkle Midi Dress",
-            "description" : "Offering a sculpted fit and elegantly flowing drape, this midi dress is a sophisticated choice for special occasions, Regular fit, Lightweight plisse fabrication, Draped, asymmetrical neckline, One-shoulder, sleeveless design, Wide, fitted waistband with asymmetrical cut-out, Flowing midi skirt, Concealed side zip fastening and Lined.",
+            "type" : "Womens-Dress",
+            "title" : "Viv Ombre Plisse Maxi Dress",
+            "description" : "Try this plisse maxi dress with your favourite heels for any evening event, Regular fit, Plisse fabrication woven with metallic fibres, V-neckline, Sheer blouson sleeves, Gathered, asymmetrical panel around the hips, Full maxi skirt, Concealed side zip and Lined.",
             "price" : 15000,
             "discountPercent" : 10,
-            "mainImage" : "../images/Kylie_Asym_Crinkle_Midi_Dress.jpg",
-            "imageList" : ["../images/Kylie_Asym_Crinkle_Midi_Dress-1.jpg",
-                "../images/Kylie_Asym_Crinkle_Midi_Dress-2.jpg",
-                "../images/Kylie_Asym_Crinkle_Midi_Dress-3.jpg",
-                "../images/Kylie_Asym_Crinkle_Midi_Dress-4.jpg"
+            "mainImage" : "../images/Viv_Ombre_Plisse_Maxi_Dress.jpg",
+            "imageList" : ["../images/Viv_Ombre_Plisse_Maxi_Dress-1.jpg",
+                "../images/Viv_Ombre_Plisse_Maxi_Dress-2.jpg",
+                "../images/Viv_Ombre_Plisse_Maxi_Dress-3.jpg",
+                "../images/Viv_Ombre_Plisse_Maxi_Dress-4.jpg"
             ],
             "rating" : 4.5,
             "details" : {
-                "Fabric" : "100% Polyester",
-                "Color" : "Vivid Azure",
-                "Closure" : "Concealed side zip fastening",
-                "Collar Type" : "Draped, asymmetrical neckline",
-                "Length" : "Flowing midi skirt",
-                "Pattern" : "Wide, fitted waistband with asymmetrical cut-out",
-                "Sleeve" : "One-shoulder, sleeveless design",
+                "Fabric" : "60% Polyester, 40% Metallised fibre",
+                "Color" : "Silver Dusk Ombre",
+                "Closure" : "Concealed side zip",
+                "Collar Type" : "V-neckline",
+                "Length" : "Full maxi skirt",
+                "Pattern" : "Gathered, asymmetrical panel around the hips",
+                "Sleeve" : "Sheer blouson sleeves",
                 "Fit" : "Regular"
             }  
         },
         {
             "id" : "103",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Jayden Petite Metallic Pleated Maxi",
             "description" : "Make an entrance in this flattering maxi dress that meets the dress code for any formal event, Regular fit, Lightweight plisse metallic fabrication, V-shaped neckline, Adjustable spaghetti straps, Bandeau-style gathered bodice, Full, pleated maxi skirt, Concealed side zip and Lined.",
             "price" : 15000,
@@ -179,6 +185,7 @@
         {
             "id" : "104",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Betty Velvet One Shoulder Maxi Dress",
             "description" : "Interplaying a timeless silhouette with modern diamanté detail, this maxi dress meets any eveningwear code, Fitted bodice, Luxe velvet fabrication, Draped, asymmetrical neckline, One-shoulder, sleeveless design, Waist seam, Flowing maxi skirt with side split, Back cut-out with diamanté rope that laces through and ties and Lined.",
             "price" : 11000,
@@ -204,6 +211,7 @@
         {
             "id" : "105",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Quinn Fringe Bodycon Maxi Dress",
             "description" : "A striking fringed dress for date night to dancefloor styling, Fitted silhouette, Modern crepe fabrication, All over fringe embellishments with smooth side panel, Seam through the centre front and back, Arrow halter neckline, Low v-cut back, Thin straps extending from the neck across the back, Midi skirt with side split, Concealed side zip fastening and Lined.",
             "price" : 16500,
@@ -230,6 +238,7 @@
         {
             "id" : "106",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Sawyer Asym Velvet Drape Dress",
             "description" : "Cut in a flattering asymmetrical drape with a sleek velvet finish, this dress is a sophisticated choice for formal events, Fit and flare silhouette, Lustrous velvet fabrication, Asymmetrical neckline, Long fitted sleeves, Ruching through the shoulders and side waist, Asymmetrical waist and hemline, Flowing ankle-grazing skirt with side slit, Slip-on style and Lined.",
             "price" : 10000,
@@ -255,6 +264,7 @@
         {
             "id" : "107",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Macy Long Sleeve Velvet Gown",
             "description" : "Embrace simple sophistication with this sculpted occasion dress, Fitted silhouette, Lustrous velvet fabrication, Scoop neckline, Long fitted sleeves, Asymmetrical twist and gathering at the waist, Flowing full-length skirt with side split, Concealed side zip fastening and Lined.",
             "price" : 20000,
@@ -280,6 +290,7 @@
         {
             "id" : "108",
             "Category" : "Womens",
+            "type" : "Womens-Dress",
             "title" : "Alora Lace Bodice Maxi Dress",
             "description" : "This garment contains recycled polyester, which reuses existing plastic material. This reduces reliance on virgin materials. Embrace refined femininity and romantic detailing with this elegant maxi dress, Regular fit, Woven blend fabrication, Boat neckline, Sleeveless design, Lace and sequin embellished bodice, Asymmetrical waist seam, Flowing satin maxi skirt with gathering through the side hip, Concealed zip fastening and Lined.",
             "price" : 15000,
@@ -302,5 +313,4 @@
                 "Fit" : "Regular"
             }
         }
-    ]
-}
+]

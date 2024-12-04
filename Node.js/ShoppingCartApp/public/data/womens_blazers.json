@@ -1,8 +1,8 @@
-{
-    "data" : [
+[
         {
             "id" : "109",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Taylor Double Breasted Blazer",
             "description" : "Featuring a chic collarless design and refined modern tailoring, this blazer offers a sophisticated edge and flattering fitTailored, fit Soft woven fabrication, Collarless v-neckline, Darts at the bust and collar, Double-breasted design with single button closure, Welts at the hip, Button cuffs.",
             "price" : 8500,
@@ -29,6 +29,7 @@
         {
             "id" : "110",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Simonna Curve Boucle Blazer",
             "description" : "Chic and timeless, this blazer is a must-have Tailored fit, Wool blend tweed fabrication, Peaked lapels, Front flap pockets, Button cuffs, Front button fastening, Back vent and Lined.",
             "price" : 10000,
@@ -55,6 +56,7 @@
         {
             "id" : "111",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Brown Tailored Blazer",
             "description" : "This timeless piece features a gracefully draped shawl collar, enhancing the elegance of its classic princess line dart. The full sleeves and regular fit ensure a flattering silhouette, while the rich brown hue adds a touch of warmth to your wardrobe. Designed to effortlessly fall at the hip, this blazer is versatile enough for both professional and casual occasions. Its chic and comfortable regular fit makes it an ideal choice for any day or evening ensemble. Embrace the season with a summer-ready twist, pairing it with your favourite shorts or a flowing skirt for a look that seamlessly transitions from office to outdoor gatherings.",
             "price" : 4000,
@@ -82,6 +84,7 @@
         {
             "id" : "112",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Beige Striped Co-ord Set Blazer",
             "description" : "Elevate your wardrobe with our Single-Breasted Birch Pin-Striped Blazer. Designed with a sophisticated fabric tie-up and a flattering regular fit, this blazer gracefully falls at the hip, offering both elegance and ease. The classic pinstripe pattern adds a touch of timeless style, perfect for both professional and casual settings.",
             "price" : 5500,
@@ -109,6 +112,7 @@
         {
             "id" : "113",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Black Animal Print Detail Blazer",
             "description" : "Introducing our versatile black blazer, designed to add a touch of sophistication to any wardrobe. With full sleeves and a solid black colour, this blazer is both timeless and elegant. The notched lapel and below-hip length offer a flattering silhouette, while the absence of closure ensures a sleek, streamlined look. Featuring two practical pockets with flaps and a regular fit, this blazer seamlessly combines style and functionality. Perfect for elevating both casual and formal outfits, it's a must-have addition to your collection.",
             "price" : 4500,
@@ -137,6 +141,7 @@
         {
             "id" : "114",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Beige Sleeveless Co-ord Set Blazer",
             "description" : "Elevate your style with our Tailored Sleeveless Blazer. Featuring a single-breasted design with elegant golden buttons and flap pockets, this regular-fit blazer falls gracefully at the hip. Its sophisticated cut ensures a polished look, perfect for both professional and casual settings. Embrace timeless elegance with a modern twist..",
             "price" : 4000,
@@ -165,6 +170,7 @@
         {
             "id" : "115",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Pink Cropped Co-ord Set Blazer",
             "description" : "Introducing our Pink Cropped Blazer, a perfect blend of sophistication and modern style. This blazer features a chic cropped silhouette with long sleeves, exuding timeless elegance. The front boasts a refined two-button closure, adding a touch of classic charm to your ensemble. Tailored to a regular length, this piece effortlessly combines versatility and trendiness. Style Note: Elevate your look by pairing this Pink Cropped Blazer with high-waisted trousers or a tailored skirt for a polished and fashion-forward statement. Embrace the power of pink with this wardrobe essential that effortlessly transitions from day to night.",
             "price" : 5500,
@@ -193,6 +199,7 @@
         {
             "id" : "116",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Taupe Grey Co-ord Set Blazer",
             "description" : "Elevate your workwear wardrobe with this beautifully tailored blazer from VERO MODA. Crafted with precision and attention to detail, this blazer features a classic notched lapel and elegant princess seam for a flattering silhouette. The versatile taupe grey colour adds a touch of sophistication to any outfit, while the long sleeves make it perfect for transitioning into cooler seasons. Designed with functionality in mind, this blazer boasts 1 welt pocket on the left and 2 pockets with flaps at hip level, ensuring you have enough space to carry all your essentials. The boxy fit and falls below hip length give it a modern yet timeless look that can easily be dressed up or down. Complete with a 2 saucer button closure, this blazer exudes effortless elegance and is perfect for layering over dresses or pairing with tailored pants for a polished office look. For a more casual vibe, style it with high-waisted jeans and a simple tee for a chic off-duty outfit.",
             "price" : 6000,
@@ -221,6 +228,7 @@
         {
             "id" : "117",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Maroon Tailored Co-ord Set Blazer",
             "description" : "Introducing our elegant Maroon Shawl Collar Blazer – a timeless piece that effortlessly combines sophistication with a touch of summer charm. This blazer features a chic front-open design, complemented by a graceful shawl collar. The 3/4 sleeves add a modern twist, with subtle rushing at the hem for a touch of feminine flair. Crafted to perfection, the blazer gracefully falls at the hip, striking the perfect balance between classic and contemporary. Its rich maroon hue adds a touch of warmth and versatility to your wardrobe, making it an ideal choice for various occasions. Style Note: Pair this blazer with tailored trousers or a sleek skirt for a polished office look, or throw it over a summer dress to elevate your casual ensemble.",
             "price" : 4000,
@@ -249,6 +257,7 @@
         {
             "id" : "118",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Purple Cape Sleeves Co-ord Set Blazer",
             "description" : "Elevate your wardrobe with this sophisticated purple cape sleeves blazer. Featuring a chic front button-up design and practical front pockets, this blazer falls gracefully at the hip for a flattering silhouette. The regular fit ensures comfort while maintaining an elegant look. Perfect for adding a touch of refined style to any outfit.",
             "price" : 5000,
@@ -277,6 +286,7 @@
         {
             "id" : "119",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "MARQUEE Hot Pink Ombre Co-ord Set Blazer",
             "description" : "Elevate your wardrobe with our stunning Hot Pink Ombre Blazer, a masterpiece of sophistication and style. This blazer features a striking hot pink ombre design that transitions beautifully from deep to light hues. Tailored to a regular fit with a peak lapel collar and long sleeves, it exudes timeless elegance. The single-button closure adds a refined touch, while front darts and flap pockets ensure a flattering silhouette with functional appeal. The curved blazer hem falls gracefully below the hips, creating a chic and versatile look that pairs effortlessly with both formal and casual ensembles. Crafted with impeccable attention to detail, our Hot Pink Ombre Blazer is a must-have for the modern woman who appreciates classic yet contemporary fashion.",
             "price" : 8500,
@@ -305,6 +315,7 @@
         {
             "id" : "120",
             "Category" : "Womens",
+            "type" : "Womens-Blazer",
             "title" : "Blue Cropped Tailored Blazer",
             "description" : "This stylish Vero Moda blue cropped blazer will be a staple in your wardrobe. It has a front button closure with two gold buttons and long sleeves. Style it with a fitted tank top and dark-washed jeans for an effortlessly chic look. Complete the ensemble with a pair of strappy heels and you're ready for the day!.",
             "price" : 5600,
@@ -330,5 +341,4 @@
                 "Fit" : "Regular"
             }  
         }
-    ]
-}
+]

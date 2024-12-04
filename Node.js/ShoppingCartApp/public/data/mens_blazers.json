@@ -1,8 +1,9 @@
-{
-    "data" : [
+[
         {
             "id" : "37",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "BLACK JACQUARD BLAZER",
             "description" : "Elevate your wardrobe with this Black Jacquard Blazer, where classic meets contemporary. Crafted with a subtle jacquard pattern, it offers just the right amount of texture and refinement, making it perfect for evening occasions or smart-casual settings. Tailored to perfection, this blazer exudes sophistication while providing a comfortable fit. Pair it with tailored trousers or dark jeans for an effortlessly stylish look.",
             "price" : 14000,
@@ -30,6 +31,8 @@
         {
             "id" : "38",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Light Blue Suit-Set Blazer",
             "description" : "Elevate your wardrobe with our distinguished single-breasted blazer, a perfect blend of wool and linen for year-round sophistication. Its breathable and flexible fabric ensures comfort, while the unique shawl lapel adds a touch of refined elegance. The blazer features long sleeves with buttoned cuffs, a welted chest pocket, and jetted front pockets with flaps. Half-lined for a sleek fit, it’s designed in a slim silhouette, making it an impeccable choice for any occasion. Complete the look with our matching trousers, a printed shirt, and suede loafers for a truly polished ensemble.",
             "price" : 15000,
@@ -58,6 +61,8 @@
         {
             "id" : "39",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Grey Check Formal Suit Blazer",
             "description" : "Classy formal grey check print blazer for men from SELECTED Homme. Cut in a slim fit and tailored to perfection in Turkey from recycled polyester fabric, this suave piece deserves a place in every wardrobe. Wear it with same hued tailored trousers and a navy blue shirt for an elegant formal look.",
             "price" : 13000,
@@ -84,6 +89,8 @@
         {
             "id" : "40",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Royal Blue Slim Fit Suit-Set Blazer",
             "description" : "This classic tailoring blazer by SELECTED will add a sophisticated edge to your wardrobe. Crafted from a luxurious fabric, this timeless piece features notch lapels and subtle stitching for an elegant finish. Style it over a white shirt and our matching trousers for a suave office look or pair it with jeans and ankle boots for an effortless casual ensemble.",
             "price" : 14000,
@@ -111,6 +118,8 @@
         {
             "id" : "41",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Dark Green Woven Slim Suit-Set Blazer",
             "description" : "Keep it classic with this minimal yet elegant single-breasted blazer. Crafted to last a lifetime, it comes in a flattering slim fit that accentuates your shoulders and tapers in slightly at the waist. The double vents and notched lapel give it a timeless look, and there are plenty of pockets to store your valuables. Wear it as a two-piece suit with our matching trousers and add a checked shirt and a pair of leather loafers.",
             "price" : 13000,
@@ -137,6 +146,8 @@
         {
             "id" : "42",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Dark Blue Check Print Linen Blazer",
             "description" : "Elevate your wardrobe with our distinguished single-breasted blazer, a perfect blend of wool and linen for year-round sophistication. Its breathable and flexible fabric ensures comfort, while the unique shawl lapel adds a touch of refined elegance. The blazer features long sleeves with buttoned cuffs, a welted chest pocket, and jetted front pockets with flaps. Half-lined for a sleek fit, it’s designed in a slim silhouette, making it an impeccable choice for any occasion. Complete the look with our matching trousers, a printed shirt, and suede loafers for a truly polished ensemble.",
             "price" : 12000,
@@ -164,6 +175,8 @@
         {
             "id" : "43",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Navy Blue Linen Check Suit-Set Blazer",
             "description" : "Men's navy blue check blazer from SELECTED HOMME. Made from premium linen-cotton blend fabric for a comfortable fit and feel. Cut in a slim fit and features a classic double button placket, front welt pockets, and a pocket square pocket. Pair it with our matching tailored trousers for a complete suit-set look.",
             "price" : 14000,
@@ -190,6 +203,8 @@
         {
             "id" : "44",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Formal Suit Blazer",
             "description" : "Classy formal brown blazer for men from SELECTED Homme. Cut in a slim fit and tailored to perfection in Turkey from recycled polyester fabric, this suave piece deserves a place in every wardrobe. Wear it with same hued tailored trousers and a navy blue shirt for an elegant formal look..",
             "price" : 11000,
@@ -216,6 +231,8 @@
         {
             "id" : "45",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Light Pink Slim Fit Suit Blazer",
             "description" : "Look sharp in this light pink slim fit suit blazer for men. Tailored to perfection, this piece is perfect for day-time formal events. Team it up with pink suit trousers for a neat look.",
             "price" : 11000,
@@ -242,6 +259,8 @@
         {
             "id" : "46",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Blue Slim Fit Suit Blazer",
             "description" : "Elevate your corporate dressing with this navy blue blazers for men from SELECTED HOMME. Crafted in Turkey, it has a notched lapel collar and is tailored for a slim silhouette, this design is crafted from a poly-viscose blend and features a single breasted-two button closure. Don it with a white shirt and navy trousers for men and derbies to finish your ensemble",
             "price" : 10000,
@@ -268,6 +287,8 @@
         {
             "id" : "47",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Structured Blazer",
             "description" : "Men's casual structured double button blazer made from recycled fabric and cut in a slim fit. Layer over a roll-neck pullover and pair with trousers for a suave AM to PM look.",
             "price" : 13000,
@@ -294,6 +315,8 @@
         {
             "id" : "48",
             "Category" : "Mens",
+            "type" : "Mens-Blazer",
+            "brand": "SELECTED HOMME",
             "title" : "Grey Double Button Suit-Set Blazer",
             "description" : "Men's double button formal blazer made from recycled fabric and cut in a slim fit. Wear it with a shirt, tie and trousers for a complete formal look.",
             "price" : 11000,
@@ -317,5 +340,4 @@
                 "Fit" : "Slim"
             } 
         }
-    ]
-}
+]

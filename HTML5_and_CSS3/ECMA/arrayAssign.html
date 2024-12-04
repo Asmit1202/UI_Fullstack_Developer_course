@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = "Asmit";
+        var age = 20;
+        var gender = "Male";
+        // var userDetails = {
+        //     name: name,
+        //     age: age,
+        //     gender: gender
+        // }
+        var userDetails = {name, age, gender};
+
+        var userDetails = ["asmit", 20, "Male"];
+        // var uname = userDetails[0];
+        // var age = userDetails[1];
+        // var gender = userDetails[2];
+
+        var [uname, age, gender] = ["asmit", 20, "Male"];
+
+        console.log(userDetails);
+
+        console.log(uname);
+        console.log(age);
+        console.log(gender);
+    </script>
+</body>
+</html>

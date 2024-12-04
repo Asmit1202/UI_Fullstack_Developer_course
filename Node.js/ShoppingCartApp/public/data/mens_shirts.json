@@ -1,10 +1,10 @@
-{
-    "data" : [
+[
         {
             "id" : "13",
-            "Category" : "Mens",
+            "Category" : "Mens-Shirt",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Black Cotton Knitted Shirt",
-            "shortDescription" : "Men's black cotton knitted shirt from SELECTED HOMME.",
             "description" : "Men's black cotton knitted shirt from SELECTED HOMME.",
             "price" : 4000,
             "discountPercent" : 10,
@@ -31,6 +31,8 @@
         {
             "id" : "14",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Blue Organic Cotton Full Sleeves Shirt",
             "description" : "Crafted for enduring comfort and timeless style, our Classic Shirt is an essential addition to your daily wardrobe. Featuring a sophisticated shirt collar and long sleeves with buttoned cuffs, it exudes understated refinement. The button fastening ensures ease of wear, complemented by practical chest pockets for added functionality. Designed with a curved hem and treated for a luxuriously soft feel, this shirt promises both comfort and durability. Embrace effortless sophistication with its regular fit, tailored to elevate your look from day to night.",
             "price" : 3700,
@@ -58,6 +60,8 @@
         {
             "id" : "15",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Green Cotton Knitted Shirt",
             "description" : "Add some extra comfort to your 9-to-5 wardrobe with our new cotton shirt. Knitted from a jersey fabrication made with cotton, it prioritises durability and flexibility while maintaining a formal look, courtesy of the cutaway collar. Wear it with anything from smart-casual chinos to your best two-piece suit.",
             "price" : 4000,
@@ -85,6 +89,8 @@
         {
             "id" : "16",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "White Formal Cotton Shirt",
             "description" : "Elevate your wardrobe with this White Formal Cotton Shirt, where sophistication meets comfort. Crafted from premium cotton, this shirt offers a soft touch against the skin while ensuring breathability throughout the day. Its timeless white hue adds a subtle yet distinguished flair to your formal attire, making it a versatile choice for both business and special occasions. The tailored fit provides a sharp silhouette, allowing you to look effortlessly polished. Pair it with your favourite trousers or a sleek blazer for an ensemble that exudes confidence and elegance.",
             "price" : 3500,
@@ -112,6 +118,8 @@
         {
             "id" : "17",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Green Overshirt",
             "description" : "Introducing our laidback overshirt, a must-have for embracing lighter, happier days. Crafted with meticulous attention to detail, this overshirt boasts a classic shirt collar and long sleeves with buttoned cuffs, exuding timeless sophistication. Its press stud fastening ensures effortless wear, while chest pockets add a touch of utility. Unlined for breathability, this overshirt features a straight hem and a loose fit, offering both style and comfort in equal measure. Treated for a soft feel and comfortable wear, it effortlessly elevates any ensemble. Embrace the opportunity to dress with ease and elegance in our versatile overshirt. The main material in this product contains a minimum of 50% TENCEL™ branded lyocell fibres, high quality cellulose fibres made from wood pulp from sustainably managed forests and produced in a way that reduces environmental impact.",
             "price" : 5000,
@@ -139,6 +147,8 @@
         {
             "id" : "18",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Light Grey Formal Shirt",
             "description" : "Light Grey Formal Cotton Shirt for men from SELECTED HOMME.",
             "price" : 3500,
@@ -166,6 +176,8 @@
         {
             "id" : "19",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Check Print Cotton Shirt",
             "description" : "Men's brown check printed Cotton Shirt from SELECTED HOMME.",
             "price" : 4000,
@@ -193,6 +205,8 @@
         {
             "id" : "20",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Off-White Check Print Overshirt",
             "description" : "Introducing our distinguished Overshirt, a refined addition to your wardrobe for the modern gentleman. Crafted with meticulous attention to detail, this shirt boasts a timeless Shirt Collar and Long Sleeves with Buttoned cuffs, exuding sophistication with every wear. The Button fastening ensures a seamless closure, while the Chest pockets add a touch of practicality to its aesthetic. Designed for comfort and versatility, the Loose Fit and Straight hem provide an effortlessly stylish silhouette. Perfect for summer, this Overshirt effortlessly transitions from day to night, embodying a laid-back elegance that captures the essence of warm-weather sophistication.",
             "price" : 4300,
@@ -220,6 +234,8 @@
         {
             "id" : "21",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Red Check Print Cotton Shirt",
             "description" : "Men's red check printed Cotton Shirt from SELECTED HOMME.",
             "price" : 4000,
@@ -247,6 +263,8 @@
         {
             "id" : "22",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Organic Cotton Check Shirt",
             "description" : "Introducing a staple for your everyday wardrobe: the Classic Long Sleeve Shirt. Crafted with meticulous detail, this shirt features a traditional shirt collar and buttoned cuffs, ensuring timeless elegance. Its regular fit offers comfort and versatility, perfect for any occasion. Complete with a button fastening and a curved hem, this piece effortlessly blends sophistication with everyday ease. Ideal for those who appreciate quality and style in their attire.",
             "price" : 3500,
@@ -274,6 +292,8 @@
         {
             "id" : "23",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Blue Check Print Shacket",
             "description" : "Giving you the perfect mix of a jacket and shirt is this blue check printed shacket for men. Made from recycled fabric and is super soft to wear. Layer over a beige tee and pair with jeans for a smart-casual look.",
             "price" : 12000,
@@ -300,6 +320,8 @@
         {
             "id" : "24",
             "Category" : "Mens",
+            "type" : "Mens-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Check Print Shacket",
             "description" : "Taken from the archives, this checked shacket combines function and form for a modern take on a classic style. It features long sleeves and buttoned patch pockets inspired by the workwear heritage of this piece, as well as a timeless checked print. Responsibly crafted from recycled materials, it's undoubtedly a comfortable, versatile, and easy-to-wear wardrobe staple that will never go out of style. Style it with dark-wash denim and suede boots. This product is made with recycled polyester. Recycled polyester saves natural resources and reduces the amount of waste.",
             "price" : 12000,
@@ -324,5 +346,4 @@
                 "Fit" : "Regular"
             } 
         }
-    ]
-}
+]

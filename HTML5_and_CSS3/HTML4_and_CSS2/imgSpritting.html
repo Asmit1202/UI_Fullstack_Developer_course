@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Splitting</title>
+    <style>
+        .container{
+            width: 1200px;
+            margin: 10px auto;
+        }
+        .header, .footer{
+            border: 2px solid orangered;
+            font-weight: 600;
+            background-color: aliceblue;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        .header{
+            font-size: 20px;
+        }
+        .details{
+            border: 2px solid orangered;
+            margin: 10px 0px;
+            height: 650px;
+            position: relative;
+            padding: 10px;
+        }
+        .footer{
+            font-size: 15px;
+        }
+        .image1,
+        .image2,
+        .image3,
+        .image4{
+            background-image: url('images/combine.jpg');
+            margin: 10px auto;
+        }
+        .image1{
+            width: 100px;
+            height: 150px;
+            background-position: 0px 0px;
+            background-size: 290px 360px;
+        }
+        .image2{
+            width: 280px;
+            height: 150px;
+            background-position: -207px 0px;
+            background-size: 496px 385px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Image Splitting</div>
+
+        <div class="details">
+            <div class="image1"></div>
+            <div class="image2"></div>          
+        </div>
+
+        <div class="footer">@copyright 2024</div>
+    </div>
+</body>
+</html>

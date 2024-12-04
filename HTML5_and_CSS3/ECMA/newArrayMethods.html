@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // push, join, pop, shift, slice
+        // find, sort, map, filter
+
+        var data = [34, 53, 45, 1, 23, 99, 77, 10, 56];
+        var isFound = false;
+        // for (var i =0; i < data.length; i++){
+        //     if (data[i] == 77){
+        //         isFound = true;
+        //         break;
+        //     }
+        // }
+
+        // if(isFound){
+        //     console.log("value found");
+        // }else{
+        //     console.log("value not found");
+        // }
+        
+        isFound = data.find((value) => {
+            if(value == 101){
+                return true;
+            }
+        })
+        console.log(isFound);
+
+        var index = data.findIndex((value)=>{
+            if (value == 77){
+                return true;
+            }
+        });
+        console.log(index);
+
+        // sort
+        var data = data.sort((a, b)=>{
+                return a - b;
+        });
+        console.log(data);//ascending order
+        console.log(data.reverse());//descending order
+        
+        //join
+        var a = [10, 54, 42, 65, 12];
+        var b = [13, 49, 56, 45, 12];
+
+
+
+        //map
+        var temp =[];
+        // for (var i = 0; i < data.length; i++){
+        //     temp.push(data[i] * 3);
+        // }
+
+        temp = a.map((value)=>{
+            return value*3;
+        });
+
+        console.log(temp);
+
+        //filter
+        var temp1 = b.filter((value) => {
+            if (value % 2 == 0){
+                return true;
+            }
+        });
+        console.log(temp1);
+
+        var empDetails = [
+            {name: "Asmit", gender: "Male"},
+            {name: "Ria", gender: "Female"},
+            {name: "Aatish", gender: "Male"},
+            {name: "Sonia", gender: "Female"}
+        ];
+
+        var filterValue = empDetails.filter((obj) => {
+            if (obj.gender == "Female"){
+                return true;
+            }
+        });
+
+        console.log(filterValue);
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+h1{
+    margin: 10px auto;
+    border: 2px solid orangered;
+    padding: 10px 0px;
+    text-align: center;
+    color: maroon;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul{
+    border: 2px solid;
+    width: 500px;
+    margin: 20px auto;
+    padding: 0px;
+}
+li{
+    list-style: none;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+#markscontainer > input[type = text]{
+    width: 50px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+    color: orangered;
+    font-size: 16px;
+    font-weight: 600;
+}
+#progreeCardContainer span{
+    color: green;
+    font-size: 15px;
+    font-weight: 600;
+}
+#progreeCardContainer {
+    display: none;
+}
+.error{
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+.astric{
+    color: red;
+    position: relative;
+    top: -2px;
+    left: 1px
+}

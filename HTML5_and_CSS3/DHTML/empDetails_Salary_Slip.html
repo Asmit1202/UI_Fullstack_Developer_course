@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Pay slip</title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+            color: maroon;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        ul{
+            border: 2px solid;
+            width: 500px;
+            margin: 20px auto;
+        }
+        li{
+            list-style: none;
+            border: 1px solid;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Details</h1>
+
+    <ul>
+        <li>
+            Employee Name:
+            <span id="empName"></span>
+        </li>
+        <li>
+            Employee Gender:
+            <span id="empGender"></span>
+        </li>
+        <li>
+            Employee Age:
+            <span id="empAge"></span>
+        </li>
+        <li>
+            Employee Department:
+            <span id="empDepartment"></span>
+        </li>
+        <li>
+            Employee Salary:
+            <span id="empSalary"></span>
+        </li>
+        <li>
+            Employee Tax Payment:
+            <span id="empTax"></span>
+        </li>
+    </ul>
+    <script>
+
+        var empDetails = {
+            readEmpDetails(){
+                this.empName = prompt("Empolyee Name : "); 
+                this.empGender = prompt("Empolyee Gender : ");
+                this.empAge = prompt("Empolyee Age : ");
+                this.empDeapartment = prompt("Empolyee Department : ");
+                this.empSalary = prompt("Empolyee Salary : ");
+                this.empAge = parseInt(this.empAge);
+                this.empSalary = parseInt(this.empSalary);
+                this.empTotalsSalary();
+            },
+            empTotalsSalary(){
+                this.pf = (this.empSalary * 14) / 100;
+                this.hra = (this.empSalary * 24) / 100; 
+                this.totalSalary = this.empSalary + this.pf + this.hra;
+                this.empTaxPayment();
+            },
+            empTaxPayment(){
+                this.tax =0;
+                if (this.empGender == "male" || "Male") {
+                    if (this.totalSalary >= 200000){
+                        this.tax = (this.totalSalary * 15) / 100;
+                    }
+                    else if (this.totalSalary >= 100000) {
+                        this.tax = (this.totalSalary * 10) / 100;
+                    }
+                    else if (totalSalary >= 50000) {
+                        this.tax = (this.totalSalary * 5) / 100;
+                    }
+                    else {
+                        this.tax = (this.totalSalary * 0) / 100;
+                    }
+                }
+
+                if (this.empGender == "female" || "Female") {
+                    if (this.totalSalary >= 200000){
+                        this.tax = (this.totalSalary * 10) / 100;
+                    }
+                    else if (this.totalSalary >= 100000) {
+                        this.tax = (this.totalSalary * 5) / 100;
+                    }
+                    else {
+                        this.tax = (this.totalSalary * 0) / 100;
+                    }
+                }
+            },
+            showEmpDetails(){
+                this.readEmpDetails();
+                document.querySelector("#empName").innerText = this.empName;
+                document.querySelector("#empGender").innerText = this.empGender;
+                document.querySelector("#empAge").innerText = this.empAge;
+                document.querySelector("#empDepartment").innerText = this.empDeapartment;
+                document.querySelector("#empSalary").innerText = this.totalSalary;
+                document.querySelector("#empTax").innerText = this.tax;                
+            }
+        }
+        empDetails.showEmpDetails();
+
+
+    </script>    
+</body>
+</html>

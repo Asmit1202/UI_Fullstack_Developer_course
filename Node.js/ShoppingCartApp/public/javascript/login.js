@@ -79,7 +79,7 @@ var priFillData = () =>  {
     $("#accountPassword").val(credentials.accountPassword);
 }
 
-//Show Password Eye Login---Shivangi
+
 var showPassLogin = (event) => {        
     const showPassword =document.querySelector("#passLogin");
     const passwordField =document.querySelector("#accountPassword");

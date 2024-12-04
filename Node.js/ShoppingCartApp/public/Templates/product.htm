@@ -3,19 +3,19 @@
         <h3>Categories</h3>
         <dl>
             <a onclick="MensPage()"><dt>Mens</dt></a>
-            <a href="#"><dd>Shirts</dd></a>
-            <a href="#"><dd>T-shirts</dd></a>
-            <a href="#"><dd>Blazers</dd></a>
+            <dd><input type="checkbox" id="categories_Mens_shirt" value="Mens_shirt">&nbsp;Shirts</dd>
+            <dd><input type="checkbox" id="categories_Mens_T-shirt" value="Mens_T-shirt">&nbsp;T-shirts</dd>
+            <dd><input type="checkbox" id="categories_Mens_blazer" value="Mens_blazer">&nbsp;Blazers</dd>
 
             <a onclick="WomensPage()"><dt>Womens</dt></a>
-            <a href="#"><dd>Shirts</dd></a>
-            <a href="#"><dd>Tops</dd></a>
-            <a href="#"><dd>Dresses</dd></a>
-            <a href="#"><dd>Blazers</dd></a>
+            <dd><input type="checkbox" id="categories_Womens_shirt" value="Womens_shirt">&nbsp;Shirts</dd>
+            <dd><input type="checkbox" id="categories_Womens_top" value="Womens_top">&nbsp;Tops</dd>
+            <dd><input type="checkbox" id="categories_Womens_dress" value="Womens_dress">&nbsp;Dresses</dd>
+            <dd><input type="checkbox" id="categories_Womens_blazer" value="Womens_blazer">&nbsp;Blazers</dd>
         </dl>
 
         <h3>Price</h3>
-        <input step="100" id="priceFilter" type="range" min="500" max="20000" onmousemove="getPriceValue()"><span class="priceRangeValue"></span>
+        <input step="500" id="priceRange" type="range" min="500" max="20000" onchange="getPriceValue()"><span class="priceRangeValue"></span>
 
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
@@ -25,9 +25,9 @@
                   </button>
                 </h3>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <input type="checkbox" name="Brand" class="brand">&nbsp;SELECTED HOMME<br>
-                    <input type="checkbox" name="Brand" class="brand">&nbsp;Forever New<br>
-                    <input type="checkbox" name="Brand" class="brand">&nbsp;VERO MODA<br>
+                    <input type="checkbox" id="brand_1" value="SELECTED HOMME" class="filters">&nbsp;SELECTED HOMME<br>
+                    <input type="checkbox" id="brand_2" value="Forever New" class="filters">&nbsp;Forever New<br>
+                    <input type="checkbox" id="brand_3" value="VERO MODA" class="filters">&nbsp;VERO MODA<br>
                 </div>
               </div>
             <div class="accordion-item">
@@ -37,8 +37,8 @@
                 </button>
               </h3>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <input type="radio" name="Delivery" value="Delivery on Tommorow" class="delivery">&nbsp;Delivery on Tommorow <br>
-                <input type="radio" name="Delivery" value="Delivery on Time" class="delivery">&nbsp;Delivery on Time <br>
+                <input type="checkbox" id="delivery_tommorow" value="Delivery on Tommorow" class="filters">&nbsp;Delivery on Tommorow <br>
+                <input type="checkbox" id="deelivery_time" value="Delivery on Time" class="filters">&nbsp;Delivery on Time <br>
               </div>
             </div>
             <div class="accordion-item">
@@ -48,11 +48,11 @@
                 </button>
               </h3>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <input type="checkbox" name="Discount" class="discount">&nbsp;10% or more<br>
-                <input type="checkbox" name="Discount" class="discount">&nbsp;20% or more<br>
-                <input type="checkbox" name="Discount" class="discount">&nbsp;30% or more<br>
-                <input type="checkbox" name="Discount" class="discount">&nbsp;40% or more<br>
-                <input type="checkbox" name="Discount" class="discount">&nbsp;50% or more<br>
+                <input type="checkbox" id="discount_10" value="10%" class="filters">&nbsp;10% or more<br>
+                <input type="checkbox" id="discount_20" value="20%" class="filters">&nbsp;20% or more<br>
+                <input type="checkbox" id="discount_30" value="30%" class="filters">&nbsp;30% or more<br>
+                <input type="checkbox" id="discount_40" value="40%" class="filters">&nbsp;40% or more<br>
+                <input type="checkbox" id="discount_50" value="50%" class="filters">&nbsp;50% or more<br>
               </div>
             </div>
             <div class="accordion-item">
@@ -62,8 +62,8 @@
                   </button>
                 </h3>
                 <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                  <input type="checkbox" name="Offers" class="offers">&nbsp;Buy More, Save More<br>
-                  <input type="checkbox" name="Offers" class="offers">&nbsp;Special Price<br>
+                  <input type="checkbox" id="offer_1" value="Buy More, Save More" class="filters">&nbsp;Buy More, Save More<br>
+                  <input type="checkbox" id="offer_2" value="Special Price" class="filters">&nbsp;Special Price<br>
                 </div>
             </div>
             <div class="accordion-item">
@@ -73,15 +73,36 @@
                   </button>
                 </h3>
                 <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                  <input type="checkbox" name="Availability" class="availability">&nbsp;Include Out of Stock<br>
+                  <input type="checkbox" id="avialabilty_1" value="Include Out of Stock" class="filters">&nbsp;Include Out of Stock<br>
                 </div>
               </div>
         </div>
 
-        <button class="btn btn-dark filter" id="filter">Filter</button>
+        <button class="btn btn-dark filter" id="filter" onclick="applyFilter()">Filter</button>
         
     </div>
     <div class="rightContainer" id="productDetailsBlock">
+      <div id="carouselExampleInterval3" class="carousel slide prd_detail-slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../images/New_Banner-1.png" class="d-block w-100 prd_detail-slide-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../images/New_Banner-2.png" class="d-block w-100 prd_detail-slide-img">
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="../images/New_Banner-3.png" class="d-block w-100 prd_detail-slide-img">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
         
     </div>
 </div>

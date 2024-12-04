@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var addvalues = (a, b, ...temp) =>{
+            console.log(temp);
+            var result = 0;
+            result = a + b;
+
+            for (var i = 0; i < temp.length; i++){
+                result += temp[i];
+            }
+
+            console.log(result);
+        }
+
+        addvalues(5, 20);
+        addvalues(15, 20, 90);
+        addvalues(5, 20, 90, 23);
+
+    </script>
+</body>
+</html>

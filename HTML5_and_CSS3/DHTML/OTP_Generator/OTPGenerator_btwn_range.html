@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP generator </title>
+    <style>
+        h1{
+            margin: 10px auto;
+            border: 2px solid orangered;
+            padding: 10px 0px;
+            text-align: center;
+            color: maroon;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        #otpBlock{
+            border: 1px solid;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: yellowgreen;
+            position: relative;
+        }
+        #otpBlock1{
+            border: 1px solid;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: yellowgreen;
+            position: relative;
+        }
+        #otpBtn input[type = button]{
+            margin: 10px auto;
+            padding: 10px;
+            position: absolute;
+            top: 180px;
+            left: 912px;
+            border-color: green;
+            color: green;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1> OTP Generator</h1>
+     
+    <div id="otpBlock">otp</div>
+    <div id="otpBlock1">otp</div>
+    <div id="otpBtn">
+        <input type="button" value="Generator" onclick="otpGenerator()">
+    </div>
+    <script>
+        var otpGenerate = {};
+        var otpGenerator = () => {
+            // First way to Otp Generate 
+            otpGenerate.otpMaxValue = 1000000;
+            otpGenerate.otpMinValue = 100000;
+
+            otpGenerate.otpValue = Math.random() * (otpGenerate.otpMaxValue - otpGenerate.otpMinValue) + otpGenerate.otpMinValue;
+
+            otpGenerate.otpValue = Math.round(otpGenerate.otpValue);
+
+            document.querySelector("#otpBlock").innerText = otpGenerate.otpValue;
+
+
+            // Second way to Otp Generate
+            otpGenerate.otpSize = parseInt(prompt("Enter Size : "));
+            otpGenerate.otpValue1 = "";
+            for (i = 0; i < otpGenerate.otpSize; i++){
+                otpGenerate.otpValue1 += getRandomNumber();
+                console.log(otpGenerate.otpValue1);
+            }
+            document.querySelector("#otpBlock1").innerText = otpGenerate.otpValue1;
+
+        }
+
+        var getRandomNumber = () => {
+            return Math.round(Math.random() * 9);
+        }
+    </script>
+</body>
+</html>

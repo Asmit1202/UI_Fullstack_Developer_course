@@ -53,13 +53,13 @@
 }
 #pswdSignUp {
     position: absolute;
-    left: 410px;
-    top: 130px;
+    left: 400px;
+    top: 210px;
 }
 #repassSignUp{
     position: absolute;
-    left: 410px;
-    top: 200px;
+    left: 400px;
+    top: 275px;
 }
 #frgtpwdmsg {
     text-align: center;

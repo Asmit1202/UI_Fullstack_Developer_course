@@ -28,7 +28,7 @@ var loadRatingStar = (containerRef, rating) => {
         mainDiv.append(emptyStarDiv);
     }
 
-    console.log(mainDiv);
+    // console.log(mainDiv);
 
     document.querySelector(containerRef).append(mainDiv);
 }

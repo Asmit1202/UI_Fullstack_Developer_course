@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "container"></div>
+    <script>
+        document.getElementById("container").innerText = "Hello Everyone";
+        document.getElementById("container").innerHTML = "<b>Hello Everyone</b>";
+
+        // var myElement = document.createElement("div");
+        // myElement.innerText = "My values is 2000"
+        // myElement.setAttribute("id", "test");
+        // myElement.setAttribute("class", "sample");
+        // myElement.style.color = "red";
+
+        // document.querySelector("#container").append(myElement)
+        // console.log(myElement);
+
+        var whichtag = prompt("tagname");
+        var whichcolor = prompt("color");
+        var whichid = prompt("id");
+        var whichclass = prompt("class");
+        var whichMsg = prompt("Enter Msg");
+
+        var myElement = document.createElement(whichtag);
+        myElement.innerText = whichMsg;
+        myElement.setAttribute("id", whichid);
+        myElement.setAttribute("class", whichclass);
+        myElement.style.color = whichcolor;
+
+        document.querySelector("#container").append(myElement)
+        console.log(myElement);
+    </script>
+</body>
+</html>

@@ -1,8 +1,9 @@
-{
-    "data" : [
+[
         {
             "id" : "25",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Organic Cotton Turtleneck T-shirt",
             "description" : "A turtleneck tee is always a winner for an instantly sophisticated look, and the best bit? No need for a scarf. This style is made with organic cotton in a stretchy jersey fabric. Try wearing under a gilet or knitted vest. This product is made with organic cotton. Organic cotton is grown without the use of harmful chemicals. Organic cotton farming protects natural resources and farmers.",
             "price" : 2000,
@@ -29,6 +30,8 @@
         {
             "id" : "26",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Blue Organic Cotton Oversized T-shirt",
             "description" : "Basics are always best! This short-sleeved T-shirt comes in a relaxed, oversized fit that makes it perfect for weekend ‘fits. This product is made with organic cotton. Organic cotton is grown without the use of harmful chemicals. Organic cotton farming protects natural resources and biodiversity. This product is made with recycled polyester. Recycled polyester saves natural resources and reduces the amount of waste.",
             "price" : 1800,
@@ -54,6 +57,8 @@
         {
             "id" : "27",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Brown Organic Cotton Colourblocked Polo",
             "description" : "Add some extra comfort to your 9-to-5 wardrobe with our new cotton shirt. Knitted from a jersey fabrication made with cotton, it prioritises durability and flexibility while maintaining a formal look, courtesy of the cutaway collar. Wear it with anything from smart-casual chinos to your best two-piece suit.",
             "price" : 4000,
@@ -81,6 +86,8 @@
         {
             "id" : "28",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Red Logo Text Print Cotton Polo",
             "description" : "Elevate your casual wardrobe with this Red Logo Text Print Cotton Polo. Crafted from premium cotton, this polo offers a refined yet slim fit, perfect for any occasion. The subtle logo text print adds a touch of sophistication, while the classic polo design ensures timeless style. Ideal for those who appreciate understated elegance, this piece effortlessly combines comfort with class.",
             "price" : 3700,
@@ -108,6 +115,8 @@
         {
             "id" : "29",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Dark Green Organic Cotton T-shirt",
             "description" : "This long-sleeve t-shirt offers a timeless and comfortable choice for your everyday wardrobe. Designed with a classic O-neck and a regular fit, it provides effortless style and ease of movement. The chest pocket adds a subtle detail, making it a versatile piece for any occasion. Perfect for layering or wearing on its own, this t-shirt is a premium addition to your collection.",
             "price" : 2700,
@@ -133,6 +142,8 @@
         {
             "id" : "30",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Dark Green Slim Fit Henley T-shirt",
             "description" : "Men's Henley t-shirt made from premium quality fabric. Features contrast tipping around the collar and embroidered logo print on the chest. Style it with beige pants and sneakers for a smart-casual ensemble.",
             "price" : 3000,
@@ -159,6 +170,8 @@
         {
             "id" : "31",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Grey Text Print Crew Neck T-shirt",
             "description" : "Introducing the must-have addition to your wardrobe, the SELECTED HOMME Crew Neck T-Shirt. Made from premium quality materials, this t-shirt exudes effortless style and comfort. The classic crew neck design is perfect for any casual occasion, making it a versatile piece for your everyday looks. Crafted by the renowned brand SELECTED HOMME, this t-shirt showcases their signature attention to detail and impeccable craftsmanship. The minimalistic design and clean lines give it a modern and sleek aesthetic that will elevate any outfit. Style this t-shirt with a pair of distressed denim jeans and sneakers for a laid-back yet trendy look. For a more polished ensemble, layer it under a blazer and pair with chinos and loafers. This product is made with organic cotton. Organic cotton is grown without the use of harmful chemicals. Organic cotton farming protects natural resources and biodiversity.",
             "price" : 1800,
@@ -185,6 +198,8 @@
         {
             "id" : "32",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Green Embroidered Print T-shirt",
             "description" : "Spice up your basics with this embroidered T-shirt from SELECTED Homme. Crafted from super soft and breathable organic cotton, it makes for the perfect summer staple. Wear it with denim, a bomber jacket, and trainers. This product is made with organic cotton. Organic cotton is grown without the use of harmful chemicals. Organic cotton farming protects natural resources and biodiversity.",
             "price" : 1800,
@@ -211,6 +226,8 @@
         {
             "id" : "33",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "White Organic Cotton V-Neck T-shirt",
             "description" : "Men's V-neck organic cotton t-shirt. Solid in print, regular in fit and short sleeves. Pair with denims and sneakers.",
             "price" : 1500,
@@ -236,6 +253,8 @@
         {
             "id" : "34",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Black Organic Cotton V-Neck T-shirt",
             "description" : "Men's V-neck organic cotton t-shirt. Solid in print, regular in fit and short sleeves. Pair with denims and sneakers.",
             "price" : 1500,
@@ -262,6 +281,8 @@
         {
             "id" : "35",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Beige Organic Cotton Crew Neck T-shirt",
             "description" : "This long-sleeve t-shirt offers a timeless and comfortable choice for your everyday wardrobe. Designed with a classic O-neck and a regular fit, it provides effortless style and ease of movement. The chest pocket adds a subtle detail, making it a versatile piece for any occasion. Perfect for layering or wearing on its own, this t-shirt is a premium addition to your collection.",
             "price" : 2000,
@@ -288,6 +309,8 @@
         {
             "id" : "36",
             "Category" : "Mens",
+            "type" : "Mens-T-Shirt",
+            "brand": "SELECTED HOMME",
             "title" : "Black Printed Crew Neck T-shirt",
             "description" : "Introducing our meticulously crafted Organic Cotton Crew Neck T-Shirt, tailored with sophistication for the modern man. Elevate your wardrobe with its sleek design, featuring a captivating front graphic print that adds a touch of personality to your ensemble. Designed with comfort in mind, its short sleeves offer ease of movement while maintaining a refined silhouette. Embrace both style and sustainability with our slim fit tee, made from premium organic cotton for a luxurious feel against the skin.",
             "price" : 1800,
@@ -311,5 +334,4 @@
                 "Fit" : "Regular"
             } 
         }
-    ]
-}
+]

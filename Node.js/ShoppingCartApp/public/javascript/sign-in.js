@@ -23,7 +23,7 @@ var passwordMatching = () => {
     }
 }
 
-// Show Password : eye symbol - nagasivatejag
+
 var showPswdSignUp = (event) => 
     {        
         const showPassword =document.querySelector("#pswdSignUp");
@@ -45,8 +45,7 @@ var showPswdSignUp = (event) =>
                 }
         })
     }
-   
-//Re-enter Show Password Eye Login---Shivangi
+
 var showPassSignUp = (event) => 
     {        
         const showPassword =document.querySelector("#repassSignUp");
