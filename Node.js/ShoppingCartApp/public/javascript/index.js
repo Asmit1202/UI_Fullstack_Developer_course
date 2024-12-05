@@ -1,4 +1,4 @@
-var loadselectedPage = (pagetype) => {
+var loadselectedPage = (pagetype, pid) => {
     if (pagetype == 'homePage'){
         $("#loginBtn").show();
         $("#sign-inBtn").show();
@@ -18,11 +18,8 @@ var loadselectedPage = (pagetype) => {
         case 'product':
             templateUrl = 'Templates/product.htm';
             break;
-        case 'mens':
-            templateUrl = 'Templates/mens.htm';
-            break;
-        case 'womens':
-            templateUrl = 'Templates/womens.htm';
+        case 'detailedPage':
+            templateUrl = 'Templates/productDetailedPage.htm';
             break;
     }
 
@@ -30,14 +27,12 @@ var loadselectedPage = (pagetype) => {
         // console.log(templtResponse);
         $("main").html(templtResponse.data);
 
-        if (pagetype == 'product'){
-            getProductDetails();
-        }
-        else if (pagetype == 'mens'){
-            mensProductDetails();
-        }
-        else if (pagetype == 'womens'){
-            womensProductDetails();
+        if (pagetype == 'product' || pagetype == 'detailedPage'){
+            var data = {};
+            if (pid){
+                data.id = pid;
+            }
+            getProductDetails(data);
         }
 
         loginModelInstance.hide();

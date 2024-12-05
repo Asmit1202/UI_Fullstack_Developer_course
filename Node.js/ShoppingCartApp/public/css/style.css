@@ -25,19 +25,19 @@ footer{
 }
 .navbar-nav{
     position: absolute;
-    right: 490px;
+    right: 610px;
 }
 .login{
     position: absolute;
-    right: 100px;
+    right: 215px;
 }
 .sign-in{
     position: absolute;
-    right: 5px;
+    right: 125px;
 }
 .loginout{
     position: absolute;
-    right: 70px;
+    right: 165px;
 }
 .nav-link{
     color: #fff !important;
@@ -55,18 +55,17 @@ footer{
     color: #d2d2d2;
     padding-left: 30px;
 }
-.dropdown-item{
-    padding-left: 20px;
-    cursor: pointer;
-}
-.dropdown-item:hover{
-    padding-left: 30px;
-    color: #525252;
-    cursor: pointer;
-}
 .searchBar{
     position: absolute;
-    right: 175px;
+    right: 290px;
+}
+.cart-icon{
+    position: absolute;
+    right: 0px;
+}
+.shop-icon{
+    position: absolute;
+    right: 55px;
 }
 .ft-mail{
     position: absolute;

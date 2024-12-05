@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart App | Seller </title>
+    <link rel="stylesheet" href="lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/axios.js"></script>
+    <script src="lib/handlerbar.js"></script>
+    <link rel="stylesheet" href="css/addproduct.css">
+    <script src="javascript/uploadProductDetails.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Shopping Cart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item"></li>
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+        <h3>Add Product Details</h3>
+        <div class="row addProductDetails">
+            <div class="col col-md-2">
+
+            </div>
+            <div class="col col-md-8">
+                <ul>
+                    <li id="rblock">
+
+                    </li>
+                    <li>
+                        <input type="text" id="id" placeholder="Product Id" class="form-control">
+                    </li>
+                    <li>
+                        <select class="form-control" id="Category">
+                            <option value="" selected>Select Type</option>
+                            <option value="Mens">Mens</option>
+                            <option value="Womens">Womens</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select class="form-control" id="type">
+                            <option value="" selected>Select Type</option>
+                            <option value="Mens-Shirt">Mens shirt</option>
+                            <option value="Mens-T-Shirt">Mens T-Shirt</option>
+                            <option value="Mens-Blazer">Mens Blazer</option>
+                            <option value="Womens-Shirt">Womens Shirt</option>
+                            <option value="Womens-Top">Womens Top</option>
+                            <option value="Womens-Dress">Womens Dress</option>
+                            <option value="Womens-Blazer">Womens Blazer</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="text" id="brand" placeholder="Brand Name" class="form-control">
+                    </li>
+                    <li>
+                        <input id="title" type="text" placeholder="Product Title" class="form-control">
+                    </li>
+                    <li>
+                        <input type="text" id="description" placeholder="Product Description" class="form-control">
+                    </li>
+                    <li>
+                        <input id="price" type="number" placeholder="Product Price" class="form-control">
+                    </li>
+                    <li>
+                        <input type="number" id="discountPercent" placeholder="Discount Percentage" class="form-control">
+                    </li>
+                    <li>
+                        <input type="text" id="mainImage" placeholder=" Product Image URL" class="form-control">
+                        Upload Product Image: 
+                        <form method ="POST"  enctype="multipart/form-data">
+                            <input type="file" name="prodImage">
+                            <input type="button" value="Upload Image" onclick="uploadDetails()">
+                        </form>
+                    </li>
+                    <li>
+                        <input type="number" id="rating" placeholder="Product Rating" class="form-control" min="0" max="5">
+                    </li>
+                    <li>
+                        <input type="button" value="Add Product" class="btn btn-dark" onclick="readProductDetails()">
+                    </li>
+                </ul>
+            </div>
+            <div class="col col-md-2"></div>
+        </div>
+    </div>
+
+    <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-6 mb-3 ft-company">
+            <a href="index.html">
+              <h1>Shopping Cart</h1>
+            </a> 
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form class="ft-mail">
+              <h5>Inquiry</h5>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-outline-secondary" type="button" href="#">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Shopping Cart, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="https://x.com/?lang=en" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          </ul>
+        </div>
+    </footer>
+</body>
+</html>

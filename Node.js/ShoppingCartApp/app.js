@@ -11,6 +11,7 @@ var ProductRouter = require("./routes/getProductDetails");
 var signupRouter = require('./routes/singupUserdetails');
 var mensProductRouter = require('./routes/mensProductDetails');
 var womensProductRouter = require('./routes/womensProductDetails');
+var addNewProductRouter = require('./routes/addNewProduct');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use("/load/productDetails", ProductRouter);
 app.use('/new/user/signup', signupRouter);
 app.use('/load/mensProductDetails', mensProductRouter);
 app.use('/load/womensProductDetails', womensProductRouter);
+app.use('/add/newProductDetails', addNewProductRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

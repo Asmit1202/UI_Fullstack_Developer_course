@@ -2,16 +2,16 @@
     <div class="leftContainer">
         <h3>Categories</h3>
         <dl>
-            <a onclick="MensPage()"><dt>Mens</dt></a>
-            <dd><input type="checkbox" id="categories_Mens_shirt" value="Mens_shirt">&nbsp;Shirts</dd>
-            <dd><input type="checkbox" id="categories_Mens_T-shirt" value="Mens_T-shirt">&nbsp;T-shirts</dd>
-            <dd><input type="checkbox" id="categories_Mens_blazer" value="Mens_blazer">&nbsp;Blazers</dd>
+            <dt><input type="checkbox" id="Type_Mens" value="Mens">&nbsp;Mens</dt></a>
+            <dd><input type="checkbox" id="categories_Mens_shirt" value="Mens-Shirt">&nbsp;Shirts</dd>
+            <dd><input type="checkbox" id="categories_Mens_T-shirt" value="Mens-T-Shirt">&nbsp;T-shirts</dd>
+            <dd><input type="checkbox" id="categories_Mens_blazer" value="Mens-Blazer">&nbsp;Blazers</dd>
 
-            <a onclick="WomensPage()"><dt>Womens</dt></a>
-            <dd><input type="checkbox" id="categories_Womens_shirt" value="Womens_shirt">&nbsp;Shirts</dd>
-            <dd><input type="checkbox" id="categories_Womens_top" value="Womens_top">&nbsp;Tops</dd>
-            <dd><input type="checkbox" id="categories_Womens_dress" value="Womens_dress">&nbsp;Dresses</dd>
-            <dd><input type="checkbox" id="categories_Womens_blazer" value="Womens_blazer">&nbsp;Blazers</dd>
+            <dt><input type="checkbox" id="Type_Womens" value="Womens">&nbsp;Womens</dt></a>
+            <dd><input type="checkbox" id="categories_Womens_shirt" value="Womens-Shirt">&nbsp;Shirts</dd>
+            <dd><input type="checkbox" id="categories_Womens_top" value="Womens-Top">&nbsp;Tops</dd>
+            <dd><input type="checkbox" id="categories_Womens_dress" value="Womens-Dress">&nbsp;Dresses</dd>
+            <dd><input type="checkbox" id="categories_Womens_blazer" value="Womens-Blazer">&nbsp;Blazers</dd>
         </dl>
 
         <h3>Price</h3>
@@ -48,11 +48,11 @@
                 </button>
               </h3>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <input type="checkbox" id="discount_10" value="10%" class="filters">&nbsp;10% or more<br>
-                <input type="checkbox" id="discount_20" value="20%" class="filters">&nbsp;20% or more<br>
-                <input type="checkbox" id="discount_30" value="30%" class="filters">&nbsp;30% or more<br>
-                <input type="checkbox" id="discount_40" value="40%" class="filters">&nbsp;40% or more<br>
-                <input type="checkbox" id="discount_50" value="50%" class="filters">&nbsp;50% or more<br>
+                <input type="checkbox" id="discount_10" value="10" class="filters">&nbsp;10% or more<br>
+                <input type="checkbox" id="discount_20" value="20" class="filters">&nbsp;20% or more<br>
+                <input type="checkbox" id="discount_30" value="30" class="filters">&nbsp;30% or more<br>
+                <input type="checkbox" id="discount_40" value="40" class="filters">&nbsp;40% or more<br>
+                <input type="checkbox" id="discount_50" value="50" class="filters">&nbsp;50% or more<br>
               </div>
             </div>
             <div class="accordion-item">
@@ -81,7 +81,7 @@
         <button class="btn btn-dark filter" id="filter" onclick="applyFilter()">Filter</button>
         
     </div>
-    <div class="rightContainer" id="productDetailsBlock">
+    <div class="rightContainer">
       <div id="carouselExampleInterval3" class="carousel slide prd_detail-slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
@@ -103,6 +103,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-        
+      <div class="rightContainer" id="productDetailsBlock">
+
+      </div>
     </div>
 </div>
