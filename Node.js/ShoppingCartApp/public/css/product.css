@@ -136,12 +136,12 @@ currency{
 }
 .prd_detail-slide{
     width: 1400px;
-    height: auto;
+    height: 463px;
     background-color: #9e9e9e;
     margin: 0px auto;
 }
 .prd_detail-slide-img{
-    height: auto;
+    height: 463px;
 }
 
 @media screen and (min-width: 1500px) and (max-width: 1700px) {

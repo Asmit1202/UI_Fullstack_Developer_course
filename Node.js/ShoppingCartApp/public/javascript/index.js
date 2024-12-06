@@ -45,11 +45,18 @@ var loginModelInstance;
 var loginOutModelInstance;
 var signUpModelInstance;
 document.addEventListener('DOMContentLoaded', () => {
-    loadselectedPage('homePage');
 
     loginModelInstance = new bootstrap.Modal('#exampleModal', {});
     loginOutModelInstance = new bootstrap.Modal('#logOutPopup', {});
     signUpModelInstance = new bootstrap.Modal('#newSignupModel', {});
+
+    axios.get('/check/userLogin').then((response) => {
+        if (response.data.isLoggedinUser) {
+            loadselectedPage('product');
+        } else {
+            loadselectedPage('homePage');
+        }
+    }) 
 
 });
 

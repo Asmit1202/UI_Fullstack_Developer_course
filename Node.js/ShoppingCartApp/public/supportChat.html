@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Suport Chat App</title>
+        <script src="lib/jquery.js"></script>
+        <script src="lib/bootstrap//dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/chatApp.css">
+        <script src="javascript/chatApp.js"></script>
+    </head>
+    <body>
+        <script type="module">
+            import { io } from "lib/socket.js";
+          
+          const socket = io("http://localhost:3108/");
+            
+            // socket.emit("usermsg", "hello");
+            // socket.on("test", (msg) => {
+            //     console.log(msg);
+            // })
+
+            socket.on("usermsg", (data) => {
+                console.log("received " + data);
+            })
+
+            socket.on("ReceiveMsg", (data) => {
+                addMsg(data, 'receive');
+            })
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelector("#sendBtn").addEventListener("click", () => {
+                    var msg = $("#userMsg").val();
+
+                    socket.emit("UserSendMsg", msg);
+
+                    addMsg(msg, 'send')
+                    $("#userMsg").val('');
+                })
+            })
+           
+        </script>
+        <div class="chatBox">
+            <div class="msgContainer"></div>
+            <div class="btncontainer">
+                <input type="text" id="userMsg" class="form-control">
+                <input type="button" value="Send" class="btn btn-primary" id="sendBtn">
+            </div>
+        </div>
+    </body>
+</html>

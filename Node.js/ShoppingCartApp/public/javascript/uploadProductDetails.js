@@ -1,3 +1,5 @@
+var ImagePath = '';
+
 var readProductDetails = () => {
     var pDetails = {
         "id" : $("#id").val(),
@@ -8,10 +10,9 @@ var readProductDetails = () => {
         "description":$("#description").val(),
         "price": parseInt($("#price").val()),
         "discountPercent": parseInt($("#discountPercent").val()),
-        "mainImage": $("#mainImage").val(),
+        "mainImage": ImagePath,
         "rating": parseFloat($("#rating").val())
-    }; 
-    console.log(pDetails);  
+    };  
     
     axios.post("/add/newProductDetails", pDetails).then((result) => {
         console.log(result);
@@ -19,4 +20,22 @@ var readProductDetails = () => {
     }).catch((err) => {
         
     });
+}
+
+var uploadDetails = () => {
+
+    var uploadfile = $("input[name=prodImage]")[0].files[0];
+    let formData = new FormData();
+    formData.append("prodImage", uploadfile);
+
+    axios.post('/upload/productImage', formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        }
+    }).then((response) => {
+        ImagePath = response.data.file_path
+    }).catch((error) => {
+        // handle error
+    })
+
 }

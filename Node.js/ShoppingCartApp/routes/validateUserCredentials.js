@@ -12,11 +12,11 @@ router.post('/', function(req, res, next) {
         } else {
             bcrypt.compare(req.body.accountPassword, result[0].accountPassword, function(err, result) {
                 if (result) {
-                    // req.session.isLoggedinUser = true;
-                    // req.session.loggedInUserId = req.body.accountId;
+                    req.session.isLoggedinUser = true;
+                    req.session.loggedInUserId = req.body.accountId;
                     responseObj = {msg: 'Valid details'};
                 } else {
-                    // req.session.isLoggedinUser = false;
+                    req.session.isLoggedinUser = false;
                     responseObj = {msg: 'Invalid'};
                 }
                 res.send(JSON.stringify(responseObj));

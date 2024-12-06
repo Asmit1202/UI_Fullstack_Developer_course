@@ -105,7 +105,7 @@ var logoutUser = () => {
         
     loginOutModelInstance.hide();
     loadselectedPage('homePage');
-    // axios.post('/logout').then(() => {});
+    axios.post('/logout').then(() => {});
 }
 
 

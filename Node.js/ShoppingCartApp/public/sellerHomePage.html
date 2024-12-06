@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart App | Seller </title>
+    <link rel="icon" type="image/x-icon" href="images/Favicon_Shopping_Cart.png">
     <link rel="stylesheet" href="lib/bootstrap-icons/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -86,12 +87,12 @@
                     <li>
                         <input type="number" id="discountPercent" placeholder="Discount Percentage" class="form-control">
                     </li>
-                    <li>
-                        <input type="text" id="mainImage" placeholder=" Product Image URL" class="form-control">
-                        Upload Product Image: 
+                    <li class="mainImage">
+                        <!-- <input type="text" id="mainImage" placeholder=" Product Image URL" class="form-control"> -->
+                        Upload Product Image: <br><br>
                         <form method ="POST"  enctype="multipart/form-data">
                             <input type="file" name="prodImage">
-                            <input type="button" value="Upload Image" onclick="uploadDetails()">
+                            <input type="button" value="Upload Image" class="btn btn-dark" onclick="uploadDetails()">
                         </form>
                     </li>
                     <li>
